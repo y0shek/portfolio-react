@@ -23,7 +23,7 @@ const data = {
     {
       title: "En Rose",
       img: "enrose.jpg",
-      laurels: 4,
+      laurels: 5,
       year: "2018",
       type: "personal",
       shortDesc: "Short Film (FR)",

@@ -1,0 +1,10 @@
+@import '../../variables.scss';
+
+.notFound404{
+  text-align:center;
+  background-color: $offWhite;
+  padding: 200px 0;
+  h1, h3{
+    margin: 0;
+  }
+}

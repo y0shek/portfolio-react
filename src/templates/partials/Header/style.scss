@@ -1,0 +1,27 @@
+@import '../../../variables.scss';
+
+.header{
+  height: 141px;
+  @media only screen and (max-width: $bp-mobile){
+    height: 157px;
+  }
+}
+
+.header__picNav{
+  @media only screen and (max-width: $bp-mobile){
+    padding: 0;
+    left: 0 !important;
+    position: fixed;
+    padding-top:50px;
+    padding-left: calc(50% - 129px) !important;
+  }
+}
+
+.header__picNav--scrolled{
+  padding: 0;
+  position: fixed;
+  z-index: 20;
+  .header__title{
+    margin-left:0;
+  }
+}

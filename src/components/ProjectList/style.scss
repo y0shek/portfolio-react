@@ -1,0 +1,78 @@
+@import '../../variables.scss';
+
+.projectList{
+  overflow: scroll;
+  padding: 20px 0;
+  position: relative;
+  height: 454px;
+
+  @media only screen and (max-width: $bp-medium){
+    height: 400px;
+  }
+
+  &::-webkit-scrollbar {
+  display: none;
+  }
+
+  .projectList__reel{
+    white-space: nowrap;
+    position: absolute;
+
+    .projectList__reel__connector{
+      position: absolute;
+      z-index: -5;
+      top: 50%;
+      border-top: 2px dashed #aaa;
+      width: calc(100% - 80px);
+      left: 40px;
+    }
+  }
+}
+
+.projectListWrapper{
+  position: relative;
+
+  .projectList__back, .projectList__forward{
+    cursor: pointer;
+    z-index: 10;
+    position: absolute;
+    top: calc(50% - 36px);
+    opacity: .5;
+    transition: opacity 500ms;
+    i {
+      font-size: 80px;
+      color: $purple;
+      transition: color 500ms;
+    }
+    &:hover{
+      opacity: 1;
+      i{
+        color: $accentRed;
+      }
+    }
+    &.projectList__hidden{
+      display:none;
+    }
+  }
+
+  .projectList__back{
+    left: -60px;
+    @media only screen and (max-width: $bp-big){
+      left: -40px;
+    }
+    @media only screen and (max-width: $bp-mobile){
+      left: 0px;
+    }
+  }
+
+  .projectList__forward{
+    right: -60px;
+    @media only screen and (max-width: $bp-big){
+      right: -40px;
+    }
+    @media only screen and (max-width: $bp-mobile){
+      right: 0px;
+    }
+  }
+
+}

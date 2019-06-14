@@ -1,0 +1,141 @@
+@import '../../variables.scss';
+@import 'node_modules/react-image-gallery/styles/scss/image-gallery.scss';
+
+.project{
+  width: 350px;
+  min-height: 420px;
+  vertical-align: top;
+  display: inline-block;
+  background-color: $lightGray;
+  margin: 0 15.8px;
+  text-align: center;
+  padding: 20px 20px;
+  white-space: normal;
+  border: 2px dashed #aaa;
+  border-radius: 10px;
+  cursor: pointer;
+  .project__image{
+    img {
+      width: 100%;
+      border-radius: 10px;
+    }
+  }
+  .project__laurels{
+    .project__laurels__laurel{
+      width: 25px;
+      margin-right:5px;
+    }
+  }
+
+  .project__shell{
+    position:relative;
+    min-height: 400px;
+    @media only screen and (max-width: $bp-medium){
+      min-height: 340px;
+    }
+  }
+
+  @media only screen and (max-width: $bp-medium){
+    width: 240px;
+    min-height: 360px;
+  }
+
+  @media only screen and (max-width: $bp-legacy){
+    width: 200px;
+  }
+
+  &:hover{
+    background-color: white;
+  }
+}
+
+.project__modal__button{
+  background-color :transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  float:right;
+  vertical-align:top;
+  font-size: 30px;
+  &:hover{
+    i{
+      color: $accentRed;
+    }
+  }
+  i {
+    color: $purple;
+    transition: color 500ms;
+  }
+}
+
+.project__modal__h3{
+  margin: 10px 0 0 0;
+  text-align:center;
+}
+
+.ReactModal__Body--open {
+  overflow-y: hidden;
+}
+
+.ReactModal__Content{
+  max-width: 640px;
+  margin: 0 auto;
+  left: 20px !important;
+  right: 20px !important;
+  @media only screen and (min-width: $bp-mobile){
+    bottom: auto !important;
+  }
+  @media only screen and (max-height: 900px){
+    bottom: 40px !important;
+  }
+}
+
+.ReactModal__Overlay{
+    z-index:30;
+    background-color: rgba(100,100,100, 0.75)!important;
+}
+
+.project__modal__player{
+  margin-top:45px;
+  text-align:center;
+  iframe{
+    width: 100%;
+    min-height: 360px;
+    @media only screen and (max-width: $bp-mobile){
+      min-height: 220px;
+    }
+  }
+}
+
+.project__modal__desc{
+  margin-top: 20px;
+  padding: 0 20px;
+}
+
+.project__modal__links{
+  text-align:center;
+}
+
+.project__modal__bigImg{
+  margin-top:45px;
+  width: 100%;
+  img{
+    width:100%;
+  }
+}
+
+.project__modal__gallery{
+  margin-top:40px;
+}
+
+.image-gallery-right-nav, .image-gallery-left-nav{
+  &:hover{
+    &::before{
+      color: $accentRed;
+    }
+  }
+}
+
+.image-gallery-thumbnail.active{
+  border: 4px solid $accentRed;
+}

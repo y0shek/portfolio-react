@@ -1,0 +1,12 @@
+@import "../../variables.scss";
+
+.contactInfo {
+  padding: 0 20px;
+  .contactInfo__content {
+    border-radius: 50px;
+    border: 1px dashed $purple;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px 50px;
+  }
+}

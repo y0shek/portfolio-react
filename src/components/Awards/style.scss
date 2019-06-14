@@ -1,0 +1,43 @@
+@import '../../variables.scss';
+
+.awards{
+  position: absolute;
+  padding-top: 85px;
+  right: 200px;
+  vertical-align:bottom;
+
+  @media only screen and (max-width: $bp_laurels){
+    right: 40px;
+    padding-top:90px;
+  }
+
+  @media only screen and (max-width: $bp_big){
+    width: 60vw;
+    left: 40vw;
+    padding-top: 20px;
+    text-align:center;
+  }
+
+  @media only screen and (max-width: $bp_mobile){
+    width: 100%;
+    position:fixed;
+    left: 0;
+    padding-top: 5px;
+  }
+
+  .awards__laurel{
+    display: inline-block;
+    height: 45px;
+    padding-left:10px;
+    @media only screen and (max-width: $bp_laurels){
+      height: 35px;
+    }
+    @media only screen and (max-width: $bp_legacy){
+      height: 30px;
+    }
+  }
+
+  .awards__laurel--scrolled{
+    display:none;
+  }
+}

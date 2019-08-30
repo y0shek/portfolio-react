@@ -116,7 +116,7 @@ const data = {
         "Integrated 3D graphics and effects have been a staple of my video storytelling. I have animated and integrated trains, romantic night skies with twinkling stars, logos, and I have even created and animated video game characters for a friend's project."
     },
     {
-      title: 'Say Hello to Secure Login on iOS with the YubiKey 5Ci"',
+      title: 'Say Hello to Secure Login on iOS with the YubiKey 5Ci',
       img: "5ci.jpg",
       year: "2019",
       type: "promo",
@@ -127,7 +127,7 @@ const data = {
         { title: "See the final cut by Yubico on Youtube", url: "https://www.youtube.com/watch?v=GL97M-h77a0" }
       ],
       embed: "https://www.youtube.com/embed/ckrt6QuWZOA",
-      description: "3-week turnaround for the biggest product launch in the history of the company. Prepped for about 5 days. Shot in one day. Effects and editing over 2 weeks. Some effects (turning the YubiKey black) were done by another editor and some of the sound is having trouble, which is why I am posting my final cut here to see."
+      description: "3-week turnaround for the biggest product launch in the history of the company. Prepped for about 5 days. Shot in one day. Effects and editing over 2 weeks."
     },
     {
       title: 'BraveMaker Promotional Coverage - "I\'ll Push You"',

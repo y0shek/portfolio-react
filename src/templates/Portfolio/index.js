@@ -18,12 +18,12 @@ const data = {
       shortDesc: "Short Film (EN)",
       role: "Producer, Director, Writer, Editor",
       description:
-        "Talk was created as an assignment and submission. I challenged myself by limiting the cast to one person and the camera frame to one single angle. To be released in 2019."
+        "Talk was an assignment and submission which eventually led to my acceptance to AFI conservatory in Los Angeles. I challenged myself by limiting the cast to one person and the camera frame to one single angle. To be released in 2019."
     },
     {
       title: "En Rose",
       img: "enrose.jpg",
-      laurels: 5,
+      laurels: 6,
       year: "2018",
       type: "personal",
       shortDesc: "Short Film (FR)",
@@ -114,6 +114,20 @@ const data = {
       embed: "https://www.youtube.com/embed/9wv-IJ664yg",
       description:
         "Integrated 3D graphics and effects have been a staple of my video storytelling. I have animated and integrated trains, romantic night skies with twinkling stars, logos, and I have even created and animated video game characters for a friend's project."
+    },
+    {
+      title: 'Say Hello to Secure Login on iOS with the YubiKey 5Ci"',
+      img: "5ci.jpg",
+      year: "2019",
+      type: "promo",
+      shortDesc: "© 2019 Yubico Inc - Director's Cut",
+      role: "Director, Writer, Camera, Editing, Effects, Color, Sound",
+      links: [
+        { title: "Visit yubico.com", url: "https://www.yubico.com/" },
+        { title: "See the final cut by Yubico on Youtube", url: "https://www.youtube.com/watch?v=GL97M-h77a0" }
+      ],
+      embed: "https://www.youtube.com/embed/ckrt6QuWZOA",
+      description: "3-week turnaround for the biggest product launch in the history of the company. Prepped for about 5 days. Shot in one day. Effects and editing over 2 weeks. Some effects (turning the YubiKey black) were done by another editor and some of the sound is having trouble, which is why I am posting my final cut here to see."
     },
     {
       title: 'BraveMaker Promotional Coverage - "I\'ll Push You"',
@@ -334,10 +348,12 @@ const data = {
           thumbnail: "https://s15.postimg.cc/n8ikz6xtn/dancer-latina.jpg"
         },
         {
-          original:
-            "https://s15.postimg.cc/n9siscruz/Tatiana_Gara_Birthday_top.jpg",
-          thumbnail:
-            "https://s15.postimg.cc/gi23pvsp7/Tatiana_Gara_Birthday_top.jpg"
+          original: "https://i.postimg.cc/2yB82kWY/frogs.jpg",
+          thumbnail: "https://i.postimg.cc/Lg2psMvQ/frogs.jpg"
+        },
+        {
+          original: "https://i.postimg.cc/hPf3ZJhT/mlk.jpg",
+          thumbnail: "https://i.postimg.cc/CzpNzxGx/mlk.jpg"
         },
         {
           original: "https://s15.postimg.cc/7ob78e86z/Speechless.jpg",
@@ -346,6 +362,24 @@ const data = {
         {
           original: "https://s15.postimg.cc/sl7fd0o7f/Crying_Girl.jpg",
           thumbnail: "https://s15.postimg.cc/ah4espqmj/Crying_Girl.jpg"
+        },
+        {
+          original: "https://i.postimg.cc/YSBkQvQf/prussian.jpg",
+          thumbnail: "https://i.postimg.cc/PCyBjr3P/prussian.jpg"
+        },
+        {
+          original: "https://i.postimg.cc/pd6BFCYS/vulture-girl.jpg",
+          thumbnail: "https://i.postimg.cc/rd5W6SHG/vulture-girl.jpg"
+        },
+        {
+          original: "https://i.postimg.cc/0NwsTWQG/buttermilk.jpg",
+          thumbnail: "https://i.postimg.cc/p9R48BKy/buttermilk.jpg"
+        },
+        {
+          original:
+            "https://s15.postimg.cc/n9siscruz/Tatiana_Gara_Birthday_top.jpg",
+          thumbnail:
+            "https://s15.postimg.cc/gi23pvsp7/Tatiana_Gara_Birthday_top.jpg"
         },
         {
           original: "https://s15.postimg.cc/or9dqgpaz/picking-apples.jpg",
@@ -360,10 +394,8 @@ const data = {
           thumbnail: "https://s15.postimg.cc/43fbpf3q3/davinci_study.jpg"
         },
         {
-          original:
-            "https://s15.postimg.cc/nzbb4oi3v/First_Impressionist_Painting.jpg",
-          thumbnail:
-            "https://s15.postimg.cc/xvce4pt57/First_Impressionist_Painting.jpg"
+          original: "https://i.postimg.cc/0yT5ZW1S/augustus.jpg",
+          thumbnail: "https://i.postimg.cc/mPSGgSDZ/augustus.jpg"
         },
         {
           original: "https://s15.postimg.cc/czq3t0miz/first-wacom.jpg",
@@ -380,6 +412,10 @@ const data = {
         {
           original: "https://s15.postimg.cc/ib50dplgb/diver.jpg",
           thumbnail: "https://s15.postimg.cc/bjelb7bzv/diver.jpg"
+        },
+        {
+          original: "https://i.postimg.cc/7ZdhdP0f/bike-rider.jpg",
+          thumbnail: "https://i.postimg.cc/bZ0q2h6h/bike-rider.jpg"
         },
         {
           original: "https://s15.postimg.cc/474jrzh9n/practice-01.jpg",
@@ -408,6 +444,10 @@ const data = {
         {
           original: "https://s15.postimg.cc/6m10pr9x7/First_Mate.jpg",
           thumbnail: "https://s15.postimg.cc/4g6pvltpn/First_Mate.jpg"
+        },
+        {
+          original: "https://i.postimg.cc/j5mrdCq7/pirate2.jpg",
+          thumbnail: "https://i.postimg.cc/5YBrs4C4/pirate2.jpg"
         },
         {
           original: "https://s15.postimg.cc/zbnwmg3nf/Fox_Squirrel.jpg",
@@ -484,7 +524,18 @@ const data = {
       role: "Engineer",
       links: [{ title: "Visit mosaix.ai", url: "https://www.mosaix.ai/" }],
       description:
-        "I joined Mosaix in 2019 as an Engineer, and quickly moved from API back-end engineering to rearchitecting the business logic of Mosaix's Natural Language Engine, the efficacy and accuracy of which are now comparable to that of Google."
+        "I joined Mosaix in 2019 as an Engineer, and quickly moved from API back-end engineering to rearchitecting the business logic of Mosaix's Natural Language Engine, the efficacy and accuracy of which are now comparable to that of Google's natural language processing engine."
+    },
+    {
+      title: "U2F Flow, YubiKey Manager, and Windows Login Tool UX",
+      img: "u2f.jpg",
+      year: "2017-2018",
+      type: "promo",
+      shortDesc: "Projects to enhance UX at Yubico, based on User Research",
+      role: "Lead UX Engineer",
+      links: [{ title: "Visit Yubico.com", url: "https://www.yubico.com/" }],
+      description:
+        "Oversaw research, design, and implementation of UX / UI on desktop/mobile, web applications, packaging, and media. Spearheaded remake of the Windows Login Tool through UX research. Designed a common User-Flow experience for all of U2F web-facing apps, for technology partners."
     },
     {
       title: "www.yubico.com",
@@ -517,20 +568,21 @@ const data = {
       ],
       description:
         "Shown on the main stage in front of hundreds at Microsoft Ignite Conference 2016, this was one of the very first Windows 10 Creator's Update Apps to leverage the new Companion Device Framework and the OATH Smart Card functionality of the YubiKey. Together, they make a seamless unlock experience. I had the honor to program and collaborate with Yubico's CTO and inventor of the YubiKey to make this app."
-    },
-    {
-      title: "U2F Flow, YubiKey Manager, and Windows Login Tool UX",
-      img: "u2f.jpg",
-      year: "2017-2018",
-      type: "promo",
-      shortDesc: "Projects to enhance UX at Yubico, based on User Research",
-      role: "Lead UX Engineer",
-      links: [{ title: "Visit Yubico.com", url: "https://www.yubico.com/" }],
-      description:
-        "Oversaw research, design, and implementation of UX / UI on desktop/mobile, web applications, packaging, and media. Spearheaded remake of the Windows Login Tool through UX research. Designed a common User-Flow experience for all of U2F web-facing apps, for technology partners."
     }
   ],
   leadershipProjects: [
+    {
+      title: "Columbia MFA Film Directing / Screenwriting",
+      img: "columbia.jpg",
+      year: "2019-present",
+      shortDesc: "Attended Columbia University",
+      role: "Student in Film Directing / Screenwriting",
+      description:
+        'I studied in the world-renowned Film program at Columbia School of the Arts.',
+      links: [
+        { title: "Visit Columbia Film Website", url: "https://arts.columbia.edu/film" }
+      ]
+    },
     {
       title: "International Political Education",
       img: "iep.jpg",
@@ -662,7 +714,7 @@ export default class Portfolio extends React.Component {
             Film, Animation, and Video
           </h2>{" "}
           <hr />
-          <h3 className="special_text">Personal</h3>
+          <h3 className="special_text">Artistic</h3>
           <ProjectList
             id="personal"
             projects={data.videoProjects.filter(project => {
@@ -686,7 +738,7 @@ export default class Portfolio extends React.Component {
         </Section>
         <Section theName="UX and Software Engineering">
           <h2 id="eng" ref="eng">
-            UX and Software Engineering
+            Software Engineering / User Experience
           </h2>{" "}
           <hr />
           <ProjectList id="eng" projects={data.engProjects} />

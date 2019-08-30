@@ -1,17 +1,16 @@
 @import '../../variables.scss';
 
-.awards{
-  position: absolute;
-  padding-top: 85px;
-  right: 200px;
-  vertical-align:bottom;
-
+.awardsContainer{
+  position:absolute;
+  padding-top:30px;
+  right:300px;
   @media only screen and (max-width: $bp_laurels){
-    right: 40px;
-    padding-top:90px;
+    right: 50px;
+    padding-top:30px;
   }
 
-  @media only screen and (max-width: $bp_big){
+
+  @media only screen and (max-width: $bp_mobile){
     width: 60vw;
     left: 40vw;
     padding-top: 20px;
@@ -22,22 +21,44 @@
     width: 100%;
     position:fixed;
     left: 0;
+    text-align:center;
     padding-top: 5px;
   }
+}
+
+.awards{
+  position: relative;
 
   .awards__laurel{
     display: inline-block;
     height: 45px;
+    opacity:.6;
     padding-left:10px;
-    @media only screen and (max-width: $bp_laurels){
+    @media only screen and (max-width: $bp_medium){
       height: 35px;
     }
     @media only screen and (max-width: $bp_legacy){
       height: 30px;
     }
+    &:hover{
+      opacity:1;  
+    }
   }
 
   .awards__laurel--scrolled{
     display:none;
+  }
+
+  @media only screen and (max-width: $bp_medium){
+    display: inline-block;
+  }
+
+}
+
+.awardsRow2{
+  padding-left:40px;
+  padding-top:5px;
+  @media only screen and (max-width: $bp_medium){
+    padding-left:0;
   }
 }

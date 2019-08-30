@@ -5,13 +5,14 @@ import dsoff from "../../images/laurels/dsoff.png";
 import festigious from "../../images/laurels/festigious.png";
 import lacf from "../../images/laurels/lacf.png";
 import vegas from "../../images/laurels/vegas.png";
+import moscow from "../../images/laurels/moscow.png";
 
 import "./style.css";
 
 const awardsData = [
   {
     title: "Official Selection - Black Hills Film Festival",
-    link: "https://www.imdb.com/title/tt2733432/?ref_=fn_al_tt_1",
+    link: "https://www.imdb.com/title/tt2733432/",
     src: bhff
   },
   {
@@ -40,28 +41,54 @@ const awardsData = [
     title: "Best Duo - Award of Prestige",
     link: "https://www.imdb.com/title/tt3681356/",
     src: vegas
+  },
+  {
+    title: "Official Selection",
+    link: "https://www.imdb.com/title/tt3681356/",
+    src: moscow
   }
 ];
+
+const awardsData2 = awardsData.splice(Math.ceil(awardsData.length / 2));
 
 export default class Awards extends React.Component {
   render() {
     return (
-      <div className="awards">
-        {awardsData.map((award, i) => {
-          return (
-            <a key={i} href={award.link} target="_blank">
-              <img
-                className={
-                  this.props.atTop
-                    ? "awards__laurel"
-                    : "awards__laurel awards__laurel--scrolled"
-                }
-                alt={award.title}
-                src={award.src}
-              />
-            </a>
-          );
-        })}
+      <div className="awardsContainer">
+        <div className="awards awardsRow1">
+          {awardsData.map((award, i) => {
+            return (
+              <a key={i} href={award.link} target="_blank">
+                <img
+                  className={
+                    this.props.atTop
+                      ? "awards__laurel"
+                      : "awards__laurel awards__laurel--scrolled"
+                  }
+                  alt={award.title}
+                  src={award.src}
+                />
+              </a>
+            );
+          })}
+        </div>
+        <div className="awards awardsRow2">
+          {awardsData2.map((award, i) => {
+            return (
+              <a key={i} href={award.link} target="_blank">
+                <img
+                  className={
+                    this.props.atTop
+                      ? "awards__laurel"
+                      : "awards__laurel awards__laurel--scrolled"
+                  }
+                  alt={award.title}
+                  src={award.src}
+                />
+              </a>
+            );
+          })}
+        </div>
       </div>
     );
   }

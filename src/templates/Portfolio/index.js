@@ -4,7 +4,6 @@ import Section from "../../components/Section";
 import ProjectList from "../../components/ProjectList";
 
 import "./style.css";
-import girlApple from "../../images/girl_apple.jpg";
 import skipping from "../../images/skipping.jpg";
 
 const data = {
@@ -33,7 +32,7 @@ const data = {
         { title: "IMDB page", url: "https://www.imdb.com/title/tt3681356/" }
       ],
       description:
-        "En Rose was filmed in May-July 2014 in Aix-en-Provence, France. A five-minute cut called Comme ses Parents was released for the cast and crew of 12 in late 2014. Finally released in 2018, a drama about two best friends and a young man who creates a divide between them. French-language film shot on location in Aix-en-Provence. Four festival wins."
+        "En Rose was filmed in May-July 2014 in Aix-en-Provence, France. A five-minute cut called Comme ses Parents was released for the cast and crew of 12 in late 2014. Finally released in 2018, a drama about two best friends and a young man who creates a divide between them. French-language film shot on location in Aix-en-Provence. Five festival wins and one official selection."
     },
     {
       title: "Don't Fall in, Love",
@@ -368,6 +367,10 @@ const data = {
           thumbnail: "https://i.postimg.cc/PCyBjr3P/prussian.jpg"
         },
         {
+          original: "https://i.postimg.cc/mr850JHv/poverty.jpg",
+          thumbnail: "https://i.postimg.cc/QBKm76Sm/poverty.jpg"
+        },
+        {
           original: "https://i.postimg.cc/pd6BFCYS/vulture-girl.jpg",
           thumbnail: "https://i.postimg.cc/rd5W6SHG/vulture-girl.jpg"
         },
@@ -376,7 +379,7 @@ const data = {
           thumbnail: "https://i.postimg.cc/p9R48BKy/buttermilk.jpg"
         },
         {
-          original:
+          src:
             "https://s15.postimg.cc/n9siscruz/Tatiana_Gara_Birthday_top.jpg",
           thumbnail:
             "https://s15.postimg.cc/gi23pvsp7/Tatiana_Gara_Birthday_top.jpg"
@@ -664,7 +667,6 @@ export default class Portfolio extends React.Component {
   };
 
   render() {
-    const padding = { padding: "20px 0 0 0" };
     return (
       <div className="portfolio">
         <Welcome
@@ -679,15 +681,12 @@ export default class Portfolio extends React.Component {
             </h2>
             <blockquote className="portfolio__overview__blockquote">
               <h4 style={{ textAlign: "center", marginBottom: 0 }}>
-                <span className="special_text">My name is </span>
-                <strong>Joshua M</strong>
-                <span className="special_text"> Kellerman</span>
+                <span className="special_text">My name is Joshua M Kellerman</span>
               </h4>
               <h4 style={{ textAlign: "center", marginTop: "10px" }}>
+
                 <span className="special_text">
-                  Filmmaker - Artist - UX Lead -{" "}
-                </span>
-                Storyteller
+                  Filmmaker - Engineer - UX Lead - Artist - <strong>Storyteller</strong> </span>
               </h4>
             </blockquote>
             <h4 style={{ textAlign: "center" }}>
@@ -753,7 +752,7 @@ export default class Portfolio extends React.Component {
         <Section theName="Summary">
           <div style={{ textAlign: "center" }}>
             <div className="portfolio__bannerImg">
-              <img src={skipping} />
+              <img alt="Skipping in Madrid" src={skipping} />
             </div>
             <h3>Thanks for visiting!</h3>
             <p>

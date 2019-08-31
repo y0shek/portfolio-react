@@ -1,5 +1,4 @@
 import React from "react";
-import myPic from "../../images/me_bw.jpg";
 import "./style.css";
 
 export default class ContactMe extends React.Component {
@@ -15,12 +14,12 @@ export default class ContactMe extends React.Component {
           </p>
           <p>
             My rates for personal or non-profit projects are negotiable and I am open to volunteer work. Please contact me with
-            interesting artistic projects! 😊 😊 😊
+            interesting artistic projects! <span role="img">😊 😊 😊</span>
           </p>
           <p>
             Please send any requests to: <em>kellerman.joshua.m@gmail.com</em>
           </p>
-          <p style={{ marginTop: "10px" }}> No solicitors 😎</p>
+          <p style={{ marginTop: "10px" }}> No solicitors <span role="img">😎</span></p>
         </div>
       </div>
     );

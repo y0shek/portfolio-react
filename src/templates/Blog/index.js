@@ -1,13 +1,29 @@
 import React from 'react';
-import Construction from '../../components/Construction';
+import BlogPost from "../../components/BlogPost";
+import Construction from "../../components/Construction";
 import './style.css';
 
-export default class Blog extends React.Component{
+export default class Blog extends React.Component {
 
-  render(){
+  constructor(props) {
+    super(props);
+    this.state = {
+      posts: []
+    };
+  }
+
+  componentWillMount = async () => {
+    let response = await fetch(`https://wp.joshuamk.com/wp-json/wp/v2/posts/?filter[posts_per_page]=-1`);
+    let data = await response.json();
+    this.setState({ posts: data || [] });
+  }
+
+  render() {
     return (
       <div className='blog'>
-        <Construction theName="Blog" />
+        {this.state.posts.length !== 0 ? this.state.posts.map(post => (
+          <BlogPost post={post} />
+        )) : <Construction theName="Blog" />}
       </div>
     );
   }

@@ -1,0 +1,53 @@
+@import '../../variables.scss';
+
+.blog__post{
+  max-width:800px;
+  margin: 0 auto;
+
+  img {
+    width: 80%;
+    display:block;
+  }
+
+  .blog__post__body{
+    background-color: white;
+    border-radius:20px;
+    padding: 10px 30px;
+  }
+
+  .blog__post__time{
+    width:90px;
+    background-color: $purple;
+    color:white;
+    padding:5px 30px;
+    margin:0;
+    margin-left:20px;
+    clip-path: polygon(15% 0, 100% 0%, 85% 100%, 0% 100%);
+  }
+  .blog__post__title{
+    max-width:calc(100% - 50px);
+    display:inline-block;
+    margin: 10px 0;
+  }
+
+  i {
+    font-size:30px;
+    margin-top:10px;
+    float:right;
+    padding-left:20px;
+    color: $purple;
+    &:hover{
+      color: $accentRed;
+    }
+  }
+
+}
+
+.blog__post__content {
+  display:none;
+  padding: 0 5px;
+}
+
+.expandedPost {
+  display:block;
+}

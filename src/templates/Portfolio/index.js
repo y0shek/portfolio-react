@@ -9,6 +9,20 @@ import skipping from "../../images/skipping.jpg";
 const data = {
   videoProjects: [
     {
+      title: "Super 180s",
+      img: "super180s.jpg",
+      bigImg: "super180s_big.jpg",
+      year: "2020",
+      type: "personal",
+      shortDesc: "Short Film (EN)",
+      role: "Director, Writer, Editor",
+      links: [
+        { title: "IMDB page", url: "https://www.imdb.com/title/tt11646262/" }
+      ],
+      description:
+        "A story about implicit bias, a young couple, and a finance bro. Filmed in the financial district in NYC in December 2019. Super 180s was my first semester capstone directing assignment at Columbia University School of the Arts Film MFA. I wrote it with the guidance of writing professor Jamal Joseph and directed it with the guidance of directing professor Ian Olds. To be released in 2020."
+    },
+    {
       title: "Talk",
       img: "talk.jpg",
       bigImg: "talk_big.jpg",
@@ -16,8 +30,9 @@ const data = {
       type: "personal",
       shortDesc: "Short Film (EN)",
       role: "Producer, Director, Writer, Editor",
+      embed: "https://player.vimeo.com/video/303373991",
       description:
-        "Talk was an assignment and submission which eventually led to my acceptance to AFI conservatory in Los Angeles. I challenged myself by limiting the cast to one person and the camera frame to one single angle. To be released in 2019."
+        "Talk was an assignment and submission which eventually led to my acceptance to AFI conservatory in Los Angeles. I challenged myself by limiting the cast to one person and the camera frame to one single angle. Joe is played by Tony Gapastione."
     },
     {
       title: "En Rose",
@@ -27,7 +42,7 @@ const data = {
       type: "personal",
       shortDesc: "Short Film (FR)",
       role: "Director, Editor, Producer, Story",
-      embed: "https://www.youtube.com/embed/ZIIjg59hg9c",
+      embed: "https://player.vimeo.com/video/303380724",
       links: [
         { title: "IMDB page", url: "https://www.imdb.com/title/tt3681356/" }
       ],
@@ -371,18 +386,16 @@ const data = {
           thumbnail: "https://i.postimg.cc/QBKm76Sm/poverty.jpg"
         },
         {
+          original: "https://i.postimg.cc/BZ2krJ46/capitalism.jpg",
+          thumbnail: "https://i.postimg.cc/G4ZfJMWP/capitalism.jpg"
+        },
+        {
           original: "https://i.postimg.cc/pd6BFCYS/vulture-girl.jpg",
           thumbnail: "https://i.postimg.cc/rd5W6SHG/vulture-girl.jpg"
         },
         {
           original: "https://i.postimg.cc/0NwsTWQG/buttermilk.jpg",
           thumbnail: "https://i.postimg.cc/p9R48BKy/buttermilk.jpg"
-        },
-        {
-          src:
-            "https://s15.postimg.cc/n9siscruz/Tatiana_Gara_Birthday_top.jpg",
-          thumbnail:
-            "https://s15.postimg.cc/gi23pvsp7/Tatiana_Gara_Birthday_top.jpg"
         },
         {
           original: "https://s15.postimg.cc/or9dqgpaz/picking-apples.jpg",
@@ -463,6 +476,10 @@ const data = {
         {
           original: "https://s15.postimg.cc/5jqu7ajez/Robot_Love.jpg",
           thumbnail: "https://s15.postimg.cc/immgqx4ln/Robot_Love.jpg"
+        },
+        {
+          original: "https://i.postimg.cc/gkD504wb/self-portrait.jpg",
+          thumbnail: "https://i.postimg.cc/xJQFBXTc/self-portrait.jpg"
         }
       ]
     },
@@ -573,7 +590,7 @@ const data = {
         "Shown on the main stage in front of hundreds at Microsoft Ignite Conference 2016, this was one of the very first Windows 10 Creator's Update Apps to leverage the new Companion Device Framework and the OATH Smart Card functionality of the YubiKey. Together, they make a seamless unlock experience. I had the honor to program and collaborate with Yubico's CTO and inventor of the YubiKey to make this app."
     }
   ],
-  leadershipProjects: [
+  education: [
     {
       title: "Columbia MFA Film Directing / Screenwriting",
       img: "columbia.jpg",
@@ -600,6 +617,33 @@ const data = {
       ]
     },
     {
+      title: "Literature B.A. from UW-Madison",
+      img: "uw.jpg",
+      year: "2011-2013",
+      shortDesc: "Attended UW-Madison for English and Computer Science",
+      role: "Student in English, Comp-Sci, & French",
+      description:
+        'I transferred from the Animation / Puppetry department at UW-Milwaukee to UW-Madison in order to study literature and the source of storytelling. While at UW-Madison, I took the first two year curriculum for Comp Sci, learning Algorithms and Data Structures, which has allowed me to pursue a career in Technology.',
+      links: [
+        { title: "Visit UW-Madison Website", url: "https://www.wisc.edu/" }
+      ]
+    },
+    {
+      title: "Animation and Film at UW-Milwaukee PSOA",
+      img: "uwm.jpg",
+      year: "2008-2010",
+      shortDesc: "Attended UW-Milwaukee for Film, Animation, and Puppetry",
+      role: "Student in Film, 2D Animation, Puppetry",
+      description:
+        'I attended UW-Milwaukee for a Film BFA, but I was not challenged by the curriculum. I ended up spending all of my time under the mentorship of Tim Decker, ex-Disney animator. I learned the advanced CalArts method of 2D animation as well as figure drawing, stop-motion, fabrication, and puppetry (construction and performance) under Tim.',
+      bigImg: "uwm-puppetry.jpg",
+      links: [
+        { title: "Visit UW-Milwaukee PSOA Website", url: "https://www.uwm.edu/arts" }
+      ]
+    }
+  ],
+  leadershipProjects: [
+    {
       title: "Film Production",
       img: "film_leader.jpg",
       bigImg: "film_leader_big.jpg",
@@ -614,14 +658,13 @@ const data = {
         }
       ],
       description:
-        "I have been making films since I was about 10, but only seriously since about 8 years ago. I started my filmmaking journey at UW-Milwaukee in Tim Decker's classroom. I own a small indie film production company."
+        "I have been making films since I was about 10, but only seriously since about 8 years ago. I started my filmmaking journey at UW-Milwaukee in Tim Decker's classroom. I wrote, directed, and produced a feature film in 2014. I own a small indie film production company and have produced several commercials for Silicon Valley companies and non-profits."
     },
     {
       title: "Student Mentorship",
       img: "mentorship.jpg",
       bigImg: "mentorship_big.jpg",
       year: "2013-2015",
-      type: "personal",
       shortDesc:
         "Taught both disadvantaged and talented youth English, Math, Filmmaking, Web Design",
       role: "Mentor, Instructor",
@@ -637,6 +680,25 @@ const data = {
       ],
       description:
         "While in France, I mentored a film student who would P.A. and D.A. in a short film I produced and directed. She would go on to start film school at the École de Cinéma in Paris. I continued mentorship at the Wisconsin Center for Academically Talented Youth, where I taught filmmaking and graphic design in a summer camp setting. When I moved to California, I worked briefly for Oxford tutoring, a government contractor tutoring disadvantaged youth."
+    },
+    {
+      title: "Engineering Hiring and Team Building",
+      img: "eng_hiring.jpg",
+      year: "2015-2019",
+      shortDesc: "Hired the Web team for Yubico. Hired for Infrastructure team for Mosaix.ai",
+      role: "Teamleader, Hiring Manager",
+      links: [
+        {
+          title: "Yubico",
+          url: "https://www.yubico.com/"
+        },
+        {
+          title: "Mosaix.ai",
+          url: "https://www.mosaix.ai/"
+        }
+      ],
+      description:
+        "I hired for and ran the Web team at Yubico, making sure that my hiree would have at least 3 months without other team members giving him tasks, so he could be completely up to speed and in a position to not make mistakes and bring down crucial business infrastructure. I also hired for the Mosaix.ai backend engineering team and contributed to senior culture."
     },
     {
       title: "Camino of Santiago",
@@ -748,6 +810,13 @@ export default class Portfolio extends React.Component {
           </h2>{" "}
           <hr />
           <ProjectList id="leadership" projects={data.leadershipProjects} />
+        </Section>
+        <Section theName="Education">
+          <h2 id="education" ref="education">
+            Education
+          </h2>{" "}
+          <hr />
+          <ProjectList id="education" projects={data.education} />
         </Section>
         <Section theName="Summary">
           <div style={{ textAlign: "center" }}>

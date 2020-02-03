@@ -91,3 +91,10 @@ body {
 .clickable {
   cursor: pointer;
 }
+
+.image-gallery-content {
+  &.fullscreen {
+    margin: 0 auto;
+    max-width: 85%;
+  }
+}

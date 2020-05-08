@@ -13,12 +13,13 @@
 
   @media only screen and (max-width: $bp_big) {
     background-position: 40% 5%;
+    background-size: 100vw;
   }
 
   @media only screen and (max-width: $bp_mobile) {
-    background-position: 60% 5%;
+    background-position: 50% 5%;
     background-size: cover;
-    min-height: 540px;
+    min-height: 440px;
   }
 
   .welcome__titlepic {
@@ -27,7 +28,7 @@
     text-align: center;
     max-width: 550px;
     margin: 0 auto;
-    padding-top: 210px;
+    padding-top: 250px;
     padding-left: 200px;
     padding-right: 200px;
     @media only screen and (min-width: $bp_super) {
@@ -40,10 +41,10 @@
     }
     @media only screen and (max-width: $bp_medium) {
       max-width: 425px;
-      padding-top: 80px;
+      padding-top: 120px;
     }
     @media only screen and (max-width: $bp_mobile) {
-      padding: 150px 40px 0 40px;
+      padding: 120px 40px 0 40px;
     }
 
     img {
@@ -110,14 +111,14 @@
   z-index: 1;
   @media only screen and (max-width: 560px) {
     width: 300vw !important;
-    height: 540px !important;
+    height: 440px !important;
     left: -100vw !important;
     top: 0vw;
   }
   @media only screen and (max-width: $bp-mobile) {
     width: 180vw;
-    height: 100vw;
-    left: -30vw;
+    height: 480px;
+    left: -40vw;
   }
 }
 

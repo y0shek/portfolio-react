@@ -12,6 +12,7 @@ const data = {
       title: "Super 180s",
       img: "super180s.jpg",
       bigImg: "super180s_big.jpg",
+      laurels: 1,
       year: "2020",
       type: "personal",
       shortDesc: "Short Film (EN)",
@@ -26,28 +27,30 @@ const data = {
       title: "Talk",
       img: "talk.jpg",
       bigImg: "talk_big.jpg",
+      laurels: 1,
       year: "2019",
       type: "personal",
       shortDesc: "Short Film (EN)",
       role: "Producer, Director, Writer, Editor",
-      embed: "https://player.vimeo.com/video/303373991",
+      embed: "https://www.youtube.com/embed/o-JR8uytTw8",
       description:
-        "Talk was an assignment and submission which eventually led to my acceptance to AFI conservatory in Los Angeles. I challenged myself by limiting the cast to one person and the camera frame to one single angle. Joe is played by Tony Gapastione."
+        "Talk was a submission which eventually led to my acceptance to AFI conservatory in Los Angeles and Columbia University SOA in New York City. I challenged myself by limiting the cast to one person and the camera frame to one single angle. Joe is played by Tony Gapastione."
     },
     {
       title: "En Rose",
       img: "enrose.jpg",
+      bigImg: "enrose_big.jpg",
       laurels: 6,
       year: "2018",
       type: "personal",
       shortDesc: "Short Film (FR)",
       role: "Director, Editor, Producer, Story",
-      embed: "https://player.vimeo.com/video/303380724",
       links: [
+        { title: "Watch free now with Amazon Prime Video", url: "https://www.amazon.com/En-Rose-Margaux-Ilona-L%C3%A9touche/dp/B07NBWTQD4" },
         { title: "IMDB page", url: "https://www.imdb.com/title/tt3681356/" }
       ],
       description:
-        "En Rose was filmed in May-July 2014 in Aix-en-Provence, France. A five-minute cut called Comme ses Parents was released for the cast and crew of 12 in late 2014. Finally released in 2018, a drama about two best friends and a young man who creates a divide between them. French-language film shot on location in Aix-en-Provence. Five festival wins and one official selection."
+        "En Rose was filmed in May-July 2014 in Aix-en-Provence, France. A five-minute cut called Comme ses Parents was released for the cast and crew of 12 in late 2014. Finally released in 2018, a drama about two best friends and a young man who creates a divide between them. French-language film shot on location in Aix-en-Provence. Five festival wins and one official selection. Distributed by Shami Media Group."
     },
     {
       title: "Don't Fall in, Love",

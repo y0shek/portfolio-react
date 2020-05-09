@@ -6,20 +6,7 @@ export default class ContactMe extends React.Component {
     return (
       <div className="contactInfo">
         <div className="contactInfo__content">
-          <p>
-            I am located in the New York City Upper Manhattan area. I am available to
-            film, direct and write commercials and other promotional content. Please <a href="mailto:kellerman.joshua.m@gmail.com">email me to check my
-            availability and rates.
-            </a>
-          </p>
-          <p>
-            My rates for personal or non-profit projects are negotiable and I am open to volunteer work. Please contact me with
-            interesting artistic projects! <span role="img">😊 😊 😊</span>
-          </p>
-          <p>
-            Please send any requests to: <em>kellerman.joshua.m@gmail.com</em>
-          </p>
-          <p style={{ marginTop: "10px" }}> No solicitors <span role="img">😎</span></p>
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeTjrFCrfLFHEIew7O8q8NoarhzjzF60WmQz8cCi1a6u5L0Tw/viewform?embedded=true" width="640" height="1024" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </div>
       </div>
     );

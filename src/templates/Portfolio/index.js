@@ -27,7 +27,7 @@ const data = {
       title: "Talk",
       img: "talk.jpg",
       bigImg: "talk_big.jpg",
-      laurels: 0,
+      laurels: 1,
       year: "2019",
       type: "personal",
       shortDesc: "Short Film (EN)",

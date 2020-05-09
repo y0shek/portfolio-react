@@ -12,7 +12,7 @@ const data = {
       title: "Super 180s",
       img: "super180s.jpg",
       bigImg: "super180s_big.jpg",
-      laurels: 1,
+      laurels: 0,
       year: "2020",
       type: "personal",
       shortDesc: "Short Film (EN)",
@@ -27,7 +27,7 @@ const data = {
       title: "Talk",
       img: "talk.jpg",
       bigImg: "talk_big.jpg",
-      laurels: 1,
+      laurels: 0,
       year: "2019",
       type: "personal",
       shortDesc: "Short Film (EN)",
@@ -748,10 +748,13 @@ export default class Portfolio extends React.Component {
               <h4 style={{ textAlign: "center", marginBottom: 0 }}>
                 <span className="special_text">My name is Joshua M Kellerman</span>
               </h4>
-              <h4 style={{ textAlign: "center", marginTop: "10px" }}>
-
+              <h4 style={{ textAlign: "center", marginTop: "10px", marginBottom: 0 }}>
                 <span className="special_text">
-                  Filmmaker - Engineer - UX Lead - Artist - <strong>Storyteller</strong> </span>
+                  Director - Writer - Engineer - Artist - <strong>Storyteller</strong> </span>
+              </h4>
+              <h4 style={{ textAlign: "center", marginTop: "10px" }}>
+                <span className="special_text">
+                 Columbia MFA Film Directing, NYC </span>
               </h4>
             </blockquote>
             <h4 style={{ textAlign: "center" }}>

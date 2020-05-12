@@ -131,6 +131,19 @@ const data = {
         "Integrated 3D graphics and effects have been a staple of my video storytelling. I have animated and integrated trains, romantic night skies with twinkling stars, logos, and I have even created and animated video game characters for a friend's project."
     },
     {
+      title: 'YubiEnterprise Delivery Launch Video',
+      img: "yubienterprise.jpg",
+      year: "2020",
+      type: "promo",
+      shortDesc: "© 2020 Yubico Inc",
+      role: "Director, Co-Writer, Editing, Animation",
+      links: [
+        { title: "Visit yubico.com", url: "https://www.yubico.com/" },
+      ],
+      embed: "https://www.youtube.com/embed/vK4GIqG43Dw",
+      description: "1-week turnaround for a completely COVID-19 compliant video, B2B service launch."
+    },
+    {
       title: 'Say Hello to Secure Login on iOS with the YubiKey 5Ci',
       img: "5ci.jpg",
       year: "2019",
@@ -361,6 +374,10 @@ const data = {
         {
           original: "https://s15.postimg.cc/n9sis9k4b/dancer-latina.jpg",
           thumbnail: "https://s15.postimg.cc/n8ikz6xtn/dancer-latina.jpg"
+        },
+        {
+          original: "https://i.postimg.cc/BQVqZkP6/to-the-village.jpg",
+          thumbnail: "https://i.postimg.cc/jLyVZ8X0/to-the-village.jpg"
         },
         {
           original: "https://i.postimg.cc/2yB82kWY/frogs.jpg",

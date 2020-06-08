@@ -2,7 +2,6 @@ import React from 'react';
 import throttle from 'lodash/throttle';
 
 import Navigation from '../../../components/Navigation';
-import Awards from '../../../components/Awards';
 import MyPic from '../../../components/MyPic';
 import ToTop from '../../../components/ToTop';
 
@@ -43,7 +42,6 @@ export default class Header extends React.Component{
     return (
       <div className='header'>
         <div className='content'>
-          <Awards atTop={this.state.atTop} />
           <div className={this.state.atTop ? 'header__picNav' : 'header__picNav header__picNav--scrolled'}>
             <ToTop atTop={this.state.atTop} goToTop={this.goToTop} />
             <MyPic atTop={this.state.atTop} />

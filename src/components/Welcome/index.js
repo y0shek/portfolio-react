@@ -1,5 +1,5 @@
 import React from "react";
-import titlePic from "../../images/asenseofstory.png";
+import titlePic from "../../images/story.png";
 import "./style.css";
 
 export default class Welcome extends React.Component {
@@ -52,7 +52,7 @@ export default class Welcome extends React.Component {
             </button>
           </div>
         )}
-        <div className="welcome__titlepic">
+        <div className={this.props.playing ? "welcome__titlepic_off" : "welcome__titlepic"}>
           <img src={titlePic} alt="A sense of Story" />
           <button className="welcome__button" onClick={this.scrollDown}>
             Hello

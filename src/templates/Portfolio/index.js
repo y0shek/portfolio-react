@@ -755,7 +755,7 @@ export default class Portfolio extends React.Component {
         />
         <Section theName="Overview" style={{ padding: "20px 0 0 0" }}>
           <div style={{ padding: "0 40px" }}>
-            <h2 style={{ textAlign: "center" }}>
+            <h2 id="portfolio" style={{ textAlign: "center" }}>
               <span className="special_text">Thanks for visiting my</span>{" "}
               <strong>Portfolio</strong>!
             </h2>

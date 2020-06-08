@@ -27,6 +27,13 @@ export default class Navigation extends React.Component {
     this.setState({ data: newData });
   };
 
+  scrollDown = () => {
+    if (document.getElementById("portfolio")) {
+      const height = document.getElementById("portfolio").offsetTop;
+      window.scroll({ top: height - 50, behavior: "smooth" });
+    }
+  };
+
   handleClick = i => {
     let newData = this.state.data.slice();
     for (var j = 0; j < newData.length; j++) {
@@ -34,6 +41,9 @@ export default class Navigation extends React.Component {
     }
     newData[i].active = true;
     this.setState({ data: newData });
+    if (newData[i].url === "/"){
+      this.scrollDown();
+    }
   };
 
   render() {

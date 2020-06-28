@@ -17,7 +17,7 @@
   }
 
   @media only screen and (max-width: $bp_mobile) {
-    background-position: 50% 5%;
+    background-position: 40% 5%;
     background-size: cover;
     min-height: 440px;
   }
@@ -48,7 +48,7 @@
       padding-top: 120px;
     }
     @media only screen and (max-width: $bp_mobile) {
-      padding: 120px 40px 0 40px;
+      padding: 120px 80px 0 40px;
     }
 
     img {

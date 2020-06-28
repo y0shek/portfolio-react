@@ -4,6 +4,8 @@ import throttle from 'lodash/throttle';
 import Navigation from '../../../components/Navigation';
 import MyPic from '../../../components/MyPic';
 import ToTop from '../../../components/ToTop';
+import { SocialIcon } from "react-social-icons";
+import imdbIcon from "../../../images/imdb-icon.png";
 
 import './style.css';
 
@@ -45,6 +47,13 @@ export default class Header extends React.Component{
           <div className={this.state.atTop ? 'header__picNav' : 'header__picNav header__picNav--scrolled'}>
             <ToTop atTop={this.state.atTop} goToTop={this.goToTop} />
             <MyPic atTop={this.state.atTop} />
+            <div className="header__socialIcons">
+              <a href="https://www.imdb.com/name/nm2976276/?ref_=fn_al_nm_1">
+                <img src={imdbIcon} alt="IMDB" />
+              </a>
+              <SocialIcon url="https://vimeo.com/socksandsandals" />
+              <SocialIcon url="https://www.instagram.com/joshua_kellerman/" />
+            </div>
             <Navigation atTop={this.state.atTop} />
           </div>
         </div>

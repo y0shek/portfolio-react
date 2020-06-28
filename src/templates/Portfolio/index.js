@@ -9,32 +9,6 @@ import skipping from "../../images/skipping.jpg";
 const data = {
   videoProjects: [
     {
-      title: "Super 180s",
-      img: "super180s.jpg",
-      bigImg: "super180s_big.jpg",
-      year: "2020",
-      type: "personal",
-      shortDesc: "Short Film (EN)",
-      role: "Director, Writer, Editor",
-      links: [
-        { title: "IMDB page", url: "https://www.imdb.com/title/tt11646262/" }
-      ],
-      description:
-        "A story about implicit bias, a young couple, and a finance bro. Filmed in the financial district in NYC in December 2019. Super 180s was my first semester capstone directing assignment at Columbia University School of the Arts Film MFA. I wrote it with the guidance of writing professor Jamal Joseph and directed it with the guidance of directing professor Ian Olds. To be released in 2020."
-    },
-    {
-      title: "Talk",
-      img: "talk.jpg",
-      bigImg: "talk_big.jpg",
-      year: "2019",
-      type: "personal",
-      shortDesc: "Short Film (EN)",
-      role: "Producer, Director, Writer, Editor",
-      embed: "https://www.youtube.com/embed/o-JR8uytTw8",
-      description:
-        "Talk was a submission which eventually led to my acceptance to AFI conservatory in Los Angeles and Columbia University SOA in New York City. I challenged myself by limiting the cast to one person and the camera frame to one single angle. Joe is played by Tony Gapastione."
-    },
-    {
       title: "En Rose",
       img: "enrose.jpg",
       bigImg: "enrose_big.jpg",
@@ -49,6 +23,43 @@ const data = {
       ],
       description:
         "En Rose was filmed in May-July 2014 in Aix-en-Provence, France. A five-minute cut called Comme ses Parents was released for the cast and crew of 12 in late 2014. Finally released in 2018, a drama about two best friends and a young man who creates a divide between them. French-language film shot on location in Aix-en-Provence. Five festival wins and one official selection. Distributed by Shami Media Group."
+    },
+    {
+      title: "Super 180s",
+      img: "super180s.jpg",
+      bigImg: "super180s_big.jpg",
+      year: "2020",
+      type: "personal",
+      shortDesc: "Short Film (EN)",
+      role: "Director, Writer, Editor",
+      links: [
+        { title: "IMDB page", url: "https://www.imdb.com/title/tt11646262/" }
+      ],
+      description:
+        "A story about implicit bias, a young couple, and a finance bro. Filmed in the financial district in NYC in December 2019. Super 180s was my first semester capstone directing assignment at Columbia University School of the Arts Film MFA. I wrote it with the guidance of writing professor Jamal Joseph and directed it with the guidance of directing professor Ian Olds. To be released in 2020."
+    },
+    {
+      title: "Compartmentalize",
+      img: "compartmentalize.jpg",
+      year: "2020",
+      type: "personal",
+      shortDesc: "Short Film",
+      role: "Director, Writer, Editor",
+      embed: "https://player.vimeo.com/video/426960556", 
+      description:
+        "A psychological horror short exercise. This is the first short exercise I completed for the Columbia Film MFA. Filmed in October 2019 and re-finished post in July 2020."
+    },
+    {
+      title: "Talk",
+      img: "talk.jpg",
+      bigImg: "talk_big.jpg",
+      year: "2019",
+      type: "personal",
+      shortDesc: "Short Film (EN)",
+      role: "Producer, Director, Writer, Editor",
+      embed: "https://www.youtube.com/embed/o-JR8uytTw8",
+      description:
+        "Talk was a submission which eventually led to my acceptance to AFI conservatory in Los Angeles and Columbia University SOA in New York City. I challenged myself by limiting the cast to one person and the camera frame to one single angle. Joe is played by Tony Gapastione."
     },
     {
       title: "Don't Fall in, Love",

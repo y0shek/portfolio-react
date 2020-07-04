@@ -7,8 +7,10 @@
 
   ul {
     margin: 0;
-    margin-left:40px;
     padding: 0;
+    @media only screen and (min-width: $bp_big) {
+      margin-left:40px;
+    }
     a {
       &:last-child li {
         padding-right: 50px;
@@ -61,6 +63,12 @@
     padding: 8px 30px;
     color: white;
     font-size: 16px;
+    @media only screen and (max-width: $bp_big) and (min-width: $bp_medium) {
+      font-size: 14px;
+    }
+    @media only screen and (max-width: $bp_medium) {
+      font-size: 13px;
+    }
     transition: background-color 0.5s;
     &:hover {
       background-color: $accentRed;

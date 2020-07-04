@@ -513,12 +513,12 @@ const data = {
       ]
     },
     {
-      title: "Graphics, Animations, and Logos",
+      title: "Graphics and Logos",
       img: "graphics.jpg",
       year: "2012-2017",
       type: "promo",
       shortDesc:
-        "Website and Desktop / Mobile Application related Graphics and Animations",
+        "Website and Desktop / Mobile Application related Graphics and Designs",
       role: "Digital Graphic Artist",
       links: [{ title: "Visit Yubico.com", url: "https://www.yubico.com/" }],
       description:
@@ -561,6 +561,19 @@ const data = {
           thumbnail: "https://s15.postimg.cc/d7ic3kke3/equals_title.jpg"
         }
       ]
+    },
+    {
+      title: "Animations",
+      img: "animation.jpg",
+      year: "2020",
+      type: "promo",
+      shortDesc:
+        "Character and Product Animations",
+      bigImg: "yk-speak.gif",
+      role: "Animator",
+      links: [{ title: "Visit Yubico.com", url: "https://www.yubico.com/" }],
+      description:
+        "2D Animated characters and products.",
     }
   ],
   engProjects: [

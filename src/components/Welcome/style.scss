@@ -48,7 +48,7 @@
       padding-top: 120px;
     }
     @media only screen and (max-width: $bp_mobile) {
-      padding: 120px 80px 0 40px;
+      padding: 120px 80px 0 80px;
     }
 
     img {
@@ -99,8 +99,13 @@
     height: 80px;
     border-radius: 50%;
     margin-top: 20px;
+    @media only screen and (max-width: $bp-medium) {
+      margin-bottom: 80px;
+    }
     @media only screen and (max-width: $bp-mobile) {
-      margin-bottom: 20px;
+      margin-bottom: 80px;
+      font-size: 18px;
+      border: 1px dashed white;
     }
     transition: background-color 1s;
     &:hover {

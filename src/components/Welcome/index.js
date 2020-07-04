@@ -26,7 +26,7 @@ export default class Welcome extends React.Component {
             <div id="vid" className="welcome__videoScreen">
               <iframe
                 title="loopingVideo"
-                src="https://www.youtube.com/embed/gJtqZS3W6Qk?mute=1&autoplay=1&loop=1&playlist=3-Yy5-dyK_U&rel=0&showinfo=0&controls=0&autohide=1"
+                src="https://www.youtube.com/embed/gJtqZS3W6Qk?mute=1&autoplay=1&loop=1&playlist=3-Yy5-dyK_U&rel=0&showinfo=0&controls=0&autohide=1&modestbranding=1"
                 frameBorder="0"
                 className="welcome__video"
               />

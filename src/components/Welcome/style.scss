@@ -32,13 +32,16 @@
     text-align: center;
     max-width: 550px;
     margin: 0 auto;
-    padding-top: 250px;
     padding-left: 200px;
     padding-right: 200px;
     padding-bottom:50px;
     @media only screen and (min-width: $bp_super) {
       padding-top: 12vw;
       max-width: 600px;
+    }
+    @media only screen and (max-width: $bp_super) {
+      max-width: 425px;
+      padding-top: 12vw;
     }
     @media only screen and (max-width: $bp_big) {
       max-width: 425px;

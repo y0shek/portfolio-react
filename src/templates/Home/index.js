@@ -37,7 +37,7 @@ export default class Home extends React.Component {
       ) && !window.MSStream;
     const width = window.innerWidth;
     if (!mobile && width > 360) {
-      this.setState({ playing: false });
+      this.setState({ playing: true });
     } else {
       this.setState({ playing: false });
     }

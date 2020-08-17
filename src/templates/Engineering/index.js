@@ -1,7 +1,8 @@
 import React from "react";
 import Section from "../../components/Section";
 import myPic from '../../images/me_prof.jpg';
-import myResume from "../../pdfs/Kellerman_tech_resume_Aug-2020.pdf";
+import myResume from "../../pdfs/website-resume-aug-2020.pdf";
+import { SocialIcon } from "react-social-icons";
 import "./style.css";
 
 export default class Portfolio extends React.Component {
@@ -27,6 +28,10 @@ export default class Portfolio extends React.Component {
           </div>
         </Section>
         <Section theName="eng__projects">
+          <h3><strong>Contact Me</strong></h3>
+          <div className="header__socialIcons">
+              <SocialIcon url="https://www.linkedin.com/in/joshua-m-kellerman-718a1b31/" />
+          </div>
           <h3><strong>Major Projects</strong></h3>
           <h4 style={{"margin-bottom": 0}}>Mosaix.ai NLU Engine - 2019</h4>
           <h5 style={{"margin-top": "10px", "margin-bottom": "10px"}}>Role: Architect / Engineer</h5>
@@ -36,7 +41,7 @@ export default class Portfolio extends React.Component {
               <ul>
                 <li>4000% overall application query throughput</li>
                 <li>Query stability increase to 100%</li>
-                <li>Implemented concurrency: 20 concurrent requests per VM with > 50% reduction in individual query latency</li>
+                <li>Implemented concurrency: 20 concurrent requests per VM with &gt; 50% reduction in individual query latency</li>
               </ul>
             <li>Redesigned for rapid development and growth:</li>
               <ul>

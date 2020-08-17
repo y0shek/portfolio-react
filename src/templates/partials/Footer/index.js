@@ -15,7 +15,7 @@ export default class Footer extends React.Component {
             </a>
             <SocialIcon url="https://www.instagram.com/joshua_kellerman/" />
             <SocialIcon url="https://vimeo.com/socksandsandals" />
-            <SocialIcon url="https://www.linkedin.com/in/joshua-kellerman-718a1b31/" />
+            <SocialIcon url="https://www.linkedin.com/in/joshua-m-kellerman-718a1b31/" />
             <SocialIcon url="https://www.facebook.com/joshua.kellerman" />
             <SocialIcon url="https://github.com/y0shek/" />
           </div>

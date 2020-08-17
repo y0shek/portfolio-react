@@ -29,7 +29,7 @@ export default class Portfolio extends React.Component {
         </Section>
         <Section theName="eng__projects">
           <h3><strong>Contact Me</strong></h3>
-          <div className="header__socialIcons">
+          <div className="eng__socialIcons">
               <SocialIcon url="https://www.linkedin.com/in/joshua-m-kellerman-718a1b31/" />
           </div>
           <h3><strong>Major Projects</strong></h3>

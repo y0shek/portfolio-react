@@ -14,6 +14,7 @@ import Footer from "../partials/Footer";
 import Portfolio from "../Portfolio";
 import Blog from "../Blog";
 import Contact from "../Contact";
+import Engineering from "../Engineering";
 
 const notFound404 = () => (
   <div className="notFound404">
@@ -27,7 +28,7 @@ const notFound404 = () => (
 export default class Home extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { playing: null };
+    this.state = { playing: null, isEngineering: null };
   }
 
   componentDidMount = () => {
@@ -40,6 +41,11 @@ export default class Home extends React.Component {
       this.setState({ playing: true });
     } else {
       this.setState({ playing: false });
+    }
+    if (window.location.pathname.toLowerCase() === "/engineering") {
+      this.setState({isEngineering: true});
+    } else {
+      this.setState({isEngineering: false});
     }
   };
 
@@ -58,7 +64,7 @@ export default class Home extends React.Component {
         <Router>
           <ScrollToTop>
             <div className="router_app">
-              <Header toggleVideo={this.toggleVideo} />
+              { !this.state.isEngineering ? <Header toggleVideo={this.toggleVideo} />  : "" }
               <Switch>
                 <Route
                   exact
@@ -74,6 +80,7 @@ export default class Home extends React.Component {
                 <Redirect from="/stories" to="/blog" />
                 <Route path="/blog" component={Blog} />
                 <Route path="/contact" component={Contact} />
+                <Route path="/engineering" component={Engineering} />
                 <Route path="*" exact={true} component={notFound404} />
               </Switch>
             </div>

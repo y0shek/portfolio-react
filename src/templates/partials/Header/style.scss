@@ -73,3 +73,12 @@
     margin-left:0;
   }
 }
+
+.header__looking-for-engineering{
+  float: right;
+  padding-right: 20px;
+  padding-top:30px;
+  @media only screen and (max-width: 1300px){
+    display:none;
+  }
+}

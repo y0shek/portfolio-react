@@ -40,6 +40,18 @@ const data = {
         "A story about implicit bias, a young couple, and a finance bro. Filmed in the financial district in NYC in December 2019. Super 180s was my first semester capstone directing assignment at Columbia University School of the Arts Film MFA. I wrote it with the guidance of writing professor Jamal Joseph and directed it with the guidance of directing professor Ian Olds. To be released in 2020."
     },
     {
+      title: "Rehearsal",
+      img: "rehearsal.jpg",
+      year: "2020",
+      type: "personal",
+      shortDesc: "Short Film",
+      role: "Director, Writer, Editor",
+      embed: "https://player.vimeo.com/video/449512564", 
+      description:
+        "Emily asks Adrien to accompany her for an upcoming recital. She's got a bigger ask that he doesn't know about. This is the third short exercise I completed for the Columbia Film MFA. Filmed in November 2019 and re-finished post in August 2020."
+    },
+    
+    {
       title: "Glass",
       img: "glass.jpg",
       year: "2020",

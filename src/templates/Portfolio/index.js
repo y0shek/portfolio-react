@@ -44,7 +44,7 @@ const data = {
       img: "rehearsal.jpg",
       year: "2020",
       type: "personal",
-      shortDesc: "Short Film",
+      shortDesc: "Short Film (EN)",
       role: "Director, Writer, Editor",
       embed: "https://player.vimeo.com/video/449512564", 
       description:

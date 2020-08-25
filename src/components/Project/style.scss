@@ -21,9 +21,19 @@
     }
   }
   .project__laurels{
+    display:inline-block;
     .project__laurels__laurel{
       width: 25px;
       margin-right:5px;
+    }
+  }
+
+  .project__wins{
+    display:inline-block;
+    font-size:20px;
+    vertical-align: top;
+    .project__wins__win{
+      margin-right:3px;
     }
   }
 

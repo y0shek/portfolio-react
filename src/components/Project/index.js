@@ -20,6 +20,14 @@ export default class Project extends React.Component {
     this.setState({ showModal: false });
   }
 
+  wins = () => {
+    let winsArr = [];
+    for (var i = 0; i < this.props.data.wins; i++) {
+      winsArr.push(true);
+    }
+    return (<div className='project__wins'>{winsArr.map((obj, i) => (<i key={i} className="fas fa-trophy project__wins__win" ></i>))}</div>);
+  };
+
   laurels = () => {
     const laurelImg = require('../../images/laurels.svg');
     let laurelArr = [];
@@ -48,7 +56,10 @@ export default class Project extends React.Component {
           <p className='project__title'><strong>{this.props.data.title}</strong> ({this.props.data.year})</p>
           <p className='project__shortDesc'>{this.props.data.shortDesc}</p>
           <p className='project__role'>{this.props.data.role}</p>
-          {this.laurels()}
+          <div>
+            {this.wins()}
+            {this.laurels()}
+          </div>
         </div>
         <ReactModal
           isOpen={this.state.showModal}

@@ -11,7 +11,8 @@ const data = {
     {
       title: "En Rose",
       img: "enrose.jpg",
-      laurels: 9,
+      laurels: 6,
+      wins: 3,
       year: "2018",
       type: "personal",
       shortDesc: "Short Film (FR)",
@@ -36,6 +37,7 @@ const data = {
         { title: "IMDB page", url: "https://www.imdb.com/title/tt11646262/" }
       ],
       laurels: 4,
+      wins: 1,
       description:
         "A story about implicit bias, a young couple, and a finance bro. Filmed in the financial district in NYC in December 2019. Super 180s was my first semester capstone directing assignment at Columbia University School of the Arts Film MFA. I wrote it with the guidance of writing professor Jamal Joseph and directed it with the guidance of directing professor Ian Olds. To be released in 2020."
     },

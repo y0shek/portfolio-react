@@ -15,7 +15,7 @@ export default class Portfolio extends React.Component {
 
     return (
       <div className="engineering">
-        <p className = "eng__looking-for-link"><a href = "/" style={{"text-align" : "right"}}>Looking for my artistic portfolio?</a></p>
+        <p className = "eng__looking-for-link"><a href = "/" style={{"text-align" : "right"}}>Looking for my Artistic portfolio?</a></p>
         <Section theName="eng__topCard">
           <div className = "eng__namecard">
             <div className = "eng__namecard__text">

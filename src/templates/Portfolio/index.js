@@ -23,7 +23,7 @@ const data = {
       ],
       embed: "https://player.vimeo.com/video/435219189",
       description:
-        "En Rose was filmed in May-July 2014 in Aix-en-Provence, France. A five-minute cut called Comme ses Parents was released for the cast and crew of 12 in late 2014. Finally released in 2018, a drama about two best friends and a young man who creates a divide between them. French-language film shot on location in Aix-en-Provence. Five festival wins and one official selection. Distributed by Shami Media Group."
+        "En Rose was filmed in May-July 2014 in Aix-en-Provence, France. A five-minute cut called Comme ses Parents was released for the cast and crew of 12 in late 2014. Finally released in 2018, a drama about two best friends and a young man who creates a divide between them. French-language film shot on location in Aix-en-Provence. Three festival wins and six more official selections. Distributed by Shami Media Group."
     }, 
     {
       title: "Super 180s",
@@ -36,8 +36,8 @@ const data = {
       links: [
         { title: "IMDB page", url: "https://www.imdb.com/title/tt11646262/" }
       ],
-      laurels: 4,
-      wins: 1,
+      laurels: 3,
+      wins: 2,
       description:
         "A story about implicit bias, a young couple, and a finance bro. Filmed in the financial district in NYC in December 2019. Super 180s was my first semester capstone directing assignment at Columbia University School of the Arts Film MFA. I wrote it with the guidance of writing professor Jamal Joseph and directed it with the guidance of directing professor Ian Olds. To be released in 2020."
     },
@@ -52,7 +52,6 @@ const data = {
       description:
         "Emily asks Adrien to accompany her for an upcoming recital. She's got a bigger ask that he doesn't know about. This is the third short exercise I completed for the Columbia Film MFA. Filmed in November 2019 and re-finished post in August 2020."
     },
-    
     {
       title: "Glass",
       img: "glass.jpg",

@@ -167,6 +167,20 @@ const data = {
         "Integrated 3D graphics and effects have been a staple of my video storytelling. I have animated and integrated trains, romantic night skies with twinkling stars, logos, and I have even created and animated video game characters for a friend's project."
     },
     {
+      title: 'YubiKey 5C NFC Launch Video',
+      img: "yk5cnfc.jpg",
+      year: "2020",
+      type: "promo",
+      shortDesc: "© 2020 Yubico Inc - Director's Cut",
+      role: "Director, Writer, Editing, Animation",
+      links: [
+        { title: "Visit yubico.com", url: "https://www.yubico.com/" },
+        { title: "Watch the shortened release version", url: "https://www.youtube.com/watch?v=8ykCYFqMuPo"}
+      ],
+      embed: "https://www.youtube.com/embed/JkQn0G_ks-Y",
+      description: "Shot at the Cinema Exchange in Milpitas in July 2020, during COVID."
+    },
+    {
       title: 'YubiEnterprise Delivery Launch Video',
       img: "yubienterprise.jpg",
       year: "2020",

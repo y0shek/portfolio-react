@@ -167,6 +167,19 @@ const data = {
         "Integrated 3D graphics and effects have been a staple of my video storytelling. I have animated and integrated trains, romantic night skies with twinkling stars, logos, and I have even created and animated video game characters for a friend's project."
     },
     {
+      title: 'Introducing the YubiKey 5C NFC',
+      img: "yk5cnfc-short.jpg",
+      year: "2020",
+      type: "promo",
+      shortDesc: "© 2020 Yubico Inc",
+      role: "Animator and Consultant - Messaging and Edit",
+      links: [
+        { title: "Visit yubico.com", url: "https://www.yubico.com/" }
+      ],
+      embed: "https://www.youtube.com/embed/JWjCsQBB7kg",
+      description: "A second simpler release video for the YubiKey 5C NFC: I did the animation and consulted on the messaging, shot selection, and design."
+    },
+    {
       title: 'YubiKey 5C NFC Launch Video',
       img: "yk5cnfc.jpg",
       year: "2020",

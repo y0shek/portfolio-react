@@ -167,6 +167,19 @@ const data = {
         "Integrated 3D graphics and effects have been a staple of my video storytelling. I have animated and integrated trains, romantic night skies with twinkling stars, logos, and I have even created and animated video game characters for a friend's project."
     },
     {
+      title: 'Dolphin Adventure Pilot Episode',
+      img: "edge.jpg",
+      year: "2020",
+      type: "promo",
+      shortDesc: "© 2020 Edge Innovations",
+      role: "Media Producer and Zoom Director",
+      links: [
+        { title: "Visit edgefx.com", url: "https://www.edgefx.com/" }
+      ],
+      bigImg: "edge-big.jpg",
+      description: "Live television - An underwater dolphin adventure for ages 4-9 streamed out on Zoom. Gathered and licensed media and B-Roll and sound effects, set up Zoom Cast infrastructure, and ran the show going out to the world - over 500 classrooms and students attended."
+    },
+    {
       title: 'Introducing the YubiKey 5C NFC',
       img: "yk5cnfc-short.jpg",
       year: "2020",

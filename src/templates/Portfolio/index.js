@@ -58,10 +58,11 @@ const data = {
       year: "2020",
       type: "personal",
       shortDesc: "Short Film",
+      laurels: 1,
       role: "Director, Writer, Editor",
       embed: "https://player.vimeo.com/video/438760465", 
       description:
-        "A whimsical myth of a photographer and a homeless man with a secret. This is the second short exercise I completed for the Columbia Film MFA. Filmed in October 2019 and re-finished post in July 2020."
+        "A whimsical myth of a photographer and a homeless man with a secret. This is the second short exercise I completed for the Columbia Film MFA. Filmed in October 2019 and re-finished post in July 2020. Selected as a OneDumbVideo daily winner 2020."
     },
     {
       title: "Compartmentalize",
@@ -69,10 +70,11 @@ const data = {
       year: "2020",
       type: "personal",
       shortDesc: "Short Film",
+      laurels: 1,
       role: "Director, Writer, Editor",
       embed: "https://player.vimeo.com/video/435194741", 
       description:
-        "A psychological horror short exercise. This is the first short exercise I completed for the Columbia Film MFA. Filmed in October 2019 and re-finished post in July 2020."
+        "A psychological horror short exercise. This is the first short exercise I completed for the Columbia Film MFA. Filmed in October 2019 and re-finished post in July 2020. Selected as a OneDumbVideo daily winner 2020."
     },
     {
       title: "Talk",

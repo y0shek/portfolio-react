@@ -5,6 +5,8 @@ import ProjectList from "../../components/ProjectList";
 
 import "./style.css";
 import skipping from "../../images/skipping.jpg";
+import missingBoards from "../../images/missing-boards.jpg";
+import missingScript from "../../pdfs/confrontation-script.pdf";
 
 const data = {
   videoProjects: [
@@ -24,7 +26,7 @@ const data = {
       embed: "https://player.vimeo.com/video/435219189",
       description:
         "En Rose was filmed in May-July 2014 in Aix-en-Provence, France. A five-minute cut called Comme ses Parents was released for the cast and crew of 12 in late 2014. Finally released in 2018, a drama about two best friends and a young man who creates a divide between them. French-language film shot on location in Aix-en-Provence. Three festival wins and six more official selections. Distributed by Shami Media Group."
-    }, 
+    },
     {
       title: "Super 180s",
       img: "super180s.jpg",
@@ -42,15 +44,15 @@ const data = {
         "A story about implicit bias, a young couple, and a finance bro. Filmed in the financial district in NYC in December 2019. Super 180s was my first semester capstone directing assignment at Columbia University School of the Arts Film MFA. I wrote it with the guidance of writing professor Jamal Joseph and directed it with the guidance of directing professor Ian Olds. To be released in 2020."
     },
     {
-      title: "Rehearsal",
-      img: "rehearsal.jpg",
+      title: "Missing",
+      img: "missing.jpg",
       year: "2020",
       type: "personal",
       shortDesc: "Short Film (EN)",
-      role: "Director, Writer, Editor",
-      embed: "https://player.vimeo.com/video/449512564", 
+      role: "Writer, Director, Cinematographer",
+      embed: "https://player.vimeo.com/video/485766345",
       description:
-        "Emily asks Adrien to accompany her for an upcoming recital. She's got a bigger ask that he doesn't know about. This is the third short exercise I completed for the Columbia Film MFA. Filmed in November 2019 and re-finished post in August 2020."
+        "WIP: A 5-minute film application for AFI Conservatory in LA. Made COVID-safe in November 2020."
     },
     {
       title: "Glass",
@@ -60,9 +62,20 @@ const data = {
       shortDesc: "Short Film",
       laurels: 1,
       role: "Director, Writer, Editor",
-      embed: "https://player.vimeo.com/video/438760465", 
+      embed: "https://player.vimeo.com/video/438760465",
       description:
         "A whimsical myth of a photographer and a homeless man with a secret. This is the second short exercise I completed for the Columbia Film MFA. Filmed in October 2019 and re-finished post in July 2020. Selected as a OneDumbVideo daily winner 2020."
+    },
+    {
+      title: "Rehearsal",
+      img: "rehearsal.jpg",
+      year: "2020",
+      type: "personal",
+      shortDesc: "Short Film (EN)",
+      role: "Director, Writer, Editor",
+      embed: "https://player.vimeo.com/video/449512564",
+      description:
+        "Emily asks Adrien to accompany her for an upcoming recital. She's got a bigger ask that he doesn't know about. This is the third short exercise I completed for the Columbia Film MFA. Filmed in November 2019 and re-finished post in August 2020."
     },
     {
       title: "Compartmentalize",
@@ -72,7 +85,7 @@ const data = {
       shortDesc: "Short Film",
       laurels: 1,
       role: "Director, Writer, Editor",
-      embed: "https://player.vimeo.com/video/435194741", 
+      embed: "https://player.vimeo.com/video/435194741",
       description:
         "A psychological horror short exercise. This is the first short exercise I completed for the Columbia Film MFA. Filmed in October 2019 and re-finished post in July 2020. Selected as a OneDumbVideo daily winner 2020."
     },
@@ -203,7 +216,7 @@ const data = {
       role: "Director, Writer, Editing, Animation",
       links: [
         { title: "Visit yubico.com", url: "https://www.yubico.com/" },
-        { title: "Watch the shortened release version", url: "https://www.youtube.com/watch?v=8ykCYFqMuPo"}
+        { title: "Watch the shortened release version", url: "https://www.youtube.com/watch?v=8ykCYFqMuPo" }
       ],
       embed: "https://www.youtube.com/embed/JkQn0G_ks-Y",
       description: "Shot at the Cinema Exchange in Milpitas in July 2020, during COVID."
@@ -447,8 +460,20 @@ const data = {
         }
       ],
       description:
-        "The most distinguished 2D artists agree that drawing 3D shapes is more closely related to sculpture than to other two-dimensional art forms such as calligraphy. Lighting, shading, pose, composition, and above all, form must be taken into consideration. I have been studying 2D art since I was very young, but I refined it when I attended Tim Decker's Figure Drawing and Animation classes while at UWM Film. See more pieces at my DeviantArt.",
+        "I believe that drawing 3D shapes is more closely related to sculpture than to other two-dimensional art forms such as calligraphy. Lighting, shading, pose, composition, and above all, form must be taken into consideration. I have been studying 2D art since I was very young, but I refined it when I attended Tim Decker's Figure Drawing and Animation classes while at UWM Film. See more pieces at my DeviantArt.",
       gallery: [
+        {
+          original: "https://s15.postimg.cc/v2j6k9sob/girl_apple.jpg",
+          thumbnail: "https://s15.postimg.cc/pd2y0bp6j/girl_apple.jpg"
+        },
+        {
+          original: "https://s15.postimg.cc/av5qrwaln/Cranky.jpg",
+          thumbnail: "https://s15.postimg.cc/k1o1fivd7/Cranky.jpg"
+        },
+        {
+          original: "https://i.postimg.cc/2yB82kWY/frogs.jpg",
+          thumbnail: "https://i.postimg.cc/Lg2psMvQ/frogs.jpg"
+        },
         {
           original: "https://s15.postimg.cc/n9sis9k4b/dancer-latina.jpg",
           thumbnail: "https://s15.postimg.cc/n8ikz6xtn/dancer-latina.jpg"
@@ -456,10 +481,6 @@ const data = {
         {
           original: "https://i.postimg.cc/BQVqZkP6/to-the-village.jpg",
           thumbnail: "https://i.postimg.cc/jLyVZ8X0/to-the-village.jpg"
-        },
-        {
-          original: "https://i.postimg.cc/2yB82kWY/frogs.jpg",
-          thumbnail: "https://i.postimg.cc/Lg2psMvQ/frogs.jpg"
         },
         {
           original: "https://i.postimg.cc/hPf3ZJhT/mlk.jpg",
@@ -512,14 +533,6 @@ const data = {
         {
           original: "https://s15.postimg.cc/czq3t0miz/first-wacom.jpg",
           thumbnail: "https://s15.postimg.cc/vqs13jc23/first-wacom.jpg"
-        },
-        {
-          original: "https://s15.postimg.cc/v2j6k9sob/girl_apple.jpg",
-          thumbnail: "https://s15.postimg.cc/pd2y0bp6j/girl_apple.jpg"
-        },
-        {
-          original: "https://s15.postimg.cc/av5qrwaln/Cranky.jpg",
-          thumbnail: "https://s15.postimg.cc/k1o1fivd7/Cranky.jpg"
         },
         {
           original: "https://s15.postimg.cc/ib50dplgb/diver.jpg",
@@ -580,6 +593,19 @@ const data = {
       ]
     },
     {
+      title: "Animations",
+      img: "animation.jpg",
+      year: "2020",
+      type: "promo",
+      shortDesc:
+        "Character and Product Animations",
+      bigImg: "yk-speak.gif",
+      role: "Animator",
+      links: [{ title: "Visit Yubico.com", url: "https://www.yubico.com/" }],
+      description:
+        "2D Animated characters and products.",
+    },
+    {
       title: "Graphics and Logos",
       img: "graphics.jpg",
       year: "2012-2017",
@@ -628,19 +654,6 @@ const data = {
           thumbnail: "https://s15.postimg.cc/d7ic3kke3/equals_title.jpg"
         }
       ]
-    },
-    {
-      title: "Animations",
-      img: "animation.jpg",
-      year: "2020",
-      type: "promo",
-      shortDesc:
-        "Character and Product Animations",
-      bigImg: "yk-speak.gif",
-      role: "Animator",
-      links: [{ title: "Visit Yubico.com", url: "https://www.yubico.com/" }],
-      description:
-        "2D Animated characters and products.",
     }
   ],
   engProjects: [
@@ -860,7 +873,7 @@ export default class Portfolio extends React.Component {
               </h4>
               <h4 style={{ textAlign: "center", marginTop: "10px" }}>
                 <span className="special_text">
-                 Columbia MFA Film Directing, NYC </span>
+                  Columbia MFA Film Directing (current) </span>
               </h4>
             </blockquote>
             <h4 style={{ textAlign: "center" }}>
@@ -870,6 +883,7 @@ export default class Portfolio extends React.Component {
               </span>
             </h4>
             <div className="portfolio__subnav" ref="subnav">
+              <a onClick={() => this.handleScrollTo("process")}>Process</a>
               <a onClick={() => this.handleScrollTo("film")}>Film</a>
               <a onClick={() => this.handleScrollTo("art")}>2D Art</a>
               <a onClick={() => this.handleScrollTo("eng")}>Engineering</a>
@@ -878,6 +892,24 @@ export default class Portfolio extends React.Component {
               </a>
             </div>
           </div>
+        </Section>
+        <Section
+          theName="Process"
+          style={{ padding: "10px 0 20px 0" }}
+        >
+          <h2 id="process" ref="process">
+            Process
+          </h2>{" "}
+          <hr />
+          <h3 className="special_text">Storyboards from "Missing" (2020)</h3>
+          <div className="portfolio__bannerImg">
+            <a href={missingBoards} target="_blank"><img alt="Storyboards for Missing" src={missingBoards} /></a>
+          </div>
+          <p>
+            To demonstrate a little bit of my process, I'd like to show you my storyboards from a short film I just completed called "Missing" (see final film below).
+            It was during this storyboarding phase that I took the <a href={missingScript} target="_blank" style={{ marginLeft: 0, fontSize: 17 }}>original script</a> and tried out the basic phrasing of the story, to make sure that all the emotional beats hit correctly.
+            Even with this careful plotting, I still ended up adding what was arguably the most important shot and feeling by finding the story with my actors on set.
+          </p>
         </Section>
         <Section
           theName="Film, Animation, and Video"

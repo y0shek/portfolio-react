@@ -50,10 +50,11 @@ const data = {
       type: "personal",
       shortDesc: "Short Film (EN)",
       role: "Writer, Director, Cinematographer",
-      embed: "https://player.vimeo.com/video/485766345",
+      embed: "https://player.vimeo.com/video/501150588",
       description:
         "WIP: A 5-minute film application for AFI Conservatory in LA. Made COVID-safe in November 2020."
     },
+
     {
       title: "Glass",
       img: "glass.jpg",
@@ -599,11 +600,24 @@ const data = {
       type: "promo",
       shortDesc:
         "Character and Product Animations",
-      bigImg: "yk-speak.gif",
       role: "Animator",
       links: [{ title: "Visit Yubico.com", url: "https://www.yubico.com/" }],
       description:
         "2D Animated characters and products.",
+      gallery: [
+        {
+          original: "https://i.postimg.cc/hjhBgTjx/yk-speak.gif",
+          thumbnail: "https://i.postimg.cc/YGcVz4Qq/yk-speak.gif"
+        },
+        {
+          original: "https://i.postimg.cc/W48Nss7R/anim-board-02.jpg",
+          thumbnail: "https://i.postimg.cc/mccfwfqV/anim-board-02.jpg"
+        },
+        {
+          original: "https://i.postimg.cc/hvfPCNxk/anim-board-01.jpg",
+          thumbnail: "https://i.postimg.cc/QKZ3C4fm/anim-board-01.jpg"
+        }
+      ]
     },
     {
       title: "Graphics and Logos",
@@ -657,6 +671,17 @@ const data = {
     }
   ],
   engProjects: [
+    {
+      title: "Twitter Reporting Flow Architecture Migration",
+      img: "mosaix.jpg",
+      year: "2020-2021",
+      type: "promo",
+      shortDesc: "Full-Stack Reporting Flow Arch Migration",
+      role: "Sr. Scala Engineer",
+      links: [{ title: "Visit twitter.com", url: "https://www.twitter.com/" }],
+      description:
+        "I joined the Health and User Experience team at Twitter to help out during the U.S. presidential transition in 2021. I took a nine month contract during the pandemic so I could go back to school in August 2021."
+    },
     {
       title: "Mosaix.ai",
       img: "mosaix.jpg",
@@ -739,7 +764,7 @@ const data = {
       ]
     },
     {
-      title: "Literature B.A. from UW-Madison",
+      title: "English Literature B.A. from UW-Madison",
       img: "uw.jpg",
       year: "2011-2013",
       shortDesc: "Attended UW-Madison for English and Computer Science",
@@ -751,7 +776,7 @@ const data = {
       ]
     },
     {
-      title: "Animation and Film at UW-Milwaukee PSOA",
+      title: "3 Years of Animation and Film Studies at UW-Milwaukee PSOA",
       img: "uwm.jpg",
       year: "2008-2010",
       shortDesc: "Attended UW-Milwaukee for Film, Animation, and Puppetry",

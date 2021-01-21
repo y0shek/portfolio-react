@@ -1,5 +1,6 @@
 import React from "react";
 import titlePic from "../../images/story.png";
+import YouTube from "react-youtube";
 import "./style.css";
 
 export default class Welcome extends React.Component {
@@ -18,19 +19,19 @@ export default class Welcome extends React.Component {
       /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
         navigator.userAgent
       ) && !window.MSStream;
+    const opts = {
+      playerVars: {
+        autoplay: 1,
+        loop: 1
+      }
+    }
     return (
       <div id="welcome" className="welcome">
         {this.props.playing && (
           <div>
             <div className="welcome__videoCover" />
             <div id="vid" className="welcome__videoScreen">
-              <iframe
-                title="loopingVideo"
-                type="text/html"
-                src="https://www.youtube.com/embed/gJtqZS3W6Qk?controls=0&autoplay=1&loopPlaylists=true"
-                frameBorder="0"
-                className="welcome__video"
-              />
+              <YouTube videoId="gJtqZS3W6Qk" className="welcome__video" opts={opts}></YouTube>
             </div>
           </div>
         )}

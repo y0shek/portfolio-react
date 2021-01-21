@@ -32,20 +32,11 @@ export default class Home extends React.Component {
   }
 
   componentDidMount = () => {
-    const mobile =
-      /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/.test(
-        navigator.userAgent
-      ) && !window.MSStream;
-    const width = window.innerWidth;
-    if (!mobile && width > 360) {
-      this.setState({ playing: true });
-    } else {
-      this.setState({ playing: false });
-    }
+    this.setState({ playing: false });
     if (window.location.pathname.toLowerCase() === "/engineering") {
-      this.setState({isEngineering: true});
+      this.setState({ isEngineering: true });
     } else {
-      this.setState({isEngineering: false});
+      this.setState({ isEngineering: false });
     }
   };
 
@@ -64,7 +55,7 @@ export default class Home extends React.Component {
         <Router>
           <ScrollToTop>
             <div className="router_app">
-              { !this.state.isEngineering ? <Header toggleVideo={this.toggleVideo} />  : "" }
+              {!this.state.isEngineering ? <Header toggleVideo={this.toggleVideo} /> : ""}
               <Switch>
                 <Route
                   exact

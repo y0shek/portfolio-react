@@ -26,7 +26,8 @@ export default class Welcome extends React.Component {
             <div id="vid" className="welcome__videoScreen">
               <iframe
                 title="loopingVideo"
-                src="https://www.youtube.com/embed/gJtqZS3W6Qk?mute=1&autoplay=1&loop=1&playlist=3-Yy5-dyK_U&rel=0&showinfo=0&controls=0&autohide=1&modestbranding=1"
+                type="text/html"
+                src="https://www.youtube.com/embed/gJtqZS3W6Qk?controls=0&autoplay=1&loopPlaylists=true"
                 frameBorder="0"
                 className="welcome__video"
               />
@@ -43,12 +44,12 @@ export default class Welcome extends React.Component {
                   <p>Stop Video</p>
                 </div>
               ) : (
-                <div>
-                  <i className="fas fa-play-circle" />
-                  <br />
-                  <p>Play Video</p>
-                </div>
-              )}
+                  <div>
+                    <i className="fas fa-play-circle" />
+                    <br />
+                    <p>Play Video</p>
+                  </div>
+                )}
             </button>
           </div>
         )}

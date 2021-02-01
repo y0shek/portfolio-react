@@ -476,12 +476,16 @@ const data = {
           thumbnail: "https://i.postimg.cc/Lg2psMvQ/frogs.jpg"
         },
         {
-          original: "https://s15.postimg.cc/n9sis9k4b/dancer-latina.jpg",
-          thumbnail: "https://s15.postimg.cc/n8ikz6xtn/dancer-latina.jpg"
-        },
-        {
           original: "https://i.postimg.cc/BQVqZkP6/to-the-village.jpg",
           thumbnail: "https://i.postimg.cc/jLyVZ8X0/to-the-village.jpg"
+        },
+        {
+          original: "https://i.postimg.cc/1tHBDxzq/Couple-at-Night-in-the-Alps.jpg",
+          thumbnail: "https://i.postimg.cc/47YpTSVf/Couple-at-Night-in-the-Alps.jpg"
+        },
+        {
+          original: "https://s15.postimg.cc/n9sis9k4b/dancer-latina.jpg",
+          thumbnail: "https://s15.postimg.cc/n8ikz6xtn/dancer-latina.jpg"
         },
         {
           original: "https://i.postimg.cc/hPf3ZJhT/mlk.jpg",

@@ -610,6 +610,10 @@ const data = {
         "2D Animated characters and products.",
       gallery: [
         {
+          original: "https://i.postimg.cc/zBbtZ2Db/IMG-2492.gif",
+          thumbnail: "https://i.postimg.cc/k6CFWcbq/IMG-2492.gif"
+        },
+        {
           original: "https://i.postimg.cc/hjhBgTjx/yk-speak.gif",
           thumbnail: "https://i.postimg.cc/YGcVz4Qq/yk-speak.gif"
         },

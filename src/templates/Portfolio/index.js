@@ -681,7 +681,7 @@ const data = {
   engProjects: [
     {
       title: "Twitter Reporting Flow Architecture Migration",
-      img: "mosaix.jpg",
+      img: "reportflow.jpg",
       year: "2020-2021",
       type: "promo",
       shortDesc: "Full-Stack Reporting Flow Arch Migration",

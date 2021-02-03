@@ -480,8 +480,8 @@ const data = {
           thumbnail: "https://i.postimg.cc/jLyVZ8X0/to-the-village.jpg"
         },
         {
-          original: "https://i.postimg.cc/1tHBDxzq/Couple-at-Night-in-the-Alps.jpg",
-          thumbnail: "https://i.postimg.cc/47YpTSVf/Couple-at-Night-in-the-Alps.jpg"
+          original: "https://i.postimg.cc/J4wjYd70/Couple-at-Night-in-the-Alps.jpg",
+          thumbnail: "https://i.postimg.cc/z3jLV7gY/Couple-at-Night-in-the-Alps.jpg"
         },
         {
           original: "https://s15.postimg.cc/n9sis9k4b/dancer-latina.jpg",

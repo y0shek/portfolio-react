@@ -30,29 +30,29 @@ const data = {
     {
       title: "Super 180s",
       img: "super180s.jpg",
-      bigImg: "super180s_big.jpg",
       year: "2020",
       type: "personal",
       shortDesc: "Short Film (EN)",
       role: "Director, Writer, Editor",
+      embed: "https://player.vimeo.com/video/513660162",
       links: [
         { title: "IMDB page", url: "https://www.imdb.com/title/tt11646262/" }
       ],
       laurels: 3,
       wins: 2,
       description:
-        "A story about implicit bias, a young couple, and a finance bro. Filmed in the financial district in NYC in December 2019. Super 180s was my first semester capstone directing assignment at Columbia University School of the Arts Film MFA. I wrote it with the guidance of writing professor Jamal Joseph and directed it with the guidance of directing professor Ian Olds. To be released in 2020."
+        "A story about implicit bias, a young couple, and a finance bro. Filmed in the financial district in NYC in December 2019. Super 180s was my first semester capstone directing assignment at Columbia University School of the Arts Film MFA. I wrote it with the guidance of writing professor Jamal Joseph and directed it with the guidance of directing professor Ian Olds."
     },
     {
       title: "Missing",
       img: "missing.jpg",
-      year: "2020",
+      year: "2021",
       type: "personal",
       shortDesc: "Short Film (EN)",
       role: "Writer, Director, Cinematographer",
       embed: "https://player.vimeo.com/video/501150588",
       description:
-        "WIP: A 5-minute film application for AFI Conservatory in LA. Made COVID-safe in November 2020."
+        "A young girl delivers a bitter message across a beautiful park."
     },
 
     {
@@ -916,7 +916,6 @@ export default class Portfolio extends React.Component {
               </span>
             </h4>
             <div className="portfolio__subnav" ref="subnav">
-              <a onClick={() => this.handleScrollTo("process")}>Process</a>
               <a onClick={() => this.handleScrollTo("film")}>Film</a>
               <a onClick={() => this.handleScrollTo("art")}>2D Art</a>
               <a onClick={() => this.handleScrollTo("eng")}>Engineering</a>
@@ -925,24 +924,6 @@ export default class Portfolio extends React.Component {
               </a>
             </div>
           </div>
-        </Section>
-        <Section
-          theName="Process"
-          style={{ padding: "10px 0 20px 0" }}
-        >
-          <h2 id="process" ref="process">
-            Process
-          </h2>{" "}
-          <hr />
-          <h3 className="special_text">Storyboards from "Missing" (2020)</h3>
-          <div className="portfolio__bannerImg">
-            <a href={missingBoards} target="_blank"><img alt="Storyboards for Missing" src={missingBoards} /></a>
-          </div>
-          <p>
-            To demonstrate a little bit of my process, I'd like to show you my storyboards from a short film I just completed called "Missing" (see final film below).
-            It was during this storyboarding phase that I took the <a href={missingScript} target="_blank" style={{ marginLeft: 0, fontSize: 17 }}>original script</a> and tried out the basic phrasing of the story, to make sure that all the emotional beats hit correctly.
-            Even with this careful plotting, I still ended up adding what was arguably the most important shot and feeling by finding the story with my actors on set.
-          </p>
         </Section>
         <Section
           theName="Film, Animation, and Video"

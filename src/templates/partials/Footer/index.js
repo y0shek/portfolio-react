@@ -20,7 +20,7 @@ export default class Footer extends React.Component {
             <SocialIcon url="https://github.com/y0shek/" />
           </div>
           <div className="footer__copyright">
-            <p style={{ margin: 0 }}>© 2020 Joshua M Kellerman</p>
+            <p style={{ margin: 0 }}>© 2021 Joshua M Kellerman</p>
             <p style={{ margin: "10px 0 0 0" }}>Created using React.js, FontAwesome, React Social Icons, and React Image Gallery</p>
           </div>
         </div>

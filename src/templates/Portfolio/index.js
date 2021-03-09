@@ -5,8 +5,6 @@ import ProjectList from "../../components/ProjectList";
 
 import "./style.css";
 import skipping from "../../images/skipping.jpg";
-import missingBoards from "../../images/missing-boards.jpg";
-import missingScript from "../../pdfs/confrontation-script.pdf";
 
 const data = {
   videoProjects: [
@@ -181,6 +179,19 @@ const data = {
       embed: "https://www.youtube.com/embed/9wv-IJ664yg",
       description:
         "Integrated 3D graphics and effects have been a staple of my video storytelling. I have animated and integrated trains, romantic night skies with twinkling stars, logos, and I have even created and animated video game characters for a friend's project."
+    },
+    {
+      title: 'Home To Me Is',
+      img: "home.jpg",
+      year: "2021",
+      type: "promo",
+      shortDesc: "© 2021 Reimagine Well",
+      role: "Writer and Director",
+      links: [
+        { title: "Visit reimaginewell.com", url: "https://reimaginewell.com/" }
+      ],
+      bigImg: "home-big.jpg",
+      description: "A 20-minute long found-footage narrative film, intended for therapeutic use in a clinical setting. Written and directed over two months, artistically guided by Roger Holzberg and Doug Weiser."
     },
     {
       title: 'Dolphin Adventure Pilot Episode',
@@ -464,12 +475,12 @@ const data = {
         "I believe that drawing 3D shapes is more closely related to sculpture than to other two-dimensional art forms such as calligraphy. Lighting, shading, pose, composition, and above all, form must be taken into consideration. I have been studying 2D art since I was very young, but I refined it when I attended Tim Decker's Figure Drawing and Animation classes while at UWM Film. See more pieces at my DeviantArt.",
       gallery: [
         {
-          original: "https://s15.postimg.cc/v2j6k9sob/girl_apple.jpg",
-          thumbnail: "https://s15.postimg.cc/pd2y0bp6j/girl_apple.jpg"
+          original: "https://i.postimg.cc/J4wjYd70/Couple-at-Night-in-the-Alps.jpg",
+          thumbnail: "https://i.postimg.cc/z3jLV7gY/Couple-at-Night-in-the-Alps.jpg"
         },
         {
-          original: "https://s15.postimg.cc/av5qrwaln/Cranky.jpg",
-          thumbnail: "https://s15.postimg.cc/k1o1fivd7/Cranky.jpg"
+          original: "https://s15.postimg.cc/v2j6k9sob/girl_apple.jpg",
+          thumbnail: "https://s15.postimg.cc/pd2y0bp6j/girl_apple.jpg"
         },
         {
           original: "https://i.postimg.cc/2yB82kWY/frogs.jpg",
@@ -478,10 +489,6 @@ const data = {
         {
           original: "https://i.postimg.cc/BQVqZkP6/to-the-village.jpg",
           thumbnail: "https://i.postimg.cc/jLyVZ8X0/to-the-village.jpg"
-        },
-        {
-          original: "https://i.postimg.cc/J4wjYd70/Couple-at-Night-in-the-Alps.jpg",
-          thumbnail: "https://i.postimg.cc/z3jLV7gY/Couple-at-Night-in-the-Alps.jpg"
         },
         {
           original: "https://s15.postimg.cc/n9sis9k4b/dancer-latina.jpg",
@@ -502,6 +509,10 @@ const data = {
         {
           original: "https://i.postimg.cc/YSBkQvQf/prussian.jpg",
           thumbnail: "https://i.postimg.cc/PCyBjr3P/prussian.jpg"
+        },
+        {
+          original: "https://s15.postimg.cc/av5qrwaln/Cranky.jpg",
+          thumbnail: "https://s15.postimg.cc/k1o1fivd7/Cranky.jpg"
         },
         {
           original: "https://i.postimg.cc/mr850JHv/poverty.jpg",

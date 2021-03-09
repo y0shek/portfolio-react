@@ -29,7 +29,7 @@ export default class Project extends React.Component {
   };
 
   laurels = () => {
-    const laurelImg = require('../../images/laurels.svg');
+    const laurelImg = require('../../images/laurels.svg').default;
     let laurelArr = [];
     for (var i = 0; i < this.props.data.laurels; i++) {
       laurelArr.push(true);
@@ -41,10 +41,10 @@ export default class Project extends React.Component {
     let projImg = '';
     let bigProjImg = '';
     if (this.props.data.img !== null && this.props.data.img !== '') {
-      projImg = require('../../images/projects/' + this.props.data.img);
+      projImg = require('../../images/projects/' + this.props.data.img).default;
     }
     if (!this.props.data.embed && this.props.data.bigImg) {
-      bigProjImg = require('../../images/projects/' + this.props.data.bigImg);
+      bigProjImg = require('../../images/projects/' + this.props.data.bigImg).default;
     }
 
     const el = document.getElementById('root');

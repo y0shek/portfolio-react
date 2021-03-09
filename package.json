@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.14.0",
+    "@fortawesome/fontawesome-free": "^5.15.2",
     "lodash.debounce": "^4.0.8",
     "lodash.throttle": "^4.1.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "react-images": "^1.1.7",
-    "react-scripts": "^3.4.3"
+    "react-scripts": "^4.0.3"
   },
   "scripts": {
     "build-css": "node-sass-chokidar src/ -o src/",
@@ -26,10 +26,10 @@
     "node-sass-chokidar": "^1.5.0",
     "react-hero-video": "^0.1.1",
     "react-image-gallery": "^0.8.18",
-    "react-modal": "^3.11.2",
+    "react-modal": "^3.12.1",
     "react-router-dom": "^4.3.1",
     "react-social-icons": "^3.1.0",
-    "react-youtube": "^7.13.0",
+    "react-youtube": "^7.13.1",
     "sass-loader": "^7.1.0"
   },
   "browserslist": {

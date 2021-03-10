@@ -26,6 +26,17 @@ const data = {
         "En Rose was filmed in May-July 2014 in Aix-en-Provence, France. A five-minute cut called Comme ses Parents was released for the cast and crew of 12 in late 2014. Finally released in 2018, a drama about two best friends and a young man who creates a divide between them. French-language film shot on location in Aix-en-Provence. Three festival wins and six more official selections. Distributed by Shami Media Group."
     },
     {
+      title: "Missing",
+      img: "missing.jpg",
+      year: "2021",
+      type: "personal",
+      shortDesc: "Short Film (EN)",
+      role: "Writer, Director, Cinematographer",
+      embed: "https://player.vimeo.com/video/501150588",
+      description:
+        "A young girl delivers a bitter message across a beautiful park."
+    },
+    {
       title: "Super 180s",
       img: "super180s.jpg",
       year: "2020",
@@ -42,17 +53,16 @@ const data = {
         "A story about implicit bias, a young couple, and a finance bro. Filmed in the financial district in NYC in December 2019. Super 180s was my first semester capstone directing assignment at Columbia University School of the Arts Film MFA. I wrote it with the guidance of writing professor Jamal Joseph and directed it with the guidance of directing professor Ian Olds."
     },
     {
-      title: "Missing",
-      img: "missing.jpg",
-      year: "2021",
+      title: "Safe and Sound",
+      img: "safe-and-sound.jpg",
+      year: "2020",
       type: "personal",
-      shortDesc: "Short Film (EN)",
-      role: "Writer, Director, Cinematographer",
-      embed: "https://player.vimeo.com/video/501150588",
+      shortDesc: "Short Film",
+      role: "Cinematographer",
+      embed: "https://player.vimeo.com/video/386108542",
       description:
-        "A young girl delivers a bitter message across a beautiful park."
+        "John becomes obsessed with all the sounds around him and as his behavior worsens, so does his personal life. Dir. Camille Hamadé"
     },
-
     {
       title: "Glass",
       img: "glass.jpg",

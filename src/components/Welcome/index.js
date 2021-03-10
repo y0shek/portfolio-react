@@ -27,6 +27,7 @@ export default class Welcome extends React.Component {
         controls: 0
       }
     }
+    if (this.props.playing && mobile) this.props.toggleVideo()
     return (
       <div id="welcome" className="welcome">
         {this.props.playing && (

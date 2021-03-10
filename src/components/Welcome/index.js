@@ -22,7 +22,9 @@ export default class Welcome extends React.Component {
     const opts = {
       playerVars: {
         autoplay: 1,
-        loop: 1
+        loop: 1,
+        mute: 1,
+        controls: 0
       }
     }
     return (
@@ -31,7 +33,7 @@ export default class Welcome extends React.Component {
           <div>
             <div className="welcome__videoCover" />
             <div id="vid" className="welcome__videoScreen">
-              <YouTube videoId="gJtqZS3W6Qk" className="welcome__video" opts={opts}></YouTube>
+              <YouTube videoId="gJtqZS3W6Qk" className="welcome__video" opts={opts} ></YouTube>
             </div>
           </div>
         )}
@@ -45,12 +47,12 @@ export default class Welcome extends React.Component {
                   <p>Stop Video</p>
                 </div>
               ) : (
-                  <div>
-                    <i className="fas fa-play-circle" />
-                    <br />
-                    <p>Play Video</p>
-                  </div>
-                )}
+                <div>
+                  <i className="fas fa-play-circle" />
+                  <br />
+                  <p>Play Video</p>
+                </div>
+              )}
             </button>
           </div>
         )}

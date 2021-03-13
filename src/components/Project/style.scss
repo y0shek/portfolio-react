@@ -3,7 +3,7 @@
 
 .project{
   width: 350px;
-  min-height: 420px;
+  min-height: 380px;
   vertical-align: top;
   display: inline-block;
   background-color: $lightGray;
@@ -21,7 +21,7 @@
     }
   }
   .project__laurels{
-    display:inline-block;
+    display:none;
     .project__laurels__laurel{
       width: 25px;
       margin-right:5px;
@@ -29,7 +29,7 @@
   }
 
   .project__wins{
-    display:inline-block;
+    display:none;
     font-size:20px;
     vertical-align: top;
     .project__wins__win{

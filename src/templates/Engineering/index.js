@@ -36,9 +36,16 @@ export default class Portfolio extends React.Component {
           <h4 style={{ "margin-bottom": 0 }}>Twitter Report Flow New Architecture Migration - 2020/2021</h4>
           <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>Role: Sr. Scala Engineer</h5>
           <ul>
+            <li>Twitter Safety Mode Lead Backend Engineer</li>
+            <ul>
+              <li>Designed and implemented a generalized Socialgraph edge TTL system in Kafka, Twitter Strato, and Thrift, for Smartblocking expirations</li>
+              <li>Designed and implemented the Twitter Safetymode Smartblocking User timeline with help from the Socialgraph team</li>
+            </ul>
             <li>Migrated entities on the full-stack HUX reporting flow for Twitter.</li>
-            <ul>Migrated reportflow for Twitter Lists</ul>
-            <ul>Migrated reportflow for Twitter Moments</ul>
+            <ul>
+              <li>Migrated reportflow for Twitter Lists</li>
+              <li>Migrated reportflow for Twitter Moments</li>
+            </ul>
           </ul>
           <h4 style={{ "margin-bottom": 0 }}>Mosaix.ai NLU Engine - 2019</h4>
           <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>Role: Architect / Engineer</h5>

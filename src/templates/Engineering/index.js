@@ -41,10 +41,10 @@ export default class Portfolio extends React.Component {
               <li>Designed and implemented a generalized Socialgraph edge TTL system in Kafka, Twitter Strato, and Thrift, for Smartblocking expirations</li>
               <li>Designed and implemented the Twitter Safetymode Smartblocking User timeline with help from the Socialgraph team</li>
             </ul>
-            <li>Migrated entities on the full-stack HUX reporting flow for Twitter.</li>
+            <li>Migrated entities on the full-stack HUX user reporting flow</li>
             <ul>
-              <li>Migrated reportflow for Twitter Lists</li>
-              <li>Migrated reportflow for Twitter Moments</li>
+              <li>Migrated report flow for Twitter Lists, Moments, and Profiles</li>
+              <li>Created official documentation for the new report flow architecture</li>
             </ul>
           </ul>
           <h4 style={{ "margin-bottom": 0 }}>Mosaix.ai NLU Engine - 2019</h4>

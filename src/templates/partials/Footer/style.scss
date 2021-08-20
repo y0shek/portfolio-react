@@ -47,6 +47,11 @@
   & :first-child{
     margin-left: 0px;
   }
+  & :last-child[aria-label=github] {
+    g.social-svg-mask{
+      fill: lightgrey !important;
+  }
+  }
 }
 
 .footer__copyright{

@@ -180,17 +180,6 @@ const data = {
         "Purpose is a 90-second hand-drawn and hand-colored animation produced in Tim Decker's advanced animation class in Fall, 2010. It was nominated for best short animation in UWM's first Animation film festival."
     },
     {
-      title: "3D Animation and Effects Reel",
-      img: "3d.jpg",
-      year: "2015",
-      type: "personal",
-      shortDesc: "3D Animation and Effects Reel",
-      role: "Animator, Rigger",
-      embed: "https://www.youtube.com/embed/9wv-IJ664yg",
-      description:
-        "Integrated 3D graphics and effects have been a staple of my video storytelling. I have animated and integrated trains, romantic night skies with twinkling stars, logos, and I have even created and animated video game characters for a friend's project."
-    },
-    {
       title: 'Home To Me Is',
       img: "home.jpg",
       year: "2021",
@@ -460,6 +449,17 @@ const data = {
         }
       ],
       description: "Made by students at the Business school at UW-Madison."
+    },
+    {
+      title: "3D Animation and Effects Reel",
+      img: "3d.jpg",
+      year: "2015",
+      type: "promo",
+      shortDesc: "3D Animation and Effects Reel",
+      role: "Animator, Rigger",
+      embed: "https://www.youtube.com/embed/9wv-IJ664yg",
+      description:
+        "Integrated 3D graphics and effects have been a staple of my video storytelling. I have animated and integrated trains, romantic night skies with twinkling stars, logos, and I have even created and animated video game characters for a friend's project."
     }
   ],
   graphicProjects: [
@@ -954,7 +954,7 @@ export default class Portfolio extends React.Component {
             Film, Animation, and Video
           </h2>{" "}
           <hr />
-          <h3 className="special_text">Artistic</h3>
+          <h3 className="special_text">Narrative</h3>
           <ProjectList
             id="personal"
             projects={data.videoProjects.filter(project => {

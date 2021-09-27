@@ -201,7 +201,9 @@ const data = {
       role: "Media Producer and Zoom Director",
       links: [
         {
-          title: "Visit edgefx.com", url: "https://www.edgefx.com/",
+          title: "Visit edgefx.com", url: "https://www.edgefx.com/"
+        },
+        {
           title: "Watch the episode on Youtube", url: "https://www.youtube.com/watch?v=vcVRY5q_QmQ"
         }
       ],

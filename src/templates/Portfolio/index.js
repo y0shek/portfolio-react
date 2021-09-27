@@ -200,9 +200,12 @@ const data = {
       shortDesc: "© 2020 Edge Innovations",
       role: "Media Producer and Zoom Director",
       links: [
-        { title: "Visit edgefx.com", url: "https://www.edgefx.com/" }
+        {
+          title: "Visit edgefx.com", url: "https://www.edgefx.com/",
+          title: "Watch the episode on Youtube", url: "https://www.youtube.com/watch?v=vcVRY5q_QmQ"
+        }
       ],
-      embed: "https://www.youtube.com/watch?v=vcVRY5q_QmQ",
+      bigImg: "edge-big.jpg",
       description: "Live television - An underwater dolphin adventure for ages 4-9 streamed out on Zoom. Gathered and licensed media and B-Roll and sound effects, set up Zoom Cast infrastructure, and ran the show going out to the world - over 500 classrooms and students attended."
     },
     {

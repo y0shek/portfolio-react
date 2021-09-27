@@ -202,7 +202,7 @@ const data = {
       links: [
         { title: "Visit edgefx.com", url: "https://www.edgefx.com/" }
       ],
-      bigImg: "edge-big.jpg",
+      embed: "https://www.youtube.com/watch?v=vcVRY5q_QmQ",
       description: "Live television - An underwater dolphin adventure for ages 4-9 streamed out on Zoom. Gathered and licensed media and B-Roll and sound effects, set up Zoom Cast infrastructure, and ran the show going out to the world - over 500 classrooms and students attended."
     },
     {

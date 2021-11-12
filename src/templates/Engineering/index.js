@@ -33,7 +33,7 @@ export default class Portfolio extends React.Component {
             <SocialIcon url="https://www.linkedin.com/in/joshua-m-kellerman-718a1b31/" />
           </div>
           <h3><strong>Major Projects</strong></h3>
-          <h4 style={{ "margin-bottom": 0 }}>Twitter Report Flow New Architecture Migration - 2020/2021</h4>
+          <h4 style={{ "margin-bottom": 0 }}>Twitter Safety Mode - 2021</h4>
           <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>Role: Sr. Scala Engineer</h5>
           <ul>
             <li>Twitter Safety Mode Lead Backend Engineer</li>
@@ -41,6 +41,10 @@ export default class Portfolio extends React.Component {
               <li>Designed and implemented a generalized Socialgraph edge TTL system in Kafka, Twitter Strato, and Thrift, for Smartblocking expirations</li>
               <li>Designed and implemented the Twitter Safetymode Smartblocking User timeline with help from the Socialgraph team</li>
             </ul>
+          </ul>
+          <h4 style={{ "margin-bottom": 0 }}>Twitter Report Flow New Architecture Migration - 2020/2021</h4>
+          <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>Role: Sr. Scala Engineer</h5>
+          <ul>
             <li>Migrated entities on the full-stack HUX user reporting flow</li>
             <ul>
               <li>Migrated report flow for Twitter Lists, Moments, and Profiles</li>

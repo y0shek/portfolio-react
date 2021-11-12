@@ -12,7 +12,7 @@ export default class Blog extends React.Component {
   }
 
   componentWillMount = async () => {
-    let response = await fetch(`https://wp.joshuamk.com/wp-json/wp/v2/posts/?filter[posts_per_page]=-1`);
+    let response = await fetch(`https://wp.joshuamk.com/wp-json/wp/v2/posts/?per_page=100`);
     let data = await response.json();
     this.setState({ posts: data });
   }

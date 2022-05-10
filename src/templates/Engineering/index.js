@@ -33,6 +33,14 @@ export default class Portfolio extends React.Component {
             <SocialIcon url="https://www.linkedin.com/in/joshua-m-kellerman-718a1b31/" />
           </div>
           <h3><strong>Major Projects</strong></h3>
+          <h4 style={{ "margin-bottom": 0 }}>Twitter SRE / PDP Team - 2022</h4>
+          <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>Role: Sr. Full-Stack Engineer</h5>
+          <ul>
+            <li>Twitter Health Deployment Tracker Dashboard</li>
+            <ul>
+              <li>Designed and implemented a dashboard in Python, React, and Redux for generating per-team high-priority Deployment and Workflows KPIs across the Twitter Health ogranization.</li>
+            </ul>
+          </ul>
           <h4 style={{ "margin-bottom": 0 }}>Twitter Safety Mode - 2021</h4>
           <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>Role: Sr. Scala Engineer</h5>
           <ul>

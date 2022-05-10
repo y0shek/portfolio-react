@@ -9,6 +9,20 @@ import skipping from "../../images/skipping.jpg";
 const data = {
   videoProjects: [
     {
+      title: "Good Mother Good Daughter",
+      img: "gmgd.jpg",
+      year: "2022",
+      type: "personal",
+      shortDesc: "Short Film",
+      role: "Director, Writer, Editor",
+      links: [
+        { title: "IMDB page", url: "https://www.imdb.com/title/tt19813834/" }
+      ],
+      bigImg: "gmgd-big.jpg",
+      description:
+        "Good Mother Good Daughter was filmed in NYC in partial completion of a degree at the Columbia University School of the Arts Film MFA program. TBR 2022."
+    },
+    {
       title: "En Rose",
       img: "enrose.jpg",
       laurels: 6,
@@ -706,15 +720,15 @@ const data = {
   ],
   engProjects: [
     {
-      title: "Twitter Reporting Flow Architecture Migration",
+      title: "Twitter: Health Org",
       img: "reportflow.jpg",
-      year: "2020-2021",
+      year: "2020-2022",
       type: "promo",
-      shortDesc: "Full-Stack Reporting Flow Arch Migration",
-      role: "Sr. Scala Engineer",
+      shortDesc: "Full-Stack Engineer working on a variety of projects",
+      role: "Sr. Scala, Python, and React Engineer",
       links: [{ title: "Visit twitter.com", url: "https://www.twitter.com/" }],
       description:
-        "I joined the Health and User Experience team at Twitter to help out during the U.S. presidential transition in 2021. I took a nine month contract during the pandemic so I could go back to school in August 2021."
+        "I joined the Health and User Experience team at Twitter to help out during the U.S. presidential transition in 2021. Since joining, I have worked on various projects in the Health org, including the reporting flow, safety mode, safety ML, and SRE. A great place to work!"
     },
     {
       title: "Mosaix.ai",

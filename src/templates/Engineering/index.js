@@ -1,7 +1,7 @@
 import React from "react";
 import Section from "../../components/Section";
 import myPic from '../../images/me_prof.jpg';
-import myResume from "../../pdfs/website-resume-aug-2020.pdf";
+import myResume from "../../pdfs/website-resume.pdf";
 import { SocialIcon } from "react-social-icons";
 import "./style.css";
 
@@ -33,12 +33,18 @@ export default class Portfolio extends React.Component {
             <SocialIcon url="https://www.linkedin.com/in/joshua-m-kellerman-718a1b31/" />
           </div>
           <h3><strong>Major Projects</strong></h3>
-          <h4 style={{ "margin-bottom": 0 }}>Twitter SRE / PDP Team - 2022</h4>
+          <h4 style={{ "margin-bottom": 0 }}>Twitter Health Org SRE Team - 2022</h4>
           <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>Role: Sr. Full-Stack Engineer</h5>
+          <ul>
+            <li>Twitter Health Org DORA Four Keys Dashboard</li>
+            <ul>
+              <li>Architected and implemented a method of data extraction for the Twitter Ecosystem, tracking Workflows and Commits per-team, then sending the metadata to BigQuery and an in-house instance of the <a href="https://cloud.google.com/blog/products/devops-sre/using-the-four-keys-to-measure-your-devops-performance" target="_">Google Four Keys project</a>.</li>
+            </ul>
+          </ul>
           <ul>
             <li>Twitter Health Deployment Tracker Dashboard</li>
             <ul>
-              <li>Designed and implemented a dashboard in Python, React, and Redux for generating per-team high-priority Deployment and Workflows KPIs across the Twitter Health ogranization.</li>
+              <li>Archietected and implemented a dashboard in Python, React, and Redux for generating per-team high-priority Deployment and Workflows KPIs across the Twitter Health ogranization.</li>
             </ul>
           </ul>
           <h4 style={{ "margin-bottom": 0 }}>Twitter Safety Mode - 2021</h4>
@@ -46,8 +52,8 @@ export default class Portfolio extends React.Component {
           <ul>
             <li>Twitter Safety Mode Lead Backend Engineer</li>
             <ul>
-              <li>Designed and implemented a generalized Socialgraph edge TTL system in Kafka, Twitter Strato, and Thrift, for Smartblocking expirations</li>
-              <li>Designed and implemented the Twitter Safetymode Smartblocking User timeline with help from the Socialgraph team</li>
+              <li>Architected and implemented a generalized Socialgraph edge TTL system in Kafka, Twitter Strato, and Thrift, for Smartblocking expirations</li>
+              <li>Architected and implemented the Twitter Safetymode Smartblocking User timeline with help from the Socialgraph team</li>
             </ul>
           </ul>
           <h4 style={{ "margin-bottom": 0 }}>Twitter Report Flow New Architecture Migration - 2020/2021</h4>

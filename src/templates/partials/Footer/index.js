@@ -1,6 +1,7 @@
 import React from "react";
 import { SocialIcon } from "react-social-icons";
 import imdbIcon from "../../../images/imdb-icon.png";
+
 import "./style.css";
 
 export default class Footer extends React.Component {

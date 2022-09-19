@@ -9,18 +9,29 @@ import skipping from "../../images/skipping.jpg";
 const data = {
   videoProjects: [
     {
+      title: "A Little Devil",
+      img: "ald.jpg",
+      year: "2023 est.",
+      type: "personal",
+      shortDesc: "Short Film (EN) (Super 16mm)",
+      role: "Director, Writer, Editor",
+      bigImg: "ald-big.jpg",
+      description:
+        "Currently in Post-Production, A Little Devil was filmed in partial completion of a degree at the Columbia University School of the Arts Film MFA program. TBR 2023. DP Daniel Cho."
+    },
+    {
       title: "Good Mother Good Daughter",
       img: "gmgd.jpg",
       year: "2022",
       type: "personal",
-      shortDesc: "Short Film",
+      shortDesc: "Short Film (EN)",
       role: "Director, Writer, Editor",
       links: [
         { title: "IMDB page", url: "https://www.imdb.com/title/tt19813834/" }
       ],
       bigImg: "gmgd-big.jpg",
       description:
-        "Good Mother Good Daughter was filmed in NYC in partial completion of a degree at the Columbia University School of the Arts Film MFA program. TBR 2022."
+        "To be released at the Montecatini International Short Film Festival in November, 2022, Good Mother Good Daughter was filmed in NYC in partial completion of a degree at the Columbia University School of the Arts Film MFA program. DP Hangcheng Xu."
     },
     {
       title: "En Rose",
@@ -30,7 +41,7 @@ const data = {
       year: "2018",
       type: "personal",
       shortDesc: "Short Film (FR)",
-      role: "Director, Editor, Producer, Story",
+      role: "Director, Editor, Producer, DP",
       links: [
         { title: "Watch free now with Amazon Prime Video", url: "https://www.amazon.com/En-Rose-Margaux-Ilona-L%C3%A9touche/dp/B07NBWTQD4" },
         { title: "IMDB page", url: "https://www.imdb.com/title/tt3681356/" }
@@ -45,7 +56,7 @@ const data = {
       year: "2021",
       type: "personal",
       shortDesc: "Short Film (EN)",
-      role: "Writer, Director, Cinematographer",
+      role: "Writer, Director, DP",
       embed: "https://player.vimeo.com/video/501150588",
       description:
         "A young girl delivers a bitter message across a beautiful park."
@@ -64,7 +75,7 @@ const data = {
       laurels: 3,
       wins: 2,
       description:
-        "A story about implicit bias, a young couple, and a finance bro. Filmed in the financial district in NYC in December 2019. Super 180s was my first semester capstone directing assignment at Columbia University School of the Arts Film MFA. I wrote it with the guidance of writing professor Jamal Joseph and directed it with the guidance of directing professor Ian Olds."
+        "A story about implicit bias, a young couple, and a finance bro. Filmed in the financial district in NYC in December 2019. Super 180s was my first semester capstone directing assignment at Columbia University School of the Arts Film MFA. I wrote it with the guidance of writing professor Jamal Joseph and directed it with the guidance of directing professor Ian Olds. DP Erin Ramirez."
     },
     {
       title: "Safe and Sound",
@@ -72,7 +83,7 @@ const data = {
       year: "2020",
       type: "personal",
       shortDesc: "Short Film",
-      role: "Cinematographer",
+      role: "DP",
       embed: "https://player.vimeo.com/video/386108542",
       description:
         "John becomes obsessed with all the sounds around him and as his behavior worsens, so does his personal life. Dir. Camille Hamadé"
@@ -504,16 +515,16 @@ const data = {
         "I believe that drawing 3D shapes is more closely related to sculpture than to other two-dimensional art forms such as calligraphy. Lighting, shading, pose, composition, and above all, form must be taken into consideration. I have been studying 2D art since I was very young, but I refined it when I attended Tim Decker's Figure Drawing and Animation classes while at UWM Film. See more pieces at my DeviantArt.",
       gallery: [
         {
-          original: "https://i.postimg.cc/J4wjYd70/Couple-at-Night-in-the-Alps.jpg",
-          thumbnail: "https://i.postimg.cc/z3jLV7gY/Couple-at-Night-in-the-Alps.jpg"
-        },
-        {
-          original: "https://s15.postimg.cc/v2j6k9sob/girl_apple.jpg",
-          thumbnail: "https://s15.postimg.cc/pd2y0bp6j/girl_apple.jpg"
+          original: "https://i.postimg.cc/bwRXTYwq/IMG-2586.jpg",
+          thumbnail: "https://i.postimg.cc/BtWNWFNR/IMG-2586.jpg"
         },
         {
           original: "https://i.postimg.cc/2yB82kWY/frogs.jpg",
           thumbnail: "https://i.postimg.cc/Lg2psMvQ/frogs.jpg"
+        },
+        {
+          original: "https://s15.postimg.cc/v2j6k9sob/girl_apple.jpg",
+          thumbnail: "https://s15.postimg.cc/pd2y0bp6j/girl_apple.jpg"
         },
         {
           original: "https://i.postimg.cc/BQVqZkP6/to-the-village.jpg",

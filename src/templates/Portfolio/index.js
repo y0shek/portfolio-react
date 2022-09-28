@@ -20,7 +20,7 @@ const data = {
         "Currently in Post-Production, A Little Devil was filmed in partial completion of a degree at the Columbia University School of the Arts Film MFA program. TBR 2023. DP Daniel Cho."
     },
     {
-      title: "Good Mother Good Daughter",
+      title: "Be Gay Tomorrow",
       img: "gmgd.jpg",
       year: "2022",
       type: "personal",
@@ -31,7 +31,7 @@ const data = {
       ],
       bigImg: "gmgd-big.jpg",
       description:
-        "To be released at the Montecatini International Short Film Festival in November, 2022, Good Mother Good Daughter was filmed in NYC in partial completion of a degree at the Columbia University School of the Arts Film MFA program. DP Hangcheng Xu."
+        "To be released at the Montecatini International Short Film Festival in November, 2022. Hannah (Allie McCulloch), single, struggling mother of three, wants to host her parents for Thanksgiving, but her kids seem to keep getting in the way, especially her oldest son, Allen, (Josh Rosenzweig) who wants to come out to his grandparents. Produced by Daniel Beltis and Samantha Lori Glass. DP Hangcheng Xu."
     },
     {
       title: "En Rose",

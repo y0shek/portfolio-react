@@ -34,7 +34,7 @@ export default class Welcome extends React.Component {
           <div>
             <div className="welcome__videoCover" />
             <div id="vid" className="welcome__videoScreen">
-              <YouTube videoId="gJtqZS3W6Qk" className="welcome__video" opts={opts} ></YouTube>
+              <YouTube videoId="uuOublRjs9A" className="welcome__video" opts={opts} ></YouTube>
             </div>
           </div>
         )}

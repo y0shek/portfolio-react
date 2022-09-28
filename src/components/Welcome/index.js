@@ -24,6 +24,7 @@ export default class Welcome extends React.Component {
         autoplay: 1,
         loop: 1,
         mute: 1,
+        playlist: "uuOublRjs9A",
         controls: 0
       }
     }

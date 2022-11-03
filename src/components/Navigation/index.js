@@ -4,6 +4,7 @@ import "./style.css";
 
 const navData = [
   { title: "Portfolio", url: "/", active: false },
+  { title: "News", url: "/news", active: false },
   { title: "Blog", url: "/blog", active: false },
   { title: "Contact", url: "/contact", active: false }
 ];
@@ -41,7 +42,7 @@ export default class Navigation extends React.Component {
     }
     newData[i].active = true;
     this.setState({ data: newData });
-    if (newData[i].url === "/"){
+    if (newData[i].url === "/") {
       this.scrollDown();
     }
   };

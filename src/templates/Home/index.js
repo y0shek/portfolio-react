@@ -13,6 +13,7 @@ import Header from "../partials/Header";
 import Footer from "../partials/Footer";
 import Portfolio from "../Portfolio";
 import Blog from "../Blog";
+import News from "../News";
 import Contact from "../Contact";
 import Engineering from "../Engineering";
 
@@ -69,6 +70,7 @@ export default class Home extends React.Component {
                   )}
                 />
                 <Redirect from="/stories" to="/blog" />
+                <Route path="/news" component={News} />
                 <Route path="/blog" component={Blog} />
                 <Route path="/contact" component={Contact} />
                 <Route path="/engineering" component={Engineering} />

@@ -2,7 +2,7 @@ import React from 'react';
 import BlogPost from "../../components/BlogPost";
 import './style.css';
 
-export default class Blog extends React.Component {
+export default class News extends React.Component {
 
   constructor(props) {
     super(props);
@@ -12,7 +12,7 @@ export default class Blog extends React.Component {
   }
 
   componentWillMount = async () => {
-    let response = await fetch(`https://wp.joshuamk.com/wp-json/wp/v2/posts/?per_page=100&categories=1`);
+    let response = await fetch(`https://wp.joshuamk.com/wp-json/wp/v2/posts/?per_page=100&categories=9`);
     let data = await response.json();
     this.setState({ posts: data });
   }
@@ -21,7 +21,7 @@ export default class Blog extends React.Component {
     const empty = this.state.posts.length === 0;
     return (
       <div className='blog'>
-        {empty ? <div className="loader"> <h3>Loading Blog Posts...</h3> <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">
+        {empty ? <div className="loader"> <h3>Loading News Posts...</h3> <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">
           <g fill="none" fill-rule="evenodd">
             <g transform="translate(2 2)" stroke-width="4">
               <circle stroke-opacity=".5" cx="18" cy="18" r="18" />

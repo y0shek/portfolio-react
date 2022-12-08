@@ -57,9 +57,9 @@ const data = {
       type: "personal",
       shortDesc: "Short Film (EN)",
       role: "Writer, Director, DP",
-      embed: "https://player.vimeo.com/video/501150588",
+      bigImg: "missing_big.jpg",
       description:
-        "A young girl delivers a bitter message across a beautiful park."
+        "A young girl delivers a bitter message across a beautiful park. 3 Official Selections."
     },
     {
       title: "Super 180s",

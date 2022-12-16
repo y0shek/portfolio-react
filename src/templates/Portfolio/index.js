@@ -9,7 +9,7 @@ import skipping from "../../images/skipping.jpg";
 const data = {
   videoProjects: [
     {
-      title: "A Little Devil",
+      title: "Narcissus",
       img: "ald.jpg",
       year: "2023 est.",
       type: "personal",
@@ -17,7 +17,7 @@ const data = {
       role: "Director, Writer, Editor",
       bigImg: "ald-big.jpg",
       description:
-        "Currently in Post-Production, A Little Devil was filmed in partial completion of a degree at the Columbia University School of the Arts Film MFA program. TBR 2023. DP Daniel Cho."
+        "Currently in Post-Production, Narcissus was filmed in partial completion of a degree at the Columbia University School of the Arts Film MFA program. TBR 2023. DP Daniel Cho."
     },
     {
       title: "Be Gay Tomorrow",

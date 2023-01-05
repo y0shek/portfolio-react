@@ -15,7 +15,7 @@ const data = {
       type: "personal",
       shortDesc: "Short Film (EN) (Super 16mm)",
       role: "Director, Writer, Editor",
-      bigImg: "ald-big.jpg",
+      embed: "https://player.vimeo.com/video/786448343?h=0ca40b801c",
       description:
         "Currently in Post-Production, Narcissus was filmed in partial completion of a degree at the Columbia University School of the Arts Film MFA program. TBR 2023. DP Daniel Cho."
     },
@@ -31,7 +31,7 @@ const data = {
       ],
       bigImg: "gmgd-big.jpg",
       description:
-        "To be released at the Montecatini International Short Film Festival in November, 2022. Hannah (Allie McCulloch), single, struggling mother of three, wants to host her parents for Thanksgiving, but her kids seem to keep getting in the way, especially her oldest son, Allen, (Josh Rosenzweig) who wants to come out to his grandparents. Produced by Daniel Beltis and Samantha Lori Glass. DP Hangcheng Xu."
+        "Released at the Montecatini International Short Film Festival in November, 2022. Hannah (Allie McCulloch), single, struggling mother of three, wants to host her parents for Thanksgiving, but her kids seem to keep getting in the way, especially her oldest son, Allen, (Josh Rosenzweig) who wants to come out to his grandparents. Produced by Daniel Beltis and Samantha Lori Glass. DP Hangcheng Xu."
     },
     {
       title: "En Rose",
@@ -58,6 +58,9 @@ const data = {
       shortDesc: "Short Film (EN)",
       role: "Writer, Director, DP",
       bigImg: "missing_big.jpg",
+      links: [
+        { title: "IMDB page", url: "https://www.imdb.com/title/tt13876104/" }
+      ],
       description:
         "A young girl delivers a bitter message across a beautiful park. 3 Official Selections."
     },
@@ -98,7 +101,7 @@ const data = {
       role: "Director, Writer, Editor",
       embed: "https://player.vimeo.com/video/438760465",
       description:
-        "A whimsical myth of a photographer and a homeless man with a secret. This is the second short exercise I completed for the Columbia Film MFA. Filmed in October 2019 and re-finished post in July 2020. Selected as a OneDumbVideo daily winner 2020."
+        "A whimsical short exercise. A photographer follows a homeless man with a secret. This is the second short exercise I completed for the Columbia Film MFA. Filmed in October 2019 and re-finished post in July 2020. Selected as a OneDumbVideo daily winner 2020."
     },
     {
       title: "Rehearsal",
@@ -108,8 +111,11 @@ const data = {
       shortDesc: "Short Film (EN)",
       role: "Director, Writer, Editor",
       embed: "https://player.vimeo.com/video/449512564",
+      links: [
+        { title: "IMDB page", url: "https://www.imdb.com/title/tt14426652/" }
+      ],
       description:
-        "Emily asks Adrien to accompany her for an upcoming recital. She's got a bigger ask that he doesn't know about. This is the third short exercise I completed for the Columbia Film MFA. Filmed in November 2019 and re-finished post in August 2020."
+        "Official Selection at Carmarthen Bay Film Festival 2020. Emily asks Adrien to accompany her for an upcoming recital. She's got a bigger ask that he doesn't know about. This is the third short exercise I completed for the Columbia Film MFA. Filmed in November 2019 and re-finished post in August 2020."
     },
     {
       title: "Compartmentalize",

@@ -33,6 +33,24 @@ export default class Portfolio extends React.Component {
             <SocialIcon url="https://www.linkedin.com/in/joshua-m-kellerman-718a1b31/" />
           </div>
           <h3><strong>Major Projects</strong></h3>
+          <h4 style={{ "margin-bottom": 0 }}>Echo360 Capture Team - 2023</h4>
+          <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>Role: Principal Engineer</h5>
+          <ul>
+            <li>Upgraded Echo360 Capture Infrastructure to Support 4-channel video capture and playback</li>
+            <ul>
+              <li>Team lead to update systems, including media processing pipeline, microservices, and Advanced Learning Platform monolith.</li>
+              <li>Covered codebases and libraries in Scala, CPP, Java, and GoLang</li>
+            </ul>
+          </ul>
+          <ul>
+            <li>Created Chaptering Microservice</li>
+            <ul>
+              <li>Team lead on architecture and project management.</li>
+              <li>Proof-of-Concept: Integrated with transformer neural net to supply chaptering and chapter heading information for Echo360 captured videos and lectures.</li>
+              <li>Front-end integrated into monolithic app with React.js</li>
+              <li>Microservice built in Scala and Play Framework, containerized in Docker.</li>
+            </ul>
+          </ul>
           <h4 style={{ "margin-bottom": 0 }}>Twitter Health Org SRE Team - 2022</h4>
           <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>Role: Sr. Full-Stack Engineer</h5>
           <ul>

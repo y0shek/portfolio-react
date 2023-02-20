@@ -211,6 +211,19 @@ const data = {
         "Purpose is a 90-second hand-drawn and hand-colored animation produced in Tim Decker's advanced animation class in Fall, 2010. It was nominated for best short animation in UWM's first Animation film festival."
     },
     {
+      title: 'Shorelines',
+      img: "shorelines.jpg",
+      year: "2023",
+      type: "promo",
+      shortDesc: "© 2023 Reimagine Well",
+      role: "Writer and Director",
+      links: [
+        { title: "Visit reimaginewell.com", url: "https://reimaginewell.com/" }
+      ],
+      bigImg: "shorelines_big.jpg",
+      description: "A 20-minute long found-footage narrative film, commissioned by the Miami Cancer Institute, intended for therapeutic use in a clinical setting. Written and directed over two months, artistically guided by Roger Holzberg."
+    },
+    {
       title: 'Home To Me Is',
       img: "home.jpg",
       year: "2021",

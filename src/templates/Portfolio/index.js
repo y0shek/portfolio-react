@@ -914,6 +914,14 @@ const data = {
       role: "Teamleader, Hiring Manager",
       links: [
         {
+          title: "Echo360",
+          url: "https://www.echo360.com/"
+        },
+        {
+          title: "Twitter",
+          url: "https://www.twitter.com/"
+        },
+        {
           title: "Yubico",
           url: "https://www.yubico.com/"
         },

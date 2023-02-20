@@ -17,7 +17,7 @@ const data = {
       role: "Director, Writer, Editor",
       embed: "https://player.vimeo.com/video/786448343?h=0ca40b801c",
       description:
-        "Currently in Post-Production, Narcissus was filmed in partial completion of a degree at the Columbia University School of the Arts Film MFA program. TBR 2023. DP Daniel Cho."
+        "Narcissus was filmed in partial completion of a degree at the Columbia University School of the Arts Film MFA program. TBR 2023. Prod. Ivan Rome, DP Daniel Cho."
     },
     {
       title: "Be Gay Tomorrow",
@@ -31,7 +31,7 @@ const data = {
       ],
       bigImg: "gmgd-big.jpg",
       description:
-        "Released at the Montecatini International Short Film Festival in November, 2022. Hannah (Allie McCulloch), single, struggling mother of three, wants to host her parents for Thanksgiving, but her kids seem to keep getting in the way, especially her oldest son, Allen, (Josh Rosenzweig) who wants to come out to his grandparents. Produced by Daniel Beltis and Samantha Lori Glass. DP Hangcheng Xu."
+        "Released at the Montecatini International Short Film Festival in November, 2022. Hannah (Allie McCulloch), single, struggling mother of three, wants to host her parents for Thanksgiving, but her kids seem to keep getting in the way, especially her oldest son, Allen, (Josh Rosenzweig) who wants to come out to his grandparents. Produced by Daniel Beltis and Samantha Lori Glass. DP Hangcheng Xu. 5 Official Selections."
     },
     {
       title: "En Rose",
@@ -62,7 +62,7 @@ const data = {
         { title: "IMDB page", url: "https://www.imdb.com/title/tt13876104/" }
       ],
       description:
-        "A young girl delivers a bitter message across a beautiful park. 3 Official Selections."
+        "A young girl delivers a bitter message across a beautiful park. 3 Official Selections (including the Oakland Film Festival). 1 Semi-Finalist (Madrid Film Awards). 1 Award Winner (Gladiator Film Festival)."
     },
     {
       title: "Super 180s",
@@ -78,7 +78,7 @@ const data = {
       laurels: 3,
       wins: 2,
       description:
-        "A story about implicit bias, a young couple, and a finance bro. Filmed in the financial district in NYC in December 2019. Super 180s was my first semester capstone directing assignment at Columbia University School of the Arts Film MFA. I wrote it with the guidance of writing professor Jamal Joseph and directed it with the guidance of directing professor Ian Olds. DP Erin Ramirez."
+        "A story about implicit bias, a young couple, and a finance bro. Filmed in the financial district in NYC in December 2019. Super 180s was my first semester capstone directing assignment at Columbia University School of the Arts Film MFA. I wrote it with the guidance of writing professor Jamal Joseph and directed it with the guidance of directing professor Ian Olds. DP Erin Ramirez. 5 Official Selections. 1 Semi-Finalist. 1 Award Winner."
     },
     {
       title: "Safe and Sound",
@@ -115,7 +115,7 @@ const data = {
         { title: "IMDB page", url: "https://www.imdb.com/title/tt14426652/" }
       ],
       description:
-        "Official Selection at Carmarthen Bay Film Festival 2020. Emily asks Adrien to accompany her for an upcoming recital. She's got a bigger ask that he doesn't know about. This is the third short exercise I completed for the Columbia Film MFA. Filmed in November 2019 and re-finished post in August 2020."
+        "Official Selection at Carmarthen Bay Film Festival 2020. Emily asks Adrien to accompany her for an upcoming recital. She's got a bigger ask that he doesn't know about. This is the third short exercise I completed for the Columbia Film MFA. Filmed in November 2019 and re-finished post in August 2020. 1 Official Selection at the Carmarthen Bay Film Festival."
     },
     {
       title: "Compartmentalize",
@@ -139,7 +139,7 @@ const data = {
       role: "Producer, Director, Writer, Editor",
       embed: "https://player.vimeo.com/video/435206895",
       description:
-        "Talk was a submission which eventually led to my acceptance to AFI conservatory in Los Angeles and Columbia University SOA in New York City. I challenged myself by limiting the cast to one person and the camera frame to one single angle. Joe is played by Tony Gapastione."
+        "Talk was a submission which eventually led to my acceptance to AFI conservatory in Los Angeles and Columbia University SOA in New York City. I challenged myself by limiting the cast to one person and the camera frame to one single angle. Joe is played by Tony Gapastione. 1 Official Selection."
     },
     {
       title: "Don't Fall in, Love",

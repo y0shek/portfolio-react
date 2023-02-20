@@ -9,7 +9,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-images": "^0.6.7",
-    "react-scripts": "^4.0.3"
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "build-css": "node-sass-chokidar src/ -o src/",
@@ -22,8 +22,8 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-react": "^6.24.1",
-    "node-sass": "^6.0.1",
-    "node-sass-chokidar": "^1.5.0",
+    "node-sass": "^8.0.0",
+    "node-sass-chokidar": "^2.0.0",
     "react-hero-video": "^0.1.1",
     "react-image-gallery": "^1.2.7",
     "react-modal": "^3.14.3",

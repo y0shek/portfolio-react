@@ -909,7 +909,7 @@ const data = {
     {
       title: "Engineering Hiring and Team Building",
       img: "eng_hiring.jpg",
-      year: "2015-2019",
+      year: "2017-2023",
       shortDesc: "Hired the Web team for Yubico. Hired for Infrastructure team for Mosaix.ai",
       role: "Teamleader, Hiring Manager",
       links: [

@@ -20,7 +20,7 @@ export default class Portfolio extends React.Component {
           <div className="eng__namecard">
             <div className="eng__namecard__text">
               <h1>Joshua M Kellerman</h1>
-              <h3>Sr. Software Engineer</h3>
+              <h3>Principal Software Engineer</h3>
             </div>
             <div className='eng__namecard__image'>
               <img src={myPic} alt='Joshua M Kellerman headshot' />
@@ -171,13 +171,14 @@ export default class Portfolio extends React.Component {
         </Section>
         <Section theName="eng__skills">
           <h3><strong>Skillset</strong></h3>
-          <h5>Artificial Intelligence / Machine Learning</h5>
+          <h5>NLP Artificial Intelligence / Machine Learning</h5>
           <ul>
-            <li>Tensorflow</li>
-            <li>Scala, Redis, Python</li>
+            <li>Tensorflow & DeepCRF</li>
+            <li>BERT & Transformers</li>
             <li>Stanford NLTK</li>
-            <li>Knowledge Graph</li>
-            <li>DeepCRF</li>
+            <li>Knowledge Graph Entity and Edge Design</li>
+            <li>Knowledge Graph Reverse Lookup</li>
+            <li>Scala, Python, Redis</li>
           </ul>
           <h5>Application Engineering / Cloud</h5>
           <ul>

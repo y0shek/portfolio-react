@@ -984,7 +984,7 @@ export default class Portfolio extends React.Component {
               </h4>
               <h4 style={{ textAlign: "center", marginTop: "10px" }}>
                 <span className="special_text">
-                  Columbia MFA Film Directing (current) </span>
+                  Columbia Film MFA Candidate (current) </span>
               </h4>
             </blockquote>
             <h4 style={{ textAlign: "center" }}>

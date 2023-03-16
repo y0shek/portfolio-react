@@ -15,7 +15,7 @@ const data = {
       type: "personal",
       shortDesc: "Short Film (EN) (Super 16mm)",
       role: "Director, Writer, Editor",
-      embed: "https://player.vimeo.com/video/786448343?h=0ca40b801c",
+      embed: "https://player.vimeo.com/video/786448343",
       description:
         "Narcissus was filmed in partial completion of a degree at the Columbia University School of the Arts Film MFA program. TBR 2023. Prod. Ivan Rome, DP Daniel Cho."
     },
@@ -29,7 +29,7 @@ const data = {
       links: [
         { title: "IMDB page", url: "https://www.imdb.com/title/tt19813834/" }
       ],
-      bigImg: "gmgd-big.jpg",
+      embed: "https://player.vimeo.com/video/808790247",
       description:
         "Released at the Montecatini International Short Film Festival in November, 2022. Hannah (Allie McCulloch), single, struggling mother of three, wants to host her parents for Thanksgiving, but her kids seem to keep getting in the way, especially her oldest son, Allen, (Josh Rosenzweig) who wants to come out to his grandparents. Produced by Daniel Beltis and Samantha Lori Glass. DP Hangcheng Xu. 5 Official Selections."
     },

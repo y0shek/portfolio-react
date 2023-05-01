@@ -27,11 +27,12 @@ const data = {
       shortDesc: "Short Film (EN)",
       role: "Director, Writer, Editor",
       links: [
-        { title: "IMDB page", url: "https://www.imdb.com/title/tt19813834/" }
+        { title: "IMDB page", url: "https://www.imdb.com/title/tt19813834/" },
+        { title: "Distributed Worldwide by Gonella Productions, France", url: "https://gonella-productions.com/begaytomorrow" }
       ],
       embed: "https://player.vimeo.com/video/808790247",
       description:
-        "Released at the Montecatini International Short Film Festival in November, 2022. Hannah (Allie McCulloch), single, struggling mother of three, wants to host her parents for Thanksgiving, but her kids seem to keep getting in the way, especially her oldest son, Allen, (Josh Rosenzweig) who wants to come out to his grandparents. Produced by Daniel Beltis and Samantha Lori Glass. DP Hangcheng Xu. 5 Official Selections."
+        "Released at the Montecatini International Short Film Festival in November, 2022. Hannah (Allie McCulloch), single, struggling mother of three, wants to host her parents for Thanksgiving, but her kids seem to keep getting in the way, especially her oldest son, Allen, (Josh Rosenzweig) who wants to come out to his grandparents. Produced by Daniel Beltis and Samantha Lori Glass. DP Hangcheng Xu. 7 Official Selections."
     },
     {
       title: "En Rose",
@@ -750,6 +751,17 @@ const data = {
   ],
   engProjects: [
     {
+      title: "Echo360: Capture Team",
+      img: "echo360.jpg",
+      year: "2022-2023",
+      type: "promo",
+      shortDesc: "Full-Stack Engineer managing projects",
+      role: "Principal Scala, Java, CPP, and React Engineer",
+      links: [{ title: "Visit echo360.com", url: "https://www.echo360.com/" }],
+      description:
+        "After being let go from Twitter in July 2022 because of the Elon Musk purchase, I joined Echo360 in October as a principal engineer, managing several junior engineers and leading projects on the Capture side of their service."
+    },
+    {
       title: "Twitter: Health Org",
       img: "reportflow.jpg",
       year: "2020-2022",
@@ -824,6 +836,7 @@ const data = {
       role: "Student in Film Directing / Screenwriting",
       description:
         'I studied in the world-renowned Film program at Columbia School of the Arts.',
+      bigImg: "columbia_big.jpg",
       links: [
         { title: "Visit Columbia Film Website", url: "https://arts.columbia.edu/film" }
       ]

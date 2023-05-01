@@ -1,7 +1,7 @@
 @import "../../variables.scss";
 
 .welcome {
-  background-image: url("../../images/background.jpg");
+  background-image: url("../../images/background_2023.jpg");
   background-repeat: no-repeat;
   min-height: 52vw;
   background-position: 0 5%;
@@ -22,8 +22,8 @@
     min-height: 440px;
   }
 
-  .welcome__titlepic_off{
-    display:none;
+  .welcome__titlepic_off {
+    display: none;
   }
 
   .welcome__titlepic {
@@ -34,24 +34,30 @@
     margin: 0 auto;
     padding-left: 200px;
     padding-right: 200px;
-    padding-bottom:50px;
+    padding-bottom: 50px;
+
     @media only screen and (min-width: $bp_super) {
       padding-top: 12vw;
       max-width: 500px;
     }
+
     @media only screen and (max-width: $bp_super) {
       max-width: 425px;
       padding-top: 12vw;
     }
+
     @media only screen and (max-width: $bp_big) {
       padding-top: 150px;
     }
+
     @media only screen and (max-width: $bp_medium) {
       padding-top: 120px;
     }
+
     @media only screen and (max-width: $bp_mobile) {
       padding: 120px 80px 0 80px;
     }
+
     img {
       width: 100%;
     }
@@ -60,9 +66,11 @@
   .welcome__stopPlayer {
     z-index: 10;
     position: relative;
+
     @media only screen and (max-width: 360px) {
       display: none;
     }
+
     float: right;
     margin-right: 12vw;
     margin-top: 20px;
@@ -72,15 +80,18 @@
       outline: none;
       background: transparent;
       cursor: pointer;
+
       i,
       p {
         color: white;
         -webkit-text-stroke-width: 1px;
         -webkit-text-stroke-color: black;
       }
+
       i {
         font-size: 40px;
       }
+
       p {
         font-weight: 600;
         margin: 10px 0 0 0;
@@ -100,15 +111,19 @@
     height: 80px;
     border-radius: 50%;
     margin-top: 20px;
+
     @media only screen and (max-width: $bp-medium) {
       margin-bottom: 80px;
     }
+
     @media only screen and (max-width: $bp-mobile) {
       margin-bottom: 80px;
       font-size: 18px;
       border: 1px dashed white;
     }
+
     transition: background-color 1s;
+
     &:hover {
       background-color: $accentRed;
     }
@@ -122,12 +137,14 @@
   height: 57vw;
   top: -40px;
   z-index: 1;
+
   @media only screen and (max-width: 560px) {
     width: 300vw !important;
     height: 440px !important;
     left: -100vw !important;
     top: 0vw;
   }
+
   @media only screen and (max-width: $bp-mobile) {
     width: 180vw;
     height: 480px;
@@ -142,9 +159,11 @@
   overflow: hidden;
   width: 100%;
   height: 52vw;
+
   @media only screen and (max-width: $bp-mobile) {
     height: 540px;
   }
+
   @media only screen and (max-width: 360px) {
     display: none;
   }

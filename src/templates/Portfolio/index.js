@@ -13,7 +13,7 @@ const data = {
       img: "ald.jpg",
       year: "2023 est.",
       type: "personal",
-      shortDesc: "Short Film (EN) (Super 16mm)",
+      shortDesc: "Short Film (EN) (Super 16mm) 18\'11\"",
       role: "Director, Writer, Editor",
       embed: "https://player.vimeo.com/video/786448343",
       description:
@@ -24,7 +24,7 @@ const data = {
       img: "gmgd.jpg",
       year: "2022",
       type: "personal",
-      shortDesc: "Short Film (EN)",
+      shortDesc: "Short Film (EN) 13\'01\"",
       role: "Director, Writer, Editor",
       links: [
         { title: "IMDB page", url: "https://www.imdb.com/title/tt19813834/" },
@@ -41,7 +41,7 @@ const data = {
       wins: 3,
       year: "2018",
       type: "personal",
-      shortDesc: "Short Film (FR)",
+      shortDesc: "Short Film (FR) 12\'04\"",
       role: "Director, Editor, Producer, DP",
       links: [
         { title: "Watch free now with Amazon Prime Video", url: "https://www.amazon.com/En-Rose-Margaux-Ilona-L%C3%A9touche/dp/B07NBWTQD4" },
@@ -56,9 +56,9 @@ const data = {
       img: "missing.jpg",
       year: "2021",
       type: "personal",
-      shortDesc: "Short Film (EN)",
+      shortDesc: "Short Film (EN) 4\'51\"",
       role: "Writer, Director, DP",
-      bigImg: "missing_big.jpg",
+      embed: "https://player.vimeo.com/video/501150588",
       links: [
         { title: "IMDB page", url: "https://www.imdb.com/title/tt13876104/" }
       ],
@@ -70,7 +70,7 @@ const data = {
       img: "super180s.jpg",
       year: "2020",
       type: "personal",
-      shortDesc: "Short Film (EN)",
+      shortDesc: "Short Film (EN) 5\'05\"",
       role: "Director, Writer, Editor",
       embed: "https://player.vimeo.com/video/513660162",
       links: [
@@ -86,7 +86,7 @@ const data = {
       img: "safe-and-sound.jpg",
       year: "2020",
       type: "personal",
-      shortDesc: "Short Film",
+      shortDesc: "Short Film 5\'29\"",
       role: "DP",
       embed: "https://player.vimeo.com/video/386108542",
       description:
@@ -97,7 +97,7 @@ const data = {
       img: "glass.jpg",
       year: "2020",
       type: "personal",
-      shortDesc: "Short Film",
+      shortDesc: "Short Film 2\'36\"",
       laurels: 1,
       role: "Director, Writer, Editor",
       embed: "https://player.vimeo.com/video/438760465",
@@ -109,7 +109,7 @@ const data = {
       img: "rehearsal.jpg",
       year: "2020",
       type: "personal",
-      shortDesc: "Short Film (EN)",
+      shortDesc: "Short Film (EN) 4\'40\"",
       role: "Director, Writer, Editor",
       embed: "https://player.vimeo.com/video/449512564",
       links: [
@@ -123,7 +123,7 @@ const data = {
       img: "compartmentalize.jpg",
       year: "2020",
       type: "personal",
-      shortDesc: "Short Film",
+      shortDesc: "Short Film 3\'31\"",
       laurels: 1,
       role: "Director, Writer, Editor",
       embed: "https://player.vimeo.com/video/435194741",
@@ -136,7 +136,7 @@ const data = {
       bigImg: "talk_big.jpg",
       year: "2019",
       type: "personal",
-      shortDesc: "Short Film (EN)",
+      shortDesc: "Short Film (EN) 4\'43\"",
       role: "Producer, Director, Writer, Editor",
       embed: "https://player.vimeo.com/video/435206895",
       description:
@@ -149,7 +149,7 @@ const data = {
       bigImg: "dfil_big.jpg",
       year: "2014",
       type: "personal",
-      shortDesc: "Feature Film (EN)",
+      shortDesc: "Feature Film (EN) 90\'",
       role: "Director, Writer, Actor, Editor, Producer",
       links: [
         { title: "IMDB page", url: "https://www.imdb.com/title/tt2733432/" },
@@ -166,7 +166,7 @@ const data = {
       img: "nocturnal.jpg",
       year: "2011",
       type: "personal",
-      shortDesc: "PBS: Kids Puppetry Spot (EN)",
+      shortDesc: "PBS: Kids Puppetry Spot (EN) 3\'36\"",
       role: "Director, Puppeteer",
       embed: "https://www.youtube.com/embed/LSPxgxUea14",
       links: [
@@ -183,7 +183,7 @@ const data = {
       img: "otis.jpg",
       year: "2015",
       type: "personal",
-      shortDesc: "Music Video (EN)",
+      shortDesc: "Music Video (EN) 3\'24\"",
       role: "Director, Writer",
       embed: "https://www.youtube.com/embed/A_z56mand9A",
       description:
@@ -194,7 +194,7 @@ const data = {
       img: "ovation.jpg",
       year: "2013",
       type: "personal",
-      shortDesc: "Music Video (EN)",
+      shortDesc: "Music Video (EN) 4\'55\"",
       role: "Director, Writer",
       embed: "https://www.youtube.com/embed/8c_VIXAgPeg",
       description:
@@ -205,7 +205,7 @@ const data = {
       img: "purpose.jpg",
       year: "2010",
       type: "personal",
-      shortDesc: "Short Animation",
+      shortDesc: "Short Animation 1\'36\"",
       role: "Animator, Writer",
       embed: "https://www.youtube.com/embed/bYzzbFpvexA",
       description:
@@ -1074,12 +1074,13 @@ export default class Portfolio extends React.Component {
             </div>
             <h3>Thanks for visiting!</h3>
             <p>
-              Life's too short not to enjoy it to the fullest with people you
-              love.{" "}
+              Life's an adventure. It's short, so enjoy it to the fullest with people you
+              love.
+            </p>
+            <p>
               <strong>
-                Come be part of my awesome life, and I'll be part of yours
+                Come be part of my awesome life, and I'll be part of yours.
               </strong>
-              .
             </p>
           </div>
         </Section>

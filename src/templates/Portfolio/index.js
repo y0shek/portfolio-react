@@ -13,11 +13,14 @@ const data = {
       img: "ald.jpg",
       year: "2023 est.",
       type: "personal",
-      shortDesc: "Short Film (EN) (Super 16mm) 18\'11\"",
+      shortDesc: "Short Film (EN) (Super 16mm) 18\'23\"",
       role: "Director, Writer, Editor",
+      links: [
+        { title: "IMDB page", url: "https://www.imdb.com/title/tt27614153/" }
+      ],
       embed: "https://player.vimeo.com/video/786448343",
       description:
-        "Narcissus was filmed in partial completion of a degree at the Columbia University School of the Arts Film MFA program. TBR 2023. Prod. Ivan Rome, DP Daniel Cho."
+        "In a mystical horror based off of Nathaniel Hawthorne's Young Goodman Brown, two mysterious strangers threaten to tear apart a young couple's honeymoon on the Appalachian Trail. Narcissus was filmed in partial completion of a degree at the Columbia University School of the Arts Film MFA program. TBR 2023. Prod. Ivan Rome, DP Daniel Cho."
     },
     {
       title: "Be Gay Tomorrow",
@@ -829,13 +832,26 @@ const data = {
   ],
   education: [
     {
+      title: "La Femis Filmmaking Certificate",
+      img: "femis.jpg",
+      year: "2023",
+      shortDesc: "Attended La Femis Film School in Paris",
+      role: "Documentary, Photography, and Sound",
+      description:
+        'I studied for a semester\'s worth of classes at the filmmaking program in Paris. I studied documentary approach with masterclasses from famous French directors such as Nicolas Philibert, Photography with Frédéric Serve, and Sound Design with Daniel Deshays.',
+      bigImg: "femis-cert.jpg",
+      links: [
+        { title: "Visit La Femis Website", url: "https://www.femis.fr" }
+      ]
+    },
+    {
       title: "Columbia MFA Film Directing / Screenwriting",
       img: "columbia.jpg",
       year: "2019-present",
       shortDesc: "Attended Columbia University",
-      role: "Student in Film Directing / Screenwriting",
+      role: "Film Directing / Screenwriting",
       description:
-        'I studied in the world-renowned Film program at Columbia School of the Arts.',
+        'I studied in the world-renowned filmmaking program at Columbia School of the Arts.',
       bigImg: "columbia_big.jpg",
       links: [
         { title: "Visit Columbia Film Website", url: "https://arts.columbia.edu/film" }
@@ -846,7 +862,7 @@ const data = {
       img: "iep.jpg",
       year: "2013-2014",
       shortDesc: "Attended L'Institut d'Études Politiques in Aix-en-Provence",
-      role: "Student in Politics, Journalism",
+      role: "Politics and Journalism",
       description:
         'I studied for a year in France at a "Grande École" (French Ivy League), concentrating on Geopolitics, Economy, International Diplomacy, French Language, and Journalism. I also produced my French-language short film and wrote several French newspaper articles while at school.',
       bigImg: "iep_big.jpg",
@@ -859,7 +875,7 @@ const data = {
       img: "uw.jpg",
       year: "2011-2013",
       shortDesc: "Attended UW-Madison for English and Computer Science",
-      role: "Student in English, Comp-Sci, & French",
+      role: "English, Comp-Sci, and French",
       description:
         'I transferred from the Animation / Puppetry department at UW-Milwaukee to UW-Madison in order to study literature and the source of storytelling. While at UW-Madison, I took the first two year curriculum for Comp Sci, learning Algorithms and Data Structures, which has allowed me to pursue a career in Technology.',
       links: [
@@ -871,7 +887,7 @@ const data = {
       img: "uwm.jpg",
       year: "2008-2010",
       shortDesc: "Attended UW-Milwaukee for Film, Animation, and Puppetry",
-      role: "Student in Film, 2D Animation, Puppetry",
+      role: "Film, 2D Animation, and Puppetry",
       description:
         'I attended UW-Milwaukee for a Film BFA, but I was not challenged by the curriculum. I ended up spending all of my time under the mentorship of Tim Decker, ex-Disney animator. I learned the advanced CalArts method of 2D animation as well as figure drawing, stop-motion, fabrication, and puppetry (construction and performance) under Tim.',
       bigImg: "uwm-puppetry.jpg",

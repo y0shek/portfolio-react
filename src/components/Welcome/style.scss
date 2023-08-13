@@ -6,6 +6,7 @@
   min-height: 52vw;
   background-position: 0 5%;
   overflow: hidden;
+  position: relative;
 
   @media only screen and (min-width: $bp-super) {
     background-size: 100vw;
@@ -110,14 +111,14 @@
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    position: fixed;
-    bottom: 40px;
-    left: 47%;
-
+    position: absolute;
+    bottom: 20%;
+    left: 46%;
 
     @media only screen and (max-width: $bp-mobile) {
       font-size: 18px;
       border: 1px dashed white;
+      left: 40%;
     }
 
     transition: background-color 1s;
@@ -137,7 +138,7 @@
   overflow: hidden;
   width: 100vw;
   height: 57vw;
-  top: -40px;
+  top: -60px;
   z-index: 1;
 
   @media only screen and (max-width: 560px) {

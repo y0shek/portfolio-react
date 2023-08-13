@@ -10,7 +10,7 @@ const data = {
   videoProjects: [
     {
       title: "The Possessed",
-      img: "possessed.jpg",
+      img: "possessed-2.jpg",
       year: "2023",
       type: "personal",
       shortDesc: "Short Film (EN) (Super 16mm) 19\'40\"",

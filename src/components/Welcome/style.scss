@@ -110,14 +110,12 @@
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    margin-top: 20px;
+    position: fixed;
+    bottom: 40px;
+    left: 47%;
 
-    @media only screen and (max-width: $bp-medium) {
-      margin-bottom: 80px;
-    }
 
     @media only screen and (max-width: $bp-mobile) {
-      margin-bottom: 80px;
       font-size: 18px;
       border: 1px dashed white;
     }
@@ -128,6 +126,10 @@
       background-color: $accentRed;
     }
   }
+}
+
+.welcome__button--scrolled {
+  display: none;
 }
 
 .welcome__video {

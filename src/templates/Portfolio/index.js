@@ -9,18 +9,18 @@ import skipping from "../../images/skipping.jpg";
 const data = {
   videoProjects: [
     {
-      title: "Narcissus",
-      img: "ald.jpg",
-      year: "2023 est.",
+      title: "The Possessed",
+      img: "possessed.jpg",
+      year: "2023",
       type: "personal",
-      shortDesc: "Short Film (EN) (Super 16mm) 18\'23\"",
+      shortDesc: "Short Film (EN) (Super 16mm) 19\'40\"",
       role: "Director, Writer, Editor",
       links: [
         { title: "IMDB page", url: "https://www.imdb.com/title/tt27614153/" }
       ],
-      embed: "https://player.vimeo.com/video/786448343",
+      embed: "https://player.vimeo.com/video/854042803?h=91fb895bc6",
       description:
-        "In a mystical horror based off of Nathaniel Hawthorne's Young Goodman Brown, two mysterious strangers threaten to tear apart a young couple's honeymoon on the Appalachian Trail. Narcissus was filmed in partial completion of a degree at the Columbia University School of the Arts Film MFA program. TBR 2023. Prod. Ivan Rome, DP Daniel Cho."
+        "A mystical horror based off of Nathaniel Hawthorne's Young Goodman Brown. Two mysterious strangers threaten to tear apart a young couple's honeymoon on the Appalachian Trail. Narcissus was filmed in partial completion of a degree at the Columbia University School of the Arts Film MFA program. TBR 2023. Prod. Ivan Rome, DP Daniel Cho."
     },
     {
       title: "Be Gay Tomorrow",
@@ -996,6 +996,7 @@ export default class Portfolio extends React.Component {
         <Welcome
           playing={this.props.playing}
           toggleVideo={this.props.toggleVideo}
+          atTop={this.props.atTop}
         />
         <Section theName="Overview" style={{ padding: "20px 0 0 0" }}>
           <div style={{ padding: "0 40px" }}>
@@ -1013,7 +1014,10 @@ export default class Portfolio extends React.Component {
               </h4>
               <h4 style={{ textAlign: "center", marginTop: "10px" }}>
                 <span className="special_text">
-                  Columbia Film MFA Candidate (current) </span>
+                  Columbia Film MFA</span>
+                <br />
+                <span className="special_text">
+                  Ex-Twitter Backend Engineer</span>
               </h4>
             </blockquote>
             <h4 style={{ textAlign: "center" }}>
@@ -1031,7 +1035,7 @@ export default class Portfolio extends React.Component {
               </a>
             </div>
           </div>
-        </Section>
+        </Section >
         <Section
           theName="Film, Animation, and Video"
           style={{ padding: "10px 0 20px 0" }}
@@ -1100,7 +1104,7 @@ export default class Portfolio extends React.Component {
             </p>
           </div>
         </Section>
-      </div>
+      </div >
     );
   }
 }

@@ -1,9 +1,28 @@
 import React from "react";
-import titlePic from "../../images/story.png";
 import YouTube from "react-youtube";
+import throttle from 'lodash/throttle';
 import "./style.css";
 
 export default class Welcome extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.state = { atTop: true };
+  }
+
+  handleScroll = throttle(() => {
+    // Header controls for whether or not user is scrolled near top
+    if (window.scrollY <= 100) {
+      this.setState({ atTop: true });
+    } else {
+      this.setState({ atTop: false });
+    }
+  }, 100);
+
+  componentDidMount = () => {
+    window.addEventListener('scroll', this.handleScroll);
+  }
+
   scrollDown = () => {
     if (document.getElementById("vid")) {
       const height = document.getElementById("vid").offsetHeight;
@@ -24,47 +43,48 @@ export default class Welcome extends React.Component {
         autoplay: 1,
         loop: 1,
         mute: 1,
-        playlist: "RzctL_G5QHo",
+        playlist: "xjCzu5uWnE0",
         controls: 0
       }
     }
     if (this.props.playing && mobile) this.props.toggleVideo()
     return (
       <div id="welcome" className="welcome">
-        {this.props.playing && (
-          <div>
-            <div className="welcome__videoCover" />
-            <div id="vid" className="welcome__videoScreen">
-              <YouTube videoId="RzctL_G5QHo" className="welcome__video" opts={opts} ></YouTube>
+        <button className={this.state.atTop ? 'welcome__button' : 'welcome__button welcome__button--scrolled'} onClick={this.scrollDown}>
+          Hello
+        </button>
+        {
+          this.props.playing && (
+            <div>
+              <div className="welcome__videoCover" />
+              <div id="vid" className="welcome__videoScreen">
+                <YouTube videoId="xjCzu5uWnE0" className="welcome__video" opts={opts} ></YouTube>
+              </div>
             </div>
-          </div>
-        )}
-        {!mobile && (
-          <div className="welcome__stopPlayer">
-            <button onClick={this.props.toggleVideo}>
-              {this.props.playing ? (
-                <div>
-                  <i className="far fa-times-circle" />
-                  <br />
-                  <p>Stop Video</p>
-                </div>
-              ) : (
-                <div>
-                  <i className="fas fa-play-circle" />
-                  <br />
-                  <p>Play Video</p>
-                </div>
-              )}
-            </button>
-          </div>
-        )}
-        <div className={this.props.playing ? "welcome__titlepic_off" : "welcome__titlepic"}>
-          <img src={titlePic} alt="A sense of Story" />
-          <button className="welcome__button" onClick={this.scrollDown}>
-            Hello
-          </button>
-        </div>
-      </div>
+          )
+        }
+        {
+          !mobile && (
+            <div className="welcome__stopPlayer">
+              <button onClick={this.props.toggleVideo}>
+                {this.props.playing ? (
+                  <div>
+                    <i className="far fa-times-circle" />
+                    <br />
+                    <p>Stop Video</p>
+                  </div>
+                ) : (
+                  <div>
+                    <i className="fas fa-play-circle" />
+                    <br />
+                    <p>Play Video</p>
+                  </div>
+                )}
+              </button>
+            </div>
+          )
+        }
+      </div >
     );
   }
 }

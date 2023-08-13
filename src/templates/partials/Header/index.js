@@ -10,28 +10,30 @@ import imdbIcon from "../../../images/imdb-icon.png";
 import './style.css';
 
 
-export default class Header extends React.Component{
+export default class Header extends React.Component {
 
-  constructor(props){
+  constructor(props) {
     super(props);
-    this.state={atTop:true};
+    this.state = { atTop: true };
   }
 
   goToTop = () => {
-    window.scroll({top: 0, behavior: "smooth"});
+    window.scroll({ top: 0, behavior: "smooth" });
   }
 
   handleScroll = throttle(() => {
     // Turn off video if user scrolls far enough down, if video exists
-    if(document.getElementById('vid')){
+    if (document.getElementById('vid')) {
       const height = document.getElementById('vid').offsetHeight;
-      if(window.scrollY >= height+100) this.props.toggleVideo('off');
+      if (window.scrollY >= height + 100) {
+        this.props.toggleVideo('off');
+      }
     }
     // Header controls for whether or not user is scrolled near top
-    if(window.scrollY <= 100){
-        this.setState({atTop: true});
+    if (window.scrollY <= 100) {
+      this.setState({ atTop: true });
     } else {
-      this.setState({atTop: false});
+      this.setState({ atTop: false });
     }
 
   }, 100);
@@ -40,7 +42,7 @@ export default class Header extends React.Component{
     window.addEventListener('scroll', this.handleScroll);
   }
 
-  render(){
+  render() {
     return (
       <div className='header'>
         <p className='header__looking-for-engineering'><a href="/engineering">Looking for my Engineering portfolio?</a></p>

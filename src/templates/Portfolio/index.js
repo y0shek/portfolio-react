@@ -20,7 +20,7 @@ const data = {
       ],
       embed: "https://player.vimeo.com/video/854042803?h=91fb895bc6",
       description:
-        "A mystical horror based off of Nathaniel Hawthorne's Young Goodman Brown. Two mysterious strangers threaten to tear apart a young couple's honeymoon on the Appalachian Trail. Narcissus was filmed in partial completion of a degree at the Columbia University School of the Arts Film MFA program. TBR 2023. Prod. Ivan Rome, DP Daniel Cho."
+        "AKA \"Narcissus\": A mystical horror based off of Nathaniel Hawthorne's Young Goodman Brown. Mysterious forces threaten to tear apart a young couple's hiking honeymoon. The Possessed was filmed in partial completion of a degree at the Columbia University School of the Arts Film MFA program. TBR 2023. Prod. Ivan Rome, DP Daniel Cho."
     },
     {
       title: "Be Gay Tomorrow",
@@ -215,6 +215,49 @@ const data = {
         "Purpose is a 90-second hand-drawn and hand-colored animation produced in Tim Decker's advanced animation class in Fall, 2010. It was nominated for best short animation in UWM's first Animation film festival."
     },
     {
+      title: "Break your Security out of the Ice Age",
+      img: "smash.jpg",
+      year: "2019",
+      type: "promo",
+      shortDesc: "© 2019 Yubico, Inc.",
+      role: "Producer, Writer, Director, Cinematography",
+      links: [{ title: "Visit Yubico.com", url: "https://www.yubico.com/" }],
+      embed: "https://www.youtube.com/embed/V-h3qHo8y2Q",
+      description: "A product launch video"
+    },
+    {
+      title: 'Say Hello to Secure Login on iOS with the YubiKey 5Ci',
+      img: "5ci.jpg",
+      year: "2019",
+      type: "promo",
+      shortDesc: "© 2019 Yubico Inc - Director's Cut",
+      role: "Director, Writer, Camera, Editing, Effects, Color, Sound",
+      links: [
+        { title: "Visit yubico.com", url: "https://www.yubico.com/" },
+        { title: "See the final cut by Yubico on Youtube", url: "https://www.youtube.com/watch?v=GL97M-h77a0" }
+      ],
+      embed: "https://www.youtube.com/embed/ckrt6QuWZOA",
+      description: "3-week turnaround for the biggest product launch in the history of the company. Prepped for about 5 days. Shot in one day. Effects and editing over 2 weeks."
+    },
+    {
+      title: 'Dolphin Adventure Pilot Episode',
+      img: "edge.jpg",
+      year: "2020",
+      type: "promo",
+      shortDesc: "© 2020 Edge Innovations",
+      role: "Media Producer and Zoom Director",
+      links: [
+        {
+          title: "Visit edgefx.com", url: "https://www.edgefx.com/"
+        },
+        {
+          title: "Watch the episode on Youtube", url: "https://www.youtube.com/watch?v=vcVRY5q_QmQ"
+        }
+      ],
+      bigImg: "edge-big.jpg",
+      description: "Live television - An underwater dolphin adventure for ages 4-9 streamed out on Zoom. Gathered and licensed media and B-Roll and sound effects, set up Zoom Cast infrastructure, and ran the show going out to the world - over 500 classrooms and students attended."
+    },
+    {
       title: 'Shorelines',
       img: "shorelines.jpg",
       year: "2023",
@@ -239,24 +282,6 @@ const data = {
       ],
       bigImg: "home-big.jpg",
       description: "A 20-minute long found-footage narrative film, intended for therapeutic use in a clinical setting. Written and directed over two months, artistically guided by Roger Holzberg and Doug Weiser."
-    },
-    {
-      title: 'Dolphin Adventure Pilot Episode',
-      img: "edge.jpg",
-      year: "2020",
-      type: "promo",
-      shortDesc: "© 2020 Edge Innovations",
-      role: "Media Producer and Zoom Director",
-      links: [
-        {
-          title: "Visit edgefx.com", url: "https://www.edgefx.com/"
-        },
-        {
-          title: "Watch the episode on Youtube", url: "https://www.youtube.com/watch?v=vcVRY5q_QmQ"
-        }
-      ],
-      bigImg: "edge-big.jpg",
-      description: "Live television - An underwater dolphin adventure for ages 4-9 streamed out on Zoom. Gathered and licensed media and B-Roll and sound effects, set up Zoom Cast infrastructure, and ran the show going out to the world - over 500 classrooms and students attended."
     },
     {
       title: 'Introducing the YubiKey 5C NFC',
@@ -299,20 +324,6 @@ const data = {
       description: "1-week turnaround for a completely COVID-19 compliant video, B2B service launch."
     },
     {
-      title: 'Say Hello to Secure Login on iOS with the YubiKey 5Ci',
-      img: "5ci.jpg",
-      year: "2019",
-      type: "promo",
-      shortDesc: "© 2019 Yubico Inc - Director's Cut",
-      role: "Director, Writer, Camera, Editing, Effects, Color, Sound",
-      links: [
-        { title: "Visit yubico.com", url: "https://www.yubico.com/" },
-        { title: "See the final cut by Yubico on Youtube", url: "https://www.youtube.com/watch?v=GL97M-h77a0" }
-      ],
-      embed: "https://www.youtube.com/embed/ckrt6QuWZOA",
-      description: "3-week turnaround for the biggest product launch in the history of the company. Prepped for about 5 days. Shot in one day. Effects and editing over 2 weeks."
-    },
-    {
       title: 'BraveMaker Promotional Coverage - "I\'ll Push You"',
       img: "bravemaker.jpg",
       year: "2019",
@@ -324,17 +335,6 @@ const data = {
       ],
       embed: "https://www.youtube.com/embed/MTOpw6ouLnY",
       description: "Event and promotional storytelling"
-    },
-    {
-      title: "Break your Security out of the Ice Age",
-      img: "smash.jpg",
-      year: "2019",
-      type: "promo",
-      shortDesc: "© 2019 Yubico, Inc.",
-      role: "Producer, Writer, Director, Cinematography",
-      links: [{ title: "Visit Yubico.com", url: "https://www.yubico.com/" }],
-      embed: "https://www.youtube.com/embed/V-h3qHo8y2Q",
-      description: "A product launch video"
     },
     {
       title: "How-To: Go Passwordless with Microsoft Accounts & YubiKey",

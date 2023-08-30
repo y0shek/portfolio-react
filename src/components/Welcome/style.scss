@@ -112,8 +112,12 @@
     height: 80px;
     border-radius: 50%;
     position: absolute;
-    bottom: 20%;
+    bottom: 25%;
     left: 46%;
+
+    @media only screen and (max-width: $bp_medium) {
+      bottom: 40%
+    }
 
     @media only screen and (max-width: $bp-mobile) {
       font-size: 18px;

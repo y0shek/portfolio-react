@@ -9,18 +9,18 @@ import skipping from "../../images/skipping.jpg";
 const data = {
   videoProjects: [
     {
-      title: "The Possessed",
+      title: "A Possession",
       img: "possessed-2.jpg",
       year: "2023",
       type: "personal",
-      shortDesc: "Short Film (EN) (Super 16mm) 19\'40\"",
+      shortDesc: "Short Film (EN) (Super 16mm) 18\'23\"",
       role: "Director, Writer, Editor",
       links: [
         { title: "IMDB page", url: "https://www.imdb.com/title/tt27614153/" }
       ],
       embed: "https://player.vimeo.com/video/854042803?h=91fb895bc6",
       description:
-        "AKA \"Narcissus\": A mystical horror based off of Nathaniel Hawthorne's Young Goodman Brown. Mysterious forces threaten to tear apart a young couple's hiking honeymoon. The Possessed was filmed in partial completion of a degree at the Columbia University School of the Arts Film MFA program. TBR 2023. Prod. Ivan Rome, DP Daniel Cho."
+        "AKA \"Narcissus\": A mystical horror based off of Nathaniel Hawthorne's Young Goodman Brown. Mysterious forces threaten to tear apart a young couple's hiking honeymoon. The Possessed was filmed in partial completion of a degree at the Columbia University School of the Arts Film MFA program. Released 2023 at NY Shorts International Film Festival. Prod. Ivan Rome, DP Daniel Cho."
     },
     {
       title: "Be Gay Tomorrow",

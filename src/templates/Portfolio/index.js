@@ -20,7 +20,7 @@ const data = {
       ],
       embed: "https://player.vimeo.com/video/854042803?h=91fb895bc6",
       description:
-        "AKA \"Narcissus\": A mystical horror based off of Nathaniel Hawthorne's Young Goodman Brown. Mysterious forces threaten to tear apart a young couple's hiking honeymoon. The Possessed was filmed in partial completion of a degree at the Columbia University School of the Arts Film MFA program. Released 2023 at NY Shorts International Film Festival. Prod. Ivan Rome, DP Daniel Cho."
+        "AKA \"Narcissus\": A mystical horror based off of Nathaniel Hawthorne's Young Goodman Brown. Mysterious forces threaten to tear apart a young couple's hiking honeymoon. A Possession was filmed in partial completion of a degree at the Columbia University School of the Arts Film MFA program. Released 2023 at NY Shorts International Film Festival. Prod. Ivan Rome, DP Daniel Cho."
     },
     {
       title: "Be Gay Tomorrow",

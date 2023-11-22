@@ -45,7 +45,7 @@ export default class Header extends React.Component {
   render() {
     return (
       <div className='header'>
-        <p className='header__looking-for-engineering'><a href="/engineering">Looking for my Engineering portfolio?</a></p>
+        <p className='header__looking-for-engineering'><a href="/engineering">Looking for my Software Engineer portfolio?</a></p>
         <div className='content'>
           <div className={this.state.atTop ? 'header__picNav' : 'header__picNav header__picNav--scrolled'}>
             <ToTop atTop={this.state.atTop} goToTop={this.goToTop} />

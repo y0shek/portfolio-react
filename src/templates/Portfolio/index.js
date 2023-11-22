@@ -11,20 +11,22 @@ const data = {
     {
       title: "A Possession",
       img: "possessed-2.jpg",
+      laurels: 3,
       year: "2023",
       type: "personal",
-      shortDesc: "Short Film (EN) (Super 16mm) 18\'23\"",
+      shortDesc: "Short Film (EN) (Super 16mm) 18\'17\"",
       role: "Director, Writer, Editor",
       links: [
         { title: "IMDB page", url: "https://www.imdb.com/title/tt27614153/" }
       ],
       embed: "https://player.vimeo.com/video/854042803?h=91fb895bc6",
       description:
-        "AKA \"Narcissus\": A mystical horror based off of Nathaniel Hawthorne's Young Goodman Brown. Mysterious forces threaten to tear apart a young couple's hiking honeymoon. A Possession was filmed in partial completion of a degree at the Columbia University School of the Arts Film MFA program. Released 2023 at NY Shorts International Film Festival. Prod. Ivan Rome, DP Daniel Cho."
+        "AKA \"Narcissus\": A mystical horror based off of Nathaniel Hawthorne's Young Goodman Brown. Mysterious forces threaten to tear apart a young couple's hiking honeymoon. A Possession was filmed in partial completion of a degree at the Columbia University School of the Arts Film MFA program. Released at NY Shorts International Film Festival in Oct. 2023, Prod. Ivan Rome, DP Daniel Cho."
     },
     {
       title: "Be Gay Tomorrow",
       img: "gmgd.jpg",
+      laurels: 9,
       year: "2022",
       type: "personal",
       shortDesc: "Short Film (EN) 13\'01\"",
@@ -35,28 +37,13 @@ const data = {
       ],
       embed: "https://player.vimeo.com/video/808790247",
       description:
-        "Released at the Montecatini International Short Film Festival in November, 2022. Hannah (Allie McCulloch), single, struggling mother of three, wants to host her parents for Thanksgiving, but her kids seem to keep getting in the way, especially her oldest son, Allen, (Josh Rosenzweig) who wants to come out to his grandparents. Produced by Daniel Beltis and Samantha Lori Glass. DP Hangcheng Xu. 7 Official Selections."
-    },
-    {
-      title: "En Rose",
-      img: "enrose.jpg",
-      laurels: 6,
-      wins: 3,
-      year: "2018",
-      type: "personal",
-      shortDesc: "Short Film (FR) 12\'04\"",
-      role: "Director, Editor, Producer, DP",
-      links: [
-        { title: "Watch free now with Amazon Prime Video", url: "https://www.amazon.com/En-Rose-Margaux-Ilona-L%C3%A9touche/dp/B07NBWTQD4" },
-        { title: "IMDB page", url: "https://www.imdb.com/title/tt3681356/" }
-      ],
-      embed: "https://player.vimeo.com/video/435219189",
-      description:
-        "En Rose was filmed in May-July 2014 in Aix-en-Provence, France. A five-minute cut called Comme ses Parents was released for the cast and crew of 12 in late 2014. Finally released in 2018, a drama about two best friends and a young man who creates a divide between them. French-language film shot on location in Aix-en-Provence. Three festival wins and six more official selections. Distributed by Shami Media Group."
+        "Released at the Montecatini International Short Film Festival in November, 2022. Hannah (Allie McCulloch), single, struggling mother of three, wants to host her parents for Thanksgiving, but her kids seem to keep getting in the way, especially her oldest son, Allen, (Josh Rosenzweig) who wants to come out to his grandparents. Produced by Daniel Beltis and Samantha Lori Glass. DP Hangcheng Xu. We made a new webseries pilot cut in early 2023. 9 Official Selections."
     },
     {
       title: "Missing",
       img: "missing.jpg",
+      laurels: 1,
+      wins: 3,
       year: "2021",
       type: "personal",
       shortDesc: "Short Film (EN) 4\'51\"",
@@ -71,6 +58,8 @@ const data = {
     {
       title: "Super 180s",
       img: "super180s.jpg",
+      laurels: 4,
+      wins: 2,
       year: "2020",
       type: "personal",
       shortDesc: "Short Film (EN) 5\'05\"",
@@ -79,37 +68,13 @@ const data = {
       links: [
         { title: "IMDB page", url: "https://www.imdb.com/title/tt11646262/" }
       ],
-      laurels: 3,
-      wins: 2,
       description:
         "A story about implicit bias, a young couple, and a finance bro. Filmed in the financial district in NYC in December 2019. Super 180s was my first semester capstone directing assignment at Columbia University School of the Arts Film MFA. I wrote it with the guidance of writing professor Jamal Joseph and directed it with the guidance of directing professor Ian Olds. DP Erin Ramirez. 5 Official Selections. 1 Semi-Finalist. 1 Award Winner."
     },
     {
-      title: "Safe and Sound",
-      img: "safe-and-sound.jpg",
-      year: "2020",
-      type: "personal",
-      shortDesc: "Short Film 5\'29\"",
-      role: "DP",
-      embed: "https://player.vimeo.com/video/386108542",
-      description:
-        "John becomes obsessed with all the sounds around him and as his behavior worsens, so does his personal life. Dir. Camille Hamadé"
-    },
-    {
-      title: "Glass",
-      img: "glass.jpg",
-      year: "2020",
-      type: "personal",
-      shortDesc: "Short Film 2\'36\"",
-      laurels: 1,
-      role: "Director, Writer, Editor",
-      embed: "https://player.vimeo.com/video/438760465",
-      description:
-        "A whimsical short exercise. A photographer follows a homeless man with a secret. This is the second short exercise I completed for the Columbia Film MFA. Filmed in October 2019 and re-finished post in July 2020. Selected as a OneDumbVideo daily winner 2020."
-    },
-    {
       title: "Rehearsal",
       img: "rehearsal.jpg",
+      laurels: 2,
       year: "2020",
       type: "personal",
       shortDesc: "Short Film (EN) 4\'40\"",
@@ -122,13 +87,53 @@ const data = {
         "Official Selection at Carmarthen Bay Film Festival 2020. Emily asks Adrien to accompany her for an upcoming recital. She's got a bigger ask that he doesn't know about. This is the third short exercise I completed for the Columbia Film MFA. Filmed in November 2019 and re-finished post in August 2020. 1 Official Selection at the Carmarthen Bay Film Festival."
     },
     {
+      title: "En Rose",
+      img: "enrose.jpg",
+      laurels: 6,
+      wins: 3,
+      year: "2018",
+      type: "personal",
+      shortDesc: "Short Film (FR) 12\'04\"",
+      role: "Director, Editor, Producer, DP",
+      links: [
+        { title: "Previously on Amazon Prime Video", url: "https://www.amazon.com/En-Rose-Margaux-Ilona-L%C3%A9touche/dp/B07NBWTQD4" },
+        { title: "IMDB page", url: "https://www.imdb.com/title/tt3681356/" }
+      ],
+      embed: "https://player.vimeo.com/video/667939342?h=6f59f8e4b7",
+      description:
+        "Released in 2018, a drama about two best friends and a young man who creates a divide between them. French-language film shot on location in Aix-en-Provence. Three festival wins and six more official selections. Distributed by Shami Media Group."
+    },
+    {
+      title: "Safe and Sound",
+      img: "safe-and-sound.jpg",
+      year: "2020",
+      type: "personal",
+      shortDesc: "Short Film 5\'29\"",
+      role: "Cinematographer",
+      embed: "https://player.vimeo.com/video/386108542",
+      description:
+        "John becomes obsessed with all the sounds around him and as his behavior worsens, so does his personal life. Dir. Camille Hamadé"
+    },
+    {
+      title: "Glass",
+      img: "glass.jpg",
+      laurels: 1,
+      year: "2020",
+      type: "personal",
+      shortDesc: "Short Film 2\'36\"",
+      role: "Director, Writer, Editor, DP",
+      embed: "https://player.vimeo.com/video/438760465",
+      description:
+        "A whimsical short exercise. A photographer follows a homeless man with a secret. This is the second short exercise I completed for the Columbia Film MFA. Filmed in October 2019 and re-finished post in July 2020. Selected as a OneDumbVideo daily winner 2020."
+    },
+    {
       title: "Compartmentalize",
       img: "compartmentalize.jpg",
+      laurels: 1,
       year: "2020",
       type: "personal",
       shortDesc: "Short Film 3\'31\"",
-      laurels: 1,
-      role: "Director, Writer, Editor",
+      role: "Director, Writer, Editor, DP",
       embed: "https://player.vimeo.com/video/435194741",
       description:
         "A psychological horror short exercise. This is the first short exercise I completed for the Columbia Film MFA. Filmed in October 2019 and re-finished post in July 2020. Selected as a OneDumbVideo daily winner 2020."
@@ -140,7 +145,7 @@ const data = {
       year: "2019",
       type: "personal",
       shortDesc: "Short Film (EN) 4\'43\"",
-      role: "Producer, Director, Writer, Editor",
+      role: "Producer, Director, Writer, Editor, DP",
       embed: "https://player.vimeo.com/video/435206895",
       description:
         "Talk was a submission which eventually led to my acceptance to AFI conservatory in Los Angeles and Columbia University SOA in New York City. I challenged myself by limiting the cast to one person and the camera frame to one single angle. Joe is played by Tony Gapastione. 1 Official Selection."
@@ -170,7 +175,7 @@ const data = {
       year: "2011",
       type: "personal",
       shortDesc: "PBS: Kids Puppetry Spot (EN) 3\'36\"",
-      role: "Director, Puppeteer",
+      role: "Director, Puppeteer, DP",
       embed: "https://www.youtube.com/embed/LSPxgxUea14",
       links: [
         {
@@ -187,7 +192,7 @@ const data = {
       year: "2015",
       type: "personal",
       shortDesc: "Music Video (EN) 3\'24\"",
-      role: "Director, Writer",
+      role: "Director, Writer, DP",
       embed: "https://www.youtube.com/embed/A_z56mand9A",
       description:
         "One of a Kind by rap artist Otis was filmed and produced in Summer, 2015 in Madison, WI. His unique rap style and storytelling convinced me to take on this project with a modest budget and a cast/crew of twelve."
@@ -195,10 +200,11 @@ const data = {
     {
       title: "Ovation",
       img: "ovation.jpg",
+      wins: 1,
       year: "2013",
       type: "personal",
       shortDesc: "Music Video (EN) 4\'55\"",
-      role: "Director, Writer",
+      role: "Director, Writer, DP",
       embed: "https://www.youtube.com/embed/8c_VIXAgPeg",
       description:
         'Ovation is a music video in the style of a gospel ballad by Madison, WI artist Anthony Lamarr. I was contracted to direct this job in Summer, 2013. Nominated for "Best Music Video" in the 2014 Madison Area Music Awards.'
@@ -220,7 +226,7 @@ const data = {
       year: "2019",
       type: "promo",
       shortDesc: "© 2019 Yubico, Inc.",
-      role: "Producer, Writer, Director, Cinematography",
+      role: "Producer, Writer, Director, DP",
       links: [{ title: "Visit Yubico.com", url: "https://www.yubico.com/" }],
       embed: "https://www.youtube.com/embed/V-h3qHo8y2Q",
       description: "A product launch video"
@@ -231,7 +237,7 @@ const data = {
       year: "2019",
       type: "promo",
       shortDesc: "© 2019 Yubico Inc - Director's Cut",
-      role: "Director, Writer, Camera, Editing, Effects, Color, Sound",
+      role: "Director, Writer, DP, Editing, Effects, Color, Sound",
       links: [
         { title: "Visit yubico.com", url: "https://www.yubico.com/" },
         { title: "See the final cut by Yubico on Youtube", url: "https://www.youtube.com/watch?v=GL97M-h77a0" }
@@ -302,7 +308,7 @@ const data = {
       year: "2020",
       type: "promo",
       shortDesc: "© 2020 Yubico Inc - Director's Cut",
-      role: "Director, Writer, Editing, Animation",
+      role: "Director, Writer, Editing, Animation, DP",
       links: [
         { title: "Visit yubico.com", url: "https://www.yubico.com/" },
         { title: "Watch the shortened release version", url: "https://www.youtube.com/watch?v=8ykCYFqMuPo" }
@@ -329,7 +335,7 @@ const data = {
       year: "2019",
       type: "promo",
       shortDesc: "© 2019 BraveMaker",
-      role: "Director, Editor",
+      role: "Director, Editor, DP",
       links: [
         { title: "Visit bravemaker.com", url: "https://www.bravemaker.com/" }
       ],
@@ -353,7 +359,7 @@ const data = {
       year: "2018",
       type: "promo",
       shortDesc: "© 2018 Yubico, Inc.",
-      role: "Producer, Director, Editing",
+      role: "Producer, Director, Editing, DP",
       links: [{ title: "Visit Yubico.com", url: "https://www.yubico.com/" }],
       embed: "https://www.youtube.com/embed/FUrOHAWKwIo",
       description: "A software/hardware demo video."
@@ -364,7 +370,7 @@ const data = {
       year: "2018",
       type: "promo",
       shortDesc: "© 2018 Yubico, Inc.",
-      role: "Producer, Director, Co-Writer, Editing",
+      role: "Producer, Director, Co-Writer, Editing, DP",
       links: [{ title: "Visit Yubico.com", url: "https://www.yubico.com/" }],
       embed: "https://www.youtube.com/embed/aAr41uSC4vs",
       description: "A kickstarter-style company video with interviews."
@@ -375,7 +381,7 @@ const data = {
       year: "2018",
       type: "promo",
       shortDesc: "© 2018 Yubico, Inc.",
-      role: "Producer, Director, Editing",
+      role: "Producer, Director, Editing, DP",
       links: [{ title: "Visit Yubico.com", url: "https://www.yubico.com/" }],
       embed: "https://www.youtube.com/embed/Y7jMarlnxac",
       description: "A product launch video."
@@ -398,7 +404,7 @@ const data = {
       year: "2018",
       type: "promo",
       shortDesc: "© 2018 Yubico, Inc.",
-      role: "Producer, Director, Writer, Editing",
+      role: "Producer, Director, Writer, Editing, DP",
       embed: "https://www.youtube.com/embed/CNpsqEjcJRI",
       links: [{ title: "Visit Yubico.com", url: "https://www.yubico.com/" }],
       description:
@@ -422,7 +428,7 @@ const data = {
       year: "2018",
       type: "promo",
       shortDesc: "© 2018 Yubico, Inc.",
-      role: "Director, Compositing, Editing, Actor",
+      role: "Director, Compositing, Editing, Actor, DP",
       embed: "https://www.youtube.com/embed/RxaCOEOZM74",
       links: [{ title: "Visit Yubico.com", url: "https://www.yubico.com/" }],
       description:
@@ -446,7 +452,7 @@ const data = {
       year: "2018",
       type: "promo",
       shortDesc: "© 2018 Yubico, Inc.",
-      role: "Director, Writer, Compositing, Editing",
+      role: "Director, Writer, Compositing, Editing, DP",
       embed: "https://www.youtube.com/embed/sX7_Fyw1MWI",
       links: [{ title: "Visit Yubico.com", url: "https://www.yubico.com/" }],
       description:
@@ -458,7 +464,7 @@ const data = {
       year: "2017",
       type: "promo",
       shortDesc: "© 2017 Yubico, Inc.",
-      role: "Director, Writer, Compositing, Editing",
+      role: "Director, Writer, Compositing, Editing, DP",
       embed: "https://www.youtube.com/embed/jHPW--sL_es",
       links: [{ title: "Visit Yubico.com", url: "https://www.yubico.com/" }],
       description: "Promotional video for Facebook support of YubiKeys."
@@ -469,7 +475,7 @@ const data = {
       year: "2016",
       type: "promo",
       shortDesc: "© 2016 Yubico, Inc.",
-      role: "Director, Writer, Compositing, Editing",
+      role: "Director, Writer, Compositing, Editing, DP",
       embed: "https://www.youtube.com/embed/8TokpxO6J7Q",
       links: [{ title: "Visit Yubico.com", url: "https://www.yubico.com/" }],
       description:
@@ -493,7 +499,7 @@ const data = {
       year: "2013",
       type: "promo",
       shortDesc: "Student Business Rebranding project",
-      role: "Director, Editor",
+      role: "Director, Editor, DP",
       embed: "https://www.youtube.com/embed/rHGwEYli6iM",
       links: [
         {
@@ -1006,7 +1012,7 @@ export default class Portfolio extends React.Component {
             </h2>
             <blockquote className="portfolio__overview__blockquote">
               <h4 style={{ textAlign: "center", marginBottom: 0 }}>
-                <span className="special_text">My name is Joshua M Kellerman</span>
+                <span className="special_text">Joshua M Kellerman</span>
               </h4>
               <h4 style={{ textAlign: "center", marginTop: "10px", marginBottom: 0 }}>
                 <span className="special_text">
@@ -1014,17 +1020,14 @@ export default class Portfolio extends React.Component {
               </h4>
               <h4 style={{ textAlign: "center", marginTop: "10px" }}>
                 <span className="special_text">
-                  Columbia Film MFA</span>
+                  Columbia University Film MFA</span>
                 <br />
                 <span className="special_text">
-                  Ex-Twitter Backend Engineer</span>
+                  Ex Senior Software Engineer at Twitter</span>
               </h4>
             </blockquote>
             <h4 style={{ textAlign: "center" }}>
-              Scroll down{" "}
-              <span className="special_text">
-                to see some of my projects, below:
-              </span>
+              Projects:
             </h4>
             <div className="portfolio__subnav" ref="subnav">
               <a onClick={() => this.handleScrollTo("film")}>Film</a>

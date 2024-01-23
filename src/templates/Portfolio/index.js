@@ -14,7 +14,7 @@ const data = {
       laurels: 3,
       year: "2023",
       type: "personal",
-      shortDesc: "Short Film (EN) (Super 16mm) 18\'17\"",
+      shortDesc: "Short Film (EN) (Super 16mm) 16\'08\"",
       role: "Director, Writer, Editor",
       links: [
         { title: "IMDB page", url: "https://www.imdb.com/title/tt27614153/" }

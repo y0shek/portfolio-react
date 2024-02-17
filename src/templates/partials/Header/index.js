@@ -45,7 +45,7 @@ export default class Header extends React.Component {
   render() {
     return (
       <div className='header'>
-        <p className='header__looking-for-engineering'><a href="/engineering">Looking for my Software Engineer portfolio?</a></p>
+        <p className='header__looking-for-engineering'><a href="/engineering">Looking for my <br />Software Engineer portfolio?</a></p>
         <div className='content'>
           <div className={this.state.atTop ? 'header__picNav' : 'header__picNav header__picNav--scrolled'}>
             <ToTop atTop={this.state.atTop} goToTop={this.goToTop} />
@@ -54,7 +54,7 @@ export default class Header extends React.Component {
               <a href="https://www.imdb.com/name/nm2976276/?ref_=fn_al_nm_1">
                 <img src={imdbIcon} alt="IMDB" />
               </a>
-              <SocialIcon url="https://vimeo.com/socksandsandals" />
+              <SocialIcon url="https://www.linkedin.com/in/joshua-m-kellerman-718a1b31/" />
               <SocialIcon url="https://www.instagram.com/joshua_kellerman/" />
             </div>
             <Navigation atTop={this.state.atTop} />

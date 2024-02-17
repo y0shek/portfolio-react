@@ -46,7 +46,7 @@ export default class ProjectList extends React.Component {
         <div className='projectList'>
           <div className='projectList__reel' ref={'project-list-reel-' + this.props.id}>
             <div className='projectList__reel__connector'></div>
-            {this.props.projects.map((proj, i) => <Project key={i} data={proj} />)}
+            {this.props.projects.map((proj, i) => <Project key={i} data={proj} type={this.props.id} />)}
           </div>
         </div>
       </div>

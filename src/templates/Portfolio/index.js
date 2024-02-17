@@ -11,10 +11,10 @@ const data = {
     {
       title: "A Possession",
       img: "possessed-2.jpg",
-      laurels: 3,
+      laurels: 4,
       year: "2023",
       type: "personal",
-      shortDesc: "Short Film (EN) (Super 16mm) 16\'08\"",
+      shortDesc: "Short Film (EN) (Super 16mm) 16\'15\"",
       role: "Director, Writer, Editor",
       links: [
         { title: "IMDB page", url: "https://www.imdb.com/title/tt27614153/" }
@@ -26,7 +26,7 @@ const data = {
     {
       title: "Be Gay Tomorrow",
       img: "gmgd.jpg",
-      laurels: 9,
+      laurels: 7,
       year: "2022",
       type: "personal",
       shortDesc: "Short Film (EN) 13\'01\"",
@@ -43,7 +43,7 @@ const data = {
       title: "Missing",
       img: "missing.jpg",
       laurels: 1,
-      wins: 3,
+      wins: 2,
       year: "2021",
       type: "personal",
       shortDesc: "Short Film (EN) 4\'51\"",
@@ -58,7 +58,7 @@ const data = {
     {
       title: "Super 180s",
       img: "super180s.jpg",
-      laurels: 4,
+      laurels: 3,
       wins: 2,
       year: "2020",
       type: "personal",
@@ -89,8 +89,8 @@ const data = {
     {
       title: "En Rose",
       img: "enrose.jpg",
-      laurels: 6,
-      wins: 3,
+      laurels: 5,
+      wins: 4,
       year: "2018",
       type: "personal",
       shortDesc: "Short Film (FR) 12\'04\"",

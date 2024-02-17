@@ -1,7 +1,7 @@
 @import '../../variables.scss';
 @import 'node_modules/react-image-gallery/styles/scss/image-gallery.scss';
 
-.project{
+.project {
   width: 350px;
   min-height: 380px;
   vertical-align: top;
@@ -14,137 +14,151 @@
   border: 2px dashed #aaa;
   border-radius: 10px;
   cursor: pointer;
-  .project__image{
+
+  .project__image {
     img {
       width: 100%;
       border-radius: 10px;
     }
   }
-  .project__laurels{
-    display:none;
-    .project__laurels__laurel{
-      width: 25px;
-      margin-right:5px;
+
+  .project__laurels {
+    display: inline-block;
+
+    .project__laurels__laurel {
+      color: $purple;
+      width: 20px;
+      margin-right: 3px;
     }
   }
 
-  .project__wins{
-    display:none;
-    font-size:20px;
+  .project__wins {
+    display: inline-block;
+    font-size: 20px;
     vertical-align: top;
-    .project__wins__win{
-      margin-right:3px;
+
+    .project__wins__win {
+      color: $purple;
+      margin-right: 5px;
     }
   }
 
-  .project__shell{
-    position:relative;
+  .project__shell {
+    position: relative;
     min-height: 400px;
-    @media only screen and (max-width: $bp-medium){
+
+    @media only screen and (max-width: $bp-medium) {
       min-height: 340px;
     }
   }
 
-  @media only screen and (max-width: $bp-medium){
+  @media only screen and (max-width: $bp-medium) {
     width: 240px;
     min-height: 360px;
   }
 
-  @media only screen and (max-width: $bp-legacy){
+  @media only screen and (max-width: $bp-legacy) {
     width: 200px;
   }
 
-  &:hover{
+  &:hover {
     background-color: white;
   }
 }
 
-.project__modal__button{
-  background-color :transparent;
+.project__modal__button {
+  background-color: transparent;
   border: none;
   outline: none;
   cursor: pointer;
-  float:right;
-  vertical-align:top;
+  float: right;
+  vertical-align: top;
   font-size: 30px;
-  &:hover{
-    i{
+
+  &:hover {
+    i {
       color: $accentRed;
     }
   }
+
   i {
     color: $purple;
     transition: color 500ms;
   }
 }
 
-.project__modal__h3{
+.project__modal__h3 {
   margin: 10px 0 0 0;
-  text-align:center;
+  text-align: center;
 }
 
 .ReactModal__Body--open {
   overflow-y: hidden;
 }
 
-.ReactModal__Content{
+.ReactModal__Content {
   max-width: 640px;
   margin: 0 auto;
   left: 20px !important;
   right: 20px !important;
-  @media only screen and (min-width: $bp-mobile){
+
+  @media only screen and (min-width: $bp-mobile) {
     bottom: auto !important;
   }
-  @media only screen and (max-height: 900px){
+
+  @media only screen and (max-height: 900px) {
     bottom: 40px !important;
   }
 }
 
-.ReactModal__Overlay{
-    z-index:30;
-    background-color: rgba(100,100,100, 0.75)!important;
+.ReactModal__Overlay {
+  z-index: 30;
+  background-color: rgba(100, 100, 100, 0.75) !important;
 }
 
-.project__modal__player{
-  margin-top:45px;
-  text-align:center;
-  iframe{
+.project__modal__player {
+  margin-top: 45px;
+  text-align: center;
+
+  iframe {
     width: 100%;
     min-height: 360px;
-    @media only screen and (max-width: $bp-mobile){
+
+    @media only screen and (max-width: $bp-mobile) {
       min-height: 220px;
     }
   }
 }
 
-.project__modal__desc{
+.project__modal__desc {
   margin-top: 20px;
   padding: 0 20px;
 }
 
-.project__modal__links{
-  text-align:center;
+.project__modal__links {
+  text-align: center;
 }
 
-.project__modal__bigImg{
-  margin-top:45px;
+.project__modal__bigImg {
+  margin-top: 45px;
   width: 100%;
-  img{
-    width:100%;
+
+  img {
+    width: 100%;
   }
 }
 
-.project__modal__gallery{
-  margin-top:40px;
+.project__modal__gallery {
+  margin-top: 40px;
 }
 
-.image-gallery-icon{
-  &:hover{
-      color: $accentRed !important;
+.image-gallery-icon {
+  &:hover {
+    color: $accentRed !important;
   }
 }
 
-.image-gallery-thumbnail.active{
+.image-gallery-thumbnail.active {
   border: 4px solid $accentRed;
 }
 
@@ -155,6 +169,6 @@
   }
 }
 
-button.image-gallery-play-button{
-  display:none;
+button.image-gallery-play-button {
+  display: none;
 }

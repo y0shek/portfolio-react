@@ -20,7 +20,7 @@ export default class BlogPost extends React.Component {
         <p onClick={this.toggleExpand} className="blog__post__time clickable">{this.props.post.date.split("T")[0]}</p>
         <div className="blog__post__body">
           <h3 onClick={this.toggleExpand} className="blog__post__title clickable" dangerouslySetInnerHTML={{ __html: this.props.post.title.rendered }}></h3>
-          <i onClick={this.toggleExpand} class={!this.state.isExpanded ? "fas fa-plus-circle clickable" : "fas fa-minus-circle clickable"} ></i>
+          <i onClick={this.toggleExpand} className={!this.state.isExpanded ? "fas fa-plus-circle clickable" : "fas fa-minus-circle clickable"} ></i>
           <div className={this.state.isExpanded ? "blog__post__content expandedPost" : "blog__post__content"} dangerouslySetInnerHTML={{ __html: this.props.post.content.rendered }} />
           <br />
         </div>

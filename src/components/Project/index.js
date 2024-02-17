@@ -20,25 +20,38 @@ export default class Project extends React.Component {
     this.setState({ showModal: false });
   }
 
+  wins = () => {
+    const winsArr = Array.from("w".repeat(this.props.data.wins))
+    return (<div className='project__wins'>{winsArr.map((obj, i) => (<i key={i} className="fas fa-award project__wins__win" ></i>))}</div>);
+  };
+
+  laurels = () => {
+    const laurelArr = Array.from("l".repeat(this.props.data.laurels))
+    return (<div className='project__laurels'>{laurelArr.map((obj, i) => (<i key={i} alt='laurels graphic' className='fas fa-leaf project__laurels__laurel' ></i>))}</div>);
+  };
+
   render() {
-    let projImg = '';
-    let bigProjImg = '';
-    if (this.props.data.img !== null && this.props.data.img !== '') {
-      projImg = require('../../images/projects/' + this.props.data.img);
-    }
-    if (!this.props.data.embed && this.props.data.bigImg) {
-      bigProjImg = require('../../images/projects/' + this.props.data.bigImg);
-    }
+    const projImg = (this.props.data.img !== null && this.props.data.img !== '') ?
+      require('../../images/projects/' + this.props.data.img) : ''
+
+    const bigProjImg = (!this.props.data.embed && this.props.data.bigImg) ?
+      require('../../images/projects/' + this.props.data.bigImg) : ''
 
     const el = document.getElementById('root');
 
     return (
-      <div className='project'>
+      <div className='project' >
         <div className='project__shell' onClick={this.handleOpenModal}>
           <div className='project__image'><img alt={this.props.data.title + ' screengrab'} src={projImg} /></div>
           <p className='project__title'><strong>{this.props.data.title}</strong> ({this.props.data.year})</p>
           <p className='project__shortDesc'>{this.props.data.shortDesc}</p>
           <p className='project__role'>{this.props.data.role}</p>
+          {
+            this.props.type == "personal" && <div>
+              {this.laurels()}
+              {this.wins()}
+            </div>
+          }
         </div>
         <ReactModal
           isOpen={this.state.showModal}

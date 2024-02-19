@@ -20,7 +20,7 @@ export default class Portfolio extends React.Component {
           <div className="eng__namecard">
             <div className="eng__namecard__text">
               <h1>Joshua M Kellerman</h1>
-              <h3>Principal Software Engineer and EM</h3>
+              <h3>Principal Software Engineer / EM</h3>
             </div>
             <div className='eng__namecard__image'>
               <img src={myPic} alt='Joshua M Kellerman headshot' />
@@ -34,7 +34,7 @@ export default class Portfolio extends React.Component {
           </div>
           <h3><strong>Major Projects</strong></h3>
           <h4 style={{ "margin-bottom": 0 }}>Echo360 Capture Team - 2023</h4>
-          <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>Role: Principal Full-Stack Engineer</h5>
+          <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>Role: Principal Full-Stack Enginee / EM</h5>
           <ul>
             <li>Upgraded Echo360 Capture Infrastructure to Support 4-channel video capture and playback</li>
             <ul>

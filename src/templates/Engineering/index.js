@@ -1,7 +1,7 @@
 import React from "react";
 import Section from "../../components/Section";
 import myPic from '../../images/me_prof.jpg';
-import myResume from "../../pdfs/website-resume.pdf";
+import myResume from "../../pdfs/website-resume-feb-2024.pdf";
 import { SocialIcon } from "react-social-icons";
 import "./style.css";
 
@@ -26,6 +26,50 @@ export default class Portfolio extends React.Component {
               <img src={myPic} alt='Joshua M Kellerman headshot' />
             </div>
           </div>
+        </Section>
+        <Section theName="eng__experience">
+          <h3><strong>Experience</strong></h3>
+          <p><a href={myResume}>Download my Resume</a></p>
+        </Section>
+        <Section theName="eng__skills">
+          <h3><strong>Skillset</strong></h3>
+          <h5>Engineering and Project Management</h5>
+          <ul>
+            <li>Stakeholder Meetings, Sprint Planning, Timeframe Estimation, Engineer Support</li>
+            <li>AGILE, SCRUM, Kanban: Scoping, Organization, Task Delegation, and Story Points</li>
+            <li>Technical and Cultural Hiring</li>
+            <li>Development, Code Reviews, and Post-Mortems</li>
+            <li>Production level Cloud Design - Docker and Kubernetes</li>
+            <li>CI/CD Pipeline Setup - Workflows, Chef, Ansible, etc</li>
+          </ul>
+          <h5>Artificial Intelligence / Machine Learning</h5>
+          <ul>
+            <li>Python: PyTorch, Pandas</li>
+            <li>BERT & Transformers with Stanford NLTK (2019)</li>
+            <li>Knowledge Graph Entity and Edge Design, Reverse Lookup</li>
+          </ul>
+          <h5>Application Engineering / Cloud</h5>
+          <ul>
+            <li>Databases: Postgres, SQL, Mongo, Redis, DynamoDB</li>
+            <li>Cloud: Docker, Kubernetes, AWS, GCP, API Gateway, Elasticsearch</li>
+            <li>OO and Functional Programming: Scala, Python, Java, Javascript / Typescript, PHP 5/7, CPP, C#, C, Android, JSF, GoLang</li>
+            <li>Scala: Play, Cats, Finatra / Finagle</li>
+            <li>Typescript / Javascript: NodeJs, npm, React.js, Redux</li>
+            <li>Web Security: OAuth 2.0 Token-based authentication with U2F, FIDO2, SSO</li>
+            <li>eCommerce: WooCommerce, Magento</li>
+            <li>Unit and Functional Testing Coverage</li>
+            <li>API Design and implementation on multiple frameworks, including middlewares</li>
+          </ul>
+          <h5>User Experience / Design</h5>
+          <ul>
+            <li>UX Testing</li>
+            <li>Wireframing and Storyboarding</li>
+            <li>Front-end web development</li>
+            <li>Video Production and Screenplay Writing</li>
+            <li>Adobe Creative Suite</li>
+            <li>Logo Design, UI Design, 2D and 3D Art</li>
+            <li>DaVinci Resolve Pro, Blender 3D</li>
+          </ul>
         </Section>
         <Section theName="eng__projects">
           <h3><strong>Contact Me</strong></h3>
@@ -95,7 +139,7 @@ export default class Portfolio extends React.Component {
             </ul>
             <li>Redesigned for rapid development and growth:</li>
             <ul>
-              <li>Built out dockerized microservices for Tensorflow and Stanford NLTK in Python</li>
+              <li>Built out dockerized microservices for PyTorch and Stanford NLTK in Python</li>
               <li>Lead for "text analysis" components service, where customers can buy use of any one micro-service. Evaluated for end-users' use by a top-10 tech company.</li>
               <li>Built out testing / debugging / logging framework</li>
               <li>Set up cloud-based common development back end for NLU Engine to ensure devops consistency among developers</li>
@@ -163,47 +207,6 @@ export default class Portfolio extends React.Component {
               <li>Designed a user experience that would be used in all applications for U2F and FIDO2 hardware across the internet</li>
               <li>Worked with Microsoft to ensure security, resulting in a long-lasting partnership between Yubico and Microsoft</li>
             </ul>
-          </ul>
-        </Section>
-        <Section theName="eng__experience">
-          <h3><strong>Experience</strong></h3>
-          <p><a href={myResume}>Download my Resume</a></p>
-        </Section>
-        <Section theName="eng__skills">
-          <h3><strong>Skillset</strong></h3>
-          <h5>NLP Artificial Intelligence / Machine Learning</h5>
-          <ul>
-            <li>Tensorflow & DeepCRF</li>
-            <li>BERT & Transformers</li>
-            <li>Stanford NLTK</li>
-            <li>Knowledge Graph Entity and Edge Design</li>
-            <li>Knowledge Graph Reverse Lookup</li>
-            <li>Scala, Python, Redis</li>
-          </ul>
-          <h5>Application Engineering / Cloud</h5>
-          <ul>
-            <li>Database design: SQL and NoSQL (Postgresql, MySQL, MongoDB, Redis)</li>
-            <li>Object-oriented and Functional programming</li>
-            <li>API Design and implementation</li>
-            <li>eCommerce: WooCommerce, Magento</li>
-            <li>Python, Javascript, Typescript, PHP5, PHP7, NodeJs, npm, React.js, Redux, Jest, Docker, Kubernetes, AWS, GCP, Elasticsearch</li>
-            <li>C#, C++, Java</li>
-            <li>Token-based authentication (U2F, FIDO2, SSO)</li>
-          </ul>
-          <h5>User Experience / Design</h5>
-          <ul>
-            <li>UX Testing</li>
-            <li>Wireframing and Storyboarding</li>
-            <li>Front-end web development</li>
-            <li>Video Production</li>
-            <li>Adobe Creative Suite</li>
-          </ul>
-          <h5>Project Management</h5>
-          <ul>
-            <li>AGILE with SCRUM or Kanban, prefer Kanban</li>
-            <li>Waterfall</li>
-            <li>Technical Hiring</li>
-            <li>Planning, Delegation, Stakeholder meetings, Post-mortems</li>
           </ul>
         </Section>
       </div>

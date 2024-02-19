@@ -28,6 +28,10 @@ export default class Portfolio extends React.Component {
           </div>
         </Section>
         <Section theName="eng__experience">
+          <h3><strong>Contact Me</strong></h3>
+          <div className="eng__socialIcons">
+            <SocialIcon url="https://www.linkedin.com/in/joshua-m-kellerman-718a1b31/" />
+          </div>
           <h3><strong>Experience</strong></h3>
           <p><a href={myResume}>Download my Resume</a></p>
         </Section>
@@ -72,10 +76,6 @@ export default class Portfolio extends React.Component {
           </ul>
         </Section>
         <Section theName="eng__projects">
-          <h3><strong>Contact Me</strong></h3>
-          <div className="eng__socialIcons">
-            <SocialIcon url="https://www.linkedin.com/in/joshua-m-kellerman-718a1b31/" />
-          </div>
           <h3><strong>Major Projects</strong></h3>
           <h4 style={{ "margin-bottom": 0 }}>Echo360 Capture Team - 2023</h4>
           <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>Role: Principal Full-Stack Engineer / EM</h5>

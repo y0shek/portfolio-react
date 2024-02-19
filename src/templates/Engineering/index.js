@@ -32,7 +32,7 @@ export default class Portfolio extends React.Component {
           <div className="eng__socialIcons">
             <SocialIcon url="https://www.linkedin.com/in/joshua-m-kellerman-718a1b31/" />
           </div>
-          <p><a href={myResume}>Download my Resume</a></p>
+          <p className="eng__Resume"><a href={myResume}>Download my Resume</a></p>
         </Section>
         <Section theName="eng__skills">
           <h3><strong>Skillset</strong></h3>

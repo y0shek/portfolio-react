@@ -838,7 +838,7 @@ const data = {
   ],
   education: [
     {
-      title: "La Femis Filmmaking Certificate",
+      title: "La Femis Directing Semester",
       img: "femis.jpg",
       year: "2023",
       shortDesc: "Attended La Femis Film School in Paris",
@@ -864,7 +864,7 @@ const data = {
       ]
     },
     {
-      title: "International Political Education",
+      title: "International Political Education Year",
       img: "iep.jpg",
       year: "2013-2014",
       shortDesc: "Attended L'Institut d'Études Politiques in Aix-en-Provence",
@@ -877,7 +877,7 @@ const data = {
       ]
     },
     {
-      title: "English Literature B.A. from UW-Madison",
+      title: "UW-Madison BA English Literature with Computer Science",
       img: "uw.jpg",
       year: "2011-2013",
       shortDesc: "Attended UW-Madison for English and Computer Science",
@@ -889,7 +889,7 @@ const data = {
       ]
     },
     {
-      title: "3 Years of Animation and Film Studies at UW-Milwaukee PSOA",
+      title: "UW-Milwaukee Partial BFA Animation and Film Studies",
       img: "uwm.jpg",
       year: "2008-2010",
       shortDesc: "Attended UW-Milwaukee for Film, Animation, and Puppetry",

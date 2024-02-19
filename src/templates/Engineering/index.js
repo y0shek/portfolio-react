@@ -34,7 +34,7 @@ export default class Portfolio extends React.Component {
           </div>
           <h3><strong>Major Projects</strong></h3>
           <h4 style={{ "margin-bottom": 0 }}>Echo360 Capture Team - 2023</h4>
-          <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>Role: Principal Engineer</h5>
+          <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>Role: Principal Full-Stack Engineer</h5>
           <ul>
             <li>Upgraded Echo360 Capture Infrastructure to Support 4-channel video capture and playback</li>
             <ul>
@@ -84,7 +84,7 @@ export default class Portfolio extends React.Component {
             </ul>
           </ul>
           <h4 style={{ "margin-bottom": 0 }}>Mosaix.ai NLU Engine - 2019</h4>
-          <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>Role: Architect / Engineer</h5>
+          <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>Role: Senior A.I. Engineer (NLP - Transformers)</h5>
           <ul>
             <li>Redesigned NLU Engine and microservices in Scala, Python, Docker, Redis, AWS, GCP</li>
             <li>Substantial gain in quality of service:</li>

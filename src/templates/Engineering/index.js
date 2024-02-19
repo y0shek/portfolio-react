@@ -20,7 +20,7 @@ export default class Portfolio extends React.Component {
           <div className="eng__namecard">
             <div className="eng__namecard__text">
               <h1>Joshua M Kellerman</h1>
-              <h3>Principal Software Engineer</h3>
+              <h3>Principal Software Engineer and EM</h3>
             </div>
             <div className='eng__namecard__image'>
               <img src={myPic} alt='Joshua M Kellerman headshot' />
@@ -56,13 +56,13 @@ export default class Portfolio extends React.Component {
           <ul>
             <li>Twitter Health Org DORA Four Keys Dashboard</li>
             <ul>
-              <li>Architected and implemented a method of data extraction for the Twitter Ecosystem, tracking Workflows and Commits per-team, then sending the metadata to BigQuery and an in-house instance of the <a href="https://cloud.google.com/blog/products/devops-sre/using-the-four-keys-to-measure-your-devops-performance" target="_">Google Four Keys project</a>.</li>
+              <li>Designed and implemented a method of data extraction for the Twitter Ecosystem, tracking Workflows and Commits per-team, then sending the metadata to BigQuery and an in-house instance of the <a href="https://cloud.google.com/blog/products/devops-sre/using-the-four-keys-to-measure-your-devops-performance" target="_">Google Four Keys project</a>.</li>
             </ul>
           </ul>
           <ul>
             <li>Twitter Health Deployment Tracker Dashboard</li>
             <ul>
-              <li>Archietected and implemented a dashboard in Python, React, and Redux for generating per-team high-priority Deployment and Workflows KPIs across the Twitter Health ogranization.</li>
+              <li>Designed and implemented a dashboard in Python, React, and Redux for generating per-team high-priority Deployment and Workflows KPIs across the Twitter Health ogranization.</li>
             </ul>
           </ul>
           <h4 style={{ "margin-bottom": 0 }}>Twitter Safety Mode - 2021</h4>
@@ -70,8 +70,8 @@ export default class Portfolio extends React.Component {
           <ul>
             <li>Twitter Safety Mode Lead Backend Engineer</li>
             <ul>
-              <li>Architected and implemented a generalized Socialgraph edge TTL system in Kafka, Twitter Strato, and Thrift, for Smartblocking expirations</li>
-              <li>Architected and implemented the Twitter Safetymode Smartblocking User timeline with help from the Socialgraph team</li>
+              <li>Designed and implemented a generalized Socialgraph edge TTL system in Kafka, Twitter Strato, and Thrift, for Smartblocking expirations</li>
+              <li>Designed and implemented the Twitter Safetymode Smartblocking User timeline with help from the Socialgraph team</li>
             </ul>
           </ul>
           <h4 style={{ "margin-bottom": 0 }}>Twitter Report Flow New Architecture Migration - 2020/2021</h4>
@@ -154,7 +154,7 @@ export default class Portfolio extends React.Component {
             </ul>
           </ul>
           <h4 style={{ "margin-bottom": 0 }}>Yubico YubiKey for Windows Hello - 2016</h4>
-          <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>Role: Architect and Engineer</h5>
+          <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>Role: Designer and Principal Engineer</h5>
           <ul>
             <li>Designed and Engineered the YubiKey for Windows Hello native Windows 10 Universal Windows Platform app</li>
             <ul>

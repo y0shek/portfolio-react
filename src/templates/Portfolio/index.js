@@ -853,11 +853,11 @@ const data = {
     {
       title: "Columbia MFA Film Directing / Screenwriting",
       img: "columbia.jpg",
-      year: "2019-present",
+      year: "2020-2024",
       shortDesc: "Attended Columbia University",
       role: "Film Directing / Screenwriting",
       description:
-        'I studied in the world-renowned filmmaking program at Columbia School of the Arts.',
+        'I studied at Columbia\'s world-renowned filmmaking program in both Screenwriting and Directing. I studied writing under David Klass, Katherine Dieckmann, Trey Ellis, Jamal Joseph, Stephen Molton, and Matt Fennel. I studied directing under Eric Mendelsohn and Bogdan Apetri. My Thesis Advisor was Andy Bienen, screenwriter of Boys Don\'t Cry.',
       bigImg: "columbia_big.jpg",
       links: [
         { title: "Visit Columbia Film Website", url: "https://arts.columbia.edu/film" }

@@ -29,11 +29,11 @@ export default class Portfolio extends React.Component {
         </Section>
         <Section theName="eng__experience">
           <h3><strong>Experience</strong></h3>
-          <p><a href={myResume}>📃 Download my Resume</a></p>
           <div className="eng__socialIcons">
             <SocialIcon url="https://www.linkedin.com/in/joshua-m-kellerman-718a1b31/" />
           </div>
           <span><a href="https://www.linkedin.com/in/joshua-m-kellerman-718a1b31/">Find me on LinkedIn</a></span>
+          <p><a href={myResume}>📃 Download my Resume</a></p>
           <p><a href="/contact">✉️ Contact Me - Form</a></p>
         </Section>
         <Section theName="eng__skills">

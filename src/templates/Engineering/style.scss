@@ -51,14 +51,13 @@
 
     padding: 0 0 5px 0;
     margin-right: 5px;
-    margin-bottom: -9px;
+    margin-left: -5px;
+    margin-bottom: -12px;
     background-color: rgba(255, 255, 255, 0.6);
-    text-align: center;
 
     a {
       width: 36px !important;
       height: 36px !important;
-      margin-left: 6px;
       display: inline-block;
       position: relative;
       overflow: hidden;
@@ -88,10 +87,6 @@
         width: 36px;
         margin: 0;
       }
-    }
-
-    & :first-child {
-      margin-left: 0px;
     }
   }
 

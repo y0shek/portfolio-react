@@ -33,7 +33,7 @@ export default class Home extends React.Component {
   }
 
   componentDidMount = () => {
-    this.setState({ playing: false });
+    this.setState({ playing: true });
     if (window.location.pathname.toLowerCase() === "/engineering") {
       this.setState({ isEngineering: true });
     } else {

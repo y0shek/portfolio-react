@@ -11,7 +11,7 @@ const data = {
     {
       title: "A Possession",
       img: "possessed-2.jpg",
-      laurels: 4,
+      laurels: 5,
       year: "2023",
       type: "personal",
       shortDesc: "Short Film (EN) (Super 16mm) 16\'42\"",

@@ -47,7 +47,7 @@ const data = {
       year: "2021",
       type: "personal",
       shortDesc: "Short Film (EN) 4\'51\"",
-      role: "Writer, Director, DP",
+      role: "Director, Writer, Editor, DP",
       embed: "https://player.vimeo.com/video/501150588",
       links: [
         { title: "IMDB page", url: "https://www.imdb.com/title/tt13876104/" }
@@ -546,6 +546,10 @@ const data = {
         {
           original: "https://i.postimg.cc/bwRXTYwq/IMG-2586.jpg",
           thumbnail: "https://i.postimg.cc/BtWNWFNR/IMG-2586.jpg"
+        },
+        {
+          original: "https://i.postimg.cc/fb89spR0/hairgirls-composite.jpg",
+          thumbnail: "https://i.postimg.cc/gw6JqMRY/hairgirls-composite.jpg"
         },
         {
           original: "https://i.postimg.cc/2yB82kWY/frogs.jpg",

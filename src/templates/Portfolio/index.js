@@ -524,7 +524,7 @@ const data = {
   graphicProjects: [
     {
       title: "Drawings, Paintings, and Art",
-      img: "art.jpg",
+      img: "art_2.jpg",
       year: "2010-Present",
       type: "promo",
       shortDesc:
@@ -543,6 +543,10 @@ const data = {
       description:
         "I believe that drawing 3D shapes is more closely related to sculpture than to other two-dimensional art forms such as calligraphy. Lighting, shading, pose, composition, and above all, form must be taken into consideration. I have been studying 2D art since I was very young, but I refined it when I attended Tim Decker's Figure Drawing and Animation classes while at UWM Film. See more pieces at my DeviantArt.",
       gallery: [
+        {
+          original: "https://i.postimg.cc/vBmw78NP/gregg-website.jpg",
+          thumbnail: "https://i.postimg.cc/4Kj0sGZt/gregg-website.jpg"
+        },
         {
           original: "https://i.postimg.cc/kMFybr5r/Camila-Young.jpg",
           thumbnail: "https://i.postimg.cc/Cd583QDJ/Camila-Young.jpg"

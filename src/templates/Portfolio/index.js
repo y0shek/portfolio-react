@@ -11,7 +11,7 @@ const data = {
     {
       title: "A Possession",
       img: "possessed-2.jpg",
-      laurels: 5,
+      laurels: 6,
       year: "2023",
       type: "personal",
       shortDesc: "Short Film (EN) (Super 16mm) 16\'42\"",
@@ -27,6 +27,7 @@ const data = {
       title: "Be Gay Tomorrow",
       img: "gmgd.jpg",
       laurels: 7,
+      distributed: true,
       year: "2022",
       type: "personal",
       shortDesc: "Short Film (EN) 13\'01\"",
@@ -91,6 +92,7 @@ const data = {
       img: "enrose.jpg",
       laurels: 5,
       wins: 4,
+      distributed: true,
       year: "2018",
       type: "personal",
       shortDesc: "Short Film (FR) 12\'04\"",
@@ -117,7 +119,7 @@ const data = {
     {
       title: "Glass",
       img: "glass.jpg",
-      laurels: 1,
+      wins: 1,
       year: "2020",
       type: "personal",
       shortDesc: "Short Film 2\'36\"",
@@ -129,7 +131,7 @@ const data = {
     {
       title: "Compartmentalize",
       img: "compartmentalize.jpg",
-      laurels: 1,
+      wins: 1,
       year: "2020",
       type: "personal",
       shortDesc: "Short Film 3\'31\"",

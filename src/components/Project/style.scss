@@ -43,6 +43,17 @@
     }
   }
 
+  .project__distributed {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: top;
+
+    .project__distributed__distribution {
+      color: $purple;
+      margin-left: 5px;
+    }
+  }
+
   .project__shell {
     position: relative;
     min-height: 400px;

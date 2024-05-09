@@ -36,46 +36,6 @@ export default class Portfolio extends React.Component {
           <p><a href={myResume}>📃 Download my Resume</a></p>
           <p><a href="/contact">✉️ Contact Me - Form</a></p>
         </Section>
-        <Section theName="eng__skills">
-          <h3><strong>Skillset</strong></h3>
-          <h5>Engineering and Project Management</h5>
-          <ul>
-            <li>Stakeholder Meetings, Sprint Planning, Timeframe Estimation, Engineer Support</li>
-            <li>AGILE, SCRUM, Kanban: Scoping, Organization, Task Delegation, and Story Points</li>
-            <li>Technical and Cultural Hiring</li>
-            <li>Development, Code Reviews, and Post-Mortems</li>
-            <li>Production level Cloud Design - Docker and Kubernetes</li>
-            <li>CI/CD Pipeline Setup - Workflows, Chef, Ansible, etc</li>
-          </ul>
-          <h5>Artificial Intelligence / Machine Learning</h5>
-          <ul>
-            <li>Python: PyTorch, Pandas</li>
-            <li>BERT & Transformers with Stanford NLTK (2019)</li>
-            <li>Knowledge Graph Entity and Edge Design, Reverse Lookup</li>
-          </ul>
-          <h5>Application Engineering / Cloud</h5>
-          <ul>
-            <li>Databases: Postgres, SQL, Mongo, Redis, DynamoDB</li>
-            <li>Cloud: Docker, Kubernetes, AWS, GCP, API Gateway, Elasticsearch</li>
-            <li>OO and Functional Programming: Scala, Python, Java, Javascript / Typescript, PHP 5/7, CPP, C#, C, Android, JSF, GoLang</li>
-            <li>Scala: Play, Cats, Finatra / Finagle</li>
-            <li>Typescript / Javascript: NodeJs, npm, React.js, Redux</li>
-            <li>Web Security: OAuth 2.0 Token-based authentication with U2F, FIDO2, SSO</li>
-            <li>eCommerce: WooCommerce, Magento</li>
-            <li>Unit and Functional Testing Coverage</li>
-            <li>API Design and implementation on multiple frameworks, including middlewares</li>
-          </ul>
-          <h5>User Experience / Design</h5>
-          <ul>
-            <li>UX Testing</li>
-            <li>Wireframing and Storyboarding</li>
-            <li>Front-end web development</li>
-            <li>Video Production and Screenplay Writing</li>
-            <li>Adobe Creative Suite</li>
-            <li>Logo Design, UI Design, 2D and 3D Art</li>
-            <li>DaVinci Resolve Pro, Blender 3D</li>
-          </ul>
-        </Section>
         <Section theName="eng__projects">
           <h3><strong>Major Projects</strong></h3>
           <h4 style={{ "margin-bottom": 0 }}>Echo360 Capture Team - 2023</h4>
@@ -208,6 +168,50 @@ export default class Portfolio extends React.Component {
               <li>Designed a user experience that would be used in all applications for U2F and FIDO2 hardware across the internet</li>
               <li>Worked with Microsoft to ensure security, resulting in a long-lasting partnership between Yubico and Microsoft</li>
             </ul>
+          </ul>
+        </Section>
+        <Section theName="eng__skills">
+          <h3><strong>Skillset</strong></h3>
+          <h5>Engineering and Project Management</h5>
+          <ul>
+            <li>Engineering Management and Project Management</li>
+            <li>Stakeholder Meetings, Timeframe Estimation, Sprint Planning, Engineer Support</li>
+            <li>AGILE, SCRUM, Kanban: Scoping, Organization, Task Delegation, and Story Points</li>
+            <li>Technical and Cultural Hiring</li>
+            <li>Development, Code Reviews, and Post-Mortems</li>
+            <li>Production level Cloud Service Design in AWS and Google Cloud - Docker, K8s, SQS, API Gateway, etc.</li>
+            <li>CI/CD Pipeline Setup - Git, Stage/Test/Production, Workflows, Chef, Ansible, etc.</li>
+          </ul>
+          <h5>Artificial Intelligence / Machine Learning</h5>
+          <ul>
+            <li>Python: PyTorch, Pandas</li>
+            <li>BERT & Transformers with Stanford NLTK (2019)</li>
+            <li>Knowledge Graph Entity and Edge Design, Reverse Lookup</li>
+            <li>Experience with CNNs (machine vision), RNNs, Decision Trees, Deep Neural Networks</li>
+            <li>Very keen interest in Graph Neural Networks</li>
+          </ul>
+          <h5>Application Engineering / Cloud</h5>
+          <ul>
+            <li><strong>Object Oriented, Functional, and Imperative Programming:</strong> Scala, Python, Java, Javascript / Typescript, PHP 5/7, CPP, C#, C, GoLang</li>
+            <li><strong>Data, Streaming and Messaging Pipelines:</strong> Spark, Hadoop, Kafka, SQS, Cassandra</li>
+            <li><strong>Cloud:</strong> Docker, Kubernetes, AWS, DynamoDB, GCP, API Gateway, Elasticsearch</li>
+            <li><strong>Databases:</strong> Postgres, SQL, Mongo / NoSQL, Redis</li>
+            <li><strong>Scala:</strong> Play, Cats, Finatra / Finagle</li>
+            <li><strong>Typescript / Javascript:</strong> NodeJs, npm, React.js, Redux, ExpressJS</li>
+            <li><strong>Web Security:</strong> OAuth 2.0 Token-based authentication with U2F, FIDO2, SSO</li>
+            <li><strong>PHP-based eCommerce:</strong> WooCommerce, Magento, Wordpress</li>
+            <li><strong>Testing Coverage:</strong> Unit and Functional</li>
+            <li>API Design and implementation on multiple frameworks, including middlewares</li>
+          </ul>
+          <h5>User Experience / Design</h5>
+          <ul>
+            <li>UX Testing</li>
+            <li>Wireframing and Storyboarding</li>
+            <li>Front-end web development</li>
+            <li>Video Production and Screenplay Writing</li>
+            <li>Adobe Creative Suite</li>
+            <li>Logo Design, UI Design, 2D and 3D Art</li>
+            <li>DaVinci Resolve Pro, Blender 3D</li>
           </ul>
         </Section>
       </div>

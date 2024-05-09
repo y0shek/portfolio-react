@@ -30,6 +30,12 @@ export default class Project extends React.Component {
     return (<div className='project__laurels'>{laurelArr.map((obj, i) => (<i key={i} alt='laurels graphic' className='fas fa-leaf project__laurels__laurel' ></i>))}</div>);
   };
 
+  distribution = () => {
+    const distributed = this.props.data.distributed
+    if (distributed)
+      return (<div className='project__distributed'><i alt='distributed graphic' className='fas fa-solid fa-play project__distributed__distribution' ></i> </div>)
+  }
+
   render() {
     const projImg = (this.props.data.img !== null && this.props.data.img !== '') ?
       require('../../images/projects/' + this.props.data.img) : ''
@@ -50,6 +56,7 @@ export default class Project extends React.Component {
             this.props.type == "personal" && <div>
               {this.laurels()}
               {this.wins()}
+              {this.distribution()}
             </div>
           }
         </div>

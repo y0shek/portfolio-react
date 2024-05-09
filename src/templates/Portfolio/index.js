@@ -21,7 +21,7 @@ const data = {
       ],
       embed: "https://player.vimeo.com/video/854042803?h=91fb895bc6",
       description:
-        "AKA \"Narcissus\": A mystical horror based off of Nathaniel Hawthorne's Young Goodman Brown. Mysterious forces threaten to tear apart a young couple's hiking honeymoon. Released at NY Shorts International Film Festival in late Oct. 2023, Prod. Ivan Rome, DP Daniel Cho."
+        "AKA \"Narcissus\": A mystical horror based off of Nathaniel Hawthorne's Young Goodman Brown. Mysterious forces threaten to tear apart a young couple's hiking honeymoon. Released at NY Shorts International Film Festival in late Oct. 2023, Prod. Ivan Rome, DP Daniel Cho. Music by Nathaniel Lutes."
     },
     {
       title: "Be Gay Tomorrow",
@@ -38,7 +38,7 @@ const data = {
       ],
       embed: "https://player.vimeo.com/video/808790247",
       description:
-        "Released at the Montecatini International Short Film Festival in November, 2022. Hannah (Allie McCulloch), single, struggling mother of three, wants to host her parents for Thanksgiving, but her kids seem to keep getting in the way, especially her oldest son, Allen, (Josh Rosenzweig) who wants to come out to his grandparents. Produced by Daniel Beltis and Samantha Lori Glass. DP Hangcheng Xu. We made a new webseries pilot cut in early 2023. 9 Official Selections."
+        "Released at the Montecatini International Short Film Festival in November, 2022. Hannah (Allie McCulloch), single, struggling mother of three, wants to host her parents for Thanksgiving, but her kids seem to keep getting in the way, especially her oldest son, Allen, (Josh Rosenzweig) who wants to come out to his grandparents. Produced by Daniel Beltis and Samantha Lori Glass. DP Hangcheng Xu. Music by Nathaniel Lutes. We made a new webseries pilot cut in early 2023. 9 Official Selections."
     },
     {
       title: "Missing",
@@ -54,7 +54,7 @@ const data = {
         { title: "IMDB page", url: "https://www.imdb.com/title/tt13876104/" }
       ],
       description:
-        "A young girl delivers a bitter message across a beautiful park. 3 Official Selections (including the Oakland Film Festival). 1 Semi-Finalist (Madrid Film Awards). 1 Award Winner (Gladiator Film Festival)."
+        "A young girl delivers a bitter message across a beautiful park. Music by Nathaniel Lutes. 3 Official Selections (including the Oakland Film Festival). 1 Semi-Finalist (Madrid Film Awards). 1 Award Winner (Gladiator Film Festival)."
     },
     {
       title: "Super 180s",

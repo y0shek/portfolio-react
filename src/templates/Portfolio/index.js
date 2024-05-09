@@ -14,14 +14,14 @@ const data = {
       laurels: 6,
       year: "2023",
       type: "personal",
-      shortDesc: "Short Film (EN) (Super 16mm) 16\'42\"",
+      shortDesc: "Short Film (EN) (Super 16mm) 16\'49\"",
       role: "Director, Writer, Editor",
       links: [
         { title: "IMDB page", url: "https://www.imdb.com/title/tt27614153/" }
       ],
       embed: "https://player.vimeo.com/video/854042803?h=91fb895bc6",
       description:
-        "AKA \"Narcissus\": A mystical horror based off of Nathaniel Hawthorne's Young Goodman Brown. Mysterious forces threaten to tear apart a young couple's hiking honeymoon. Released at NY Shorts International Film Festival in Oct. 2023, Prod. Ivan Rome, DP Daniel Cho."
+        "AKA \"Narcissus\": A mystical horror based off of Nathaniel Hawthorne's Young Goodman Brown. Mysterious forces threaten to tear apart a young couple's hiking honeymoon. Released at NY Shorts International Film Festival in late Oct. 2023, Prod. Ivan Rome, DP Daniel Cho."
     },
     {
       title: "Be Gay Tomorrow",

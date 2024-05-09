@@ -26,7 +26,7 @@ const data = {
     {
       title: "Be Gay Tomorrow",
       img: "gmgd.jpg",
-      laurels: 7,
+      laurels: 9,
       distributed: true,
       year: "2022",
       type: "personal",
@@ -75,7 +75,7 @@ const data = {
     {
       title: "Rehearsal",
       img: "rehearsal.jpg",
-      laurels: 2,
+      laurels: 1,
       year: "2020",
       type: "personal",
       shortDesc: "Short Film (EN) 4\'40\"",

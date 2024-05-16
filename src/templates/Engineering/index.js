@@ -1,7 +1,7 @@
 import React from "react";
 import Section from "../../components/Section";
 import myPic from '../../images/me_prof.jpg';
-import myResume from "../../pdfs/website-resume-feb-2024.pdf";
+import myResume from "../../pdfs/Kellerman_resume_2024_web.pdf";
 import { SocialIcon } from "react-social-icons";
 import "./style.css";
 

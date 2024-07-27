@@ -39,7 +39,7 @@ const data = {
       ],
       embed: "https://player.vimeo.com/video/808790247",
       description:
-        "Released at the Montecatini International Short Film Festival in November, 2022. Hannah (Allie McCulloch), single, struggling mother of three, wants to host her parents for Thanksgiving, but her kids seem to keep getting in the way, especially her oldest son, Allen, (Josh Rosenzweig) who wants to come out to his grandparents. Produced by Daniel Beltis and Samantha Lori Glass. DP Hangcheng Xu. Music by Nathaniel Lutes. We made a new webseries pilot cut in early 2023. 9 Official Selections."
+        "Dedicated to Daniel Beltis, RIP. Be Gay Tomorrow is an ensemble piece about a single-mother family putting on Thanksgiving. Hannah (Allie McCulloch), wants to host her parents for Thanksgiving, but her kids seem to keep getting in the way, especially her oldest son, Allen, (Josh Rosenzweig) who wants to come out to his grandparents. Produced by Daniel Beltis and Samantha Lori Glass. DP Hangcheng Xu. Music by Nathaniel Lutes. We made a new webseries pilot cut in early 2023. 9 Official Selections."
     },
     {
       title: "Missing",

@@ -1,5 +1,5 @@
 import React from 'react';
-import myPic from '../../images/me_spinny.gif';
+import myPic from '../../images/my-pic-min.jpg';
 import './style.css';
 
 export default class MyPic extends React.Component {

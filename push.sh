@@ -1,6 +1,6 @@
 #!/bin/bash
 
-HOST=kellerman.joshua.m@joshuamk.com
+HOST=y0shek@www.joshuamk.com
 
 while true; do
     read -p "run npm run build? " yn
@@ -11,7 +11,7 @@ while true; do
     esac
 done
 
-echo "Pushing to joshuamk.com..."
+echo "Pushing to www.joshuamk.com..."
 rsync -r build $HOST:~/
 echo "Making changes live..."
 ssh $HOST ./move-build.sh

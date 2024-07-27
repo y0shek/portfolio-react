@@ -12,9 +12,15 @@ export default class Blog extends React.Component {
   }
 
   componentDidMount = async () => {
-    const response = await fetch(`https://wp.joshuamk.com/wp-json/wp/v2/posts/?per_page=100&categories=1`);
-    const data = await response.json();
-    this.setState({ posts: data });
+    try {
+      const response = await fetch('`https://wp.joshuamk.com/wp-json/wp/v2/posts/?per_page=100&categories=1', {
+        signal: AbortSignal.timeout(5000)
+      });
+      const data = await response.json();
+      this.setState({ posts: data });
+    } catch (error) {
+      return
+    }
   }
 
   render() {

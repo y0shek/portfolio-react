@@ -34,6 +34,7 @@ const data = {
       role: "Director, Writer, Editor",
       links: [
         { title: "IMDB page", url: "https://www.imdb.com/title/tt19813834/" },
+        { title: "Stream Now on WeShort", url: "https://weshort.com/?idc=6224" },
         { title: "Distributed Worldwide by Gonella Productions, France", url: "https://gonella-productions.com/begaytomorrow" }
       ],
       embed: "https://player.vimeo.com/video/808790247",

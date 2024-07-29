@@ -48,6 +48,7 @@ export default class Project extends React.Component {
     return (
       <div className='project' >
         <div className='project__shell' onClick={this.handleOpenModal}>
+          {this.props.data.tbr && <div className='project__tbrBanner'><strong>TBR</strong></div>}
           <div className='project__image'><img alt={this.props.data.title + ' screengrab'} src={projImg} /></div>
           <p className='project__title'><strong>{this.props.data.title}</strong> ({this.props.data.year})</p>
           <p className='project__shortDesc'>{this.props.data.shortDesc}</p>

@@ -183,3 +183,12 @@
 button.image-gallery-play-button {
   display: none;
 }
+
+.project__tbrBanner {
+  position: absolute;
+  padding: 10px 5px;
+  background-color: $lightRed;
+  z-index: 1;
+  rotate: -30deg;
+  border-radius: 20px;
+}

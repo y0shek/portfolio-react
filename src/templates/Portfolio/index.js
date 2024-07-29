@@ -9,6 +9,23 @@ import skipping from "../../images/skipping.jpg";
 const data = {
   videoProjects: [
     {
+      title: "The Lottery",
+      img: "the-lottery.jpg",
+      year: "2025",
+      type: "personal",
+      shortDesc: "Short Film (EN) 15\'30\"",
+      role: "Director, Writer",
+      links: [
+        { title: "Praveen Elankumaran (DP) Portfolio", url: "https://www.praveenelan.com/" },
+        { title: "Mona Mekkawi (Prod. Design) Portfolio", url: "https://www.monamekkawi.com/" },
+        { title: "Lilli Stein (Lead Actress) Portfolio", url: "https://www.lillistein.com/" },
+        { title: "Elizabeth Winterbourne (Lead Actress) Portfolio", url: "https://elizabethwinterbournemusic.com/home" }
+      ],
+      description:
+        "TBR 2025. A Short Sci-Fi film about the apocalypse and robotic birds. Starring Laisa Garcia, Lilli Stein, and Elizabeth Winterbourne. Produced by Abrar Abdulaziz, DP Praveen Elankumaran, Prod. Design Mona Mekkawi. #birdsarentreal",
+      tbr: true
+    },
+    {
       title: "A Possession",
       img: "possessed-2.jpg",
       laurels: 6,
@@ -107,12 +124,44 @@ const data = {
         "Released in 2018, a drama about two best friends and a young man who creates a divide between them. French-language film shot on location in Aix-en-Provence. Three festival wins and six more official selections. Distributed by Shami Media Group."
     },
     {
+      title: "X",
+      img: "sara-x.jpg",
+      year: "2025",
+      type: "personal",
+      shortDesc: "Short Film 9\'30\"",
+      role: "Post-Production Supervisor / Color / CGI FX",
+      links: [
+        { title: "Sara Koviak Portfolio", url: "https://www.sarakoviak.com/" },
+        { title: "Wikipedia of José Rivera", url: "https://en.wikipedia.org/wiki/Jos%C3%A9_Rivera_(playwright)" }
+      ],
+      description:
+        "TBR 2025. A phantasmagoric dance and poetry film about decay and hope. Directed and starring Sara Koviak, written by playwright José Rivera",
+      tbr: true
+    },
+    {
+      title: "Meet Outside",
+      img: "meet-outside.jpg",
+      year: "2025",
+      type: "personal",
+      shortDesc: "Short Film 6\'30\"",
+      role: "Cinematographer\nDir. Camille Hamadé",
+      links: [
+        { title: "Camille Hamadé Portfolio", url: "https://camillehamade.com/projects" }
+      ],
+      description:
+        "TBR 2025. A silent color film about a man and his pizza delivery. Dir. Camille Hamadé",
+      tbr: true
+    },
+    {
       title: "Safe and Sound",
       img: "safe-and-sound.jpg",
       year: "2020",
       type: "personal",
       shortDesc: "Short Film 5\'29\"",
-      role: "Cinematographer",
+      role: "Cinematographer\nDir. Camille Hamadé",
+      links: [
+        { title: "Camille Hamadé Portfolio", url: "https://camillehamade.com/projects" }
+      ],
       embed: "https://player.vimeo.com/video/386108542",
       description:
         "John becomes obsessed with all the sounds around him and as his behavior worsens, so does his personal life. Dir. Camille Hamadé"

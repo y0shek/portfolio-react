@@ -11,7 +11,7 @@ const data = {
     {
       title: "The Lottery",
       img: "the-lottery.jpg",
-      bigImg: "the-lottery_big.jpg",
+      bigImg: "the-lottery_big_2.jpg",
       year: "2025",
       type: "personal",
       shortDesc: "Short Film (EN) 15\'30\"",

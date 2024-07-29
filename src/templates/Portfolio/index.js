@@ -128,8 +128,8 @@ const data = {
       img: "sara-x.jpg",
       year: "2025",
       type: "personal",
-      shortDesc: "Short Film 9\'30\"",
-      role: "Post-Production Supervisor / Color / CGI FX",
+      shortDesc: "Short Film 9\'10\"",
+      role: "Post-Production Super / Color / CGI FX",
       links: [
         { title: "Sara Koviak Portfolio", url: "https://www.sarakoviak.com/" },
         { title: "Wikipedia of José Rivera", url: "https://en.wikipedia.org/wiki/Jos%C3%A9_Rivera_(playwright)" }
@@ -144,7 +144,7 @@ const data = {
       year: "2025",
       type: "personal",
       shortDesc: "Short Film 6\'30\"",
-      role: "Cinematographer\nDir. Camille Hamadé",
+      role: "Cinematographer",
       links: [
         { title: "Camille Hamadé Portfolio", url: "https://camillehamade.com/projects" }
       ],
@@ -158,7 +158,7 @@ const data = {
       year: "2020",
       type: "personal",
       shortDesc: "Short Film 5\'29\"",
-      role: "Cinematographer\nDir. Camille Hamadé",
+      role: "Cinematographer",
       links: [
         { title: "Camille Hamadé Portfolio", url: "https://camillehamade.com/projects" }
       ],

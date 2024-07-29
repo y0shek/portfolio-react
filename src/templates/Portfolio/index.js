@@ -132,7 +132,10 @@ const data = {
       role: "Director, Editor, Producer, DP",
       links: [
         { title: "Previously on Amazon Prime Video", url: "https://www.amazon.com/En-Rose-Margaux-Ilona-L%C3%A9touche/dp/B07NBWTQD4" },
-        { title: "IMDB page", url: "https://www.imdb.com/title/tt3681356/" }
+        { title: "IMDB page", url: "https://www.imdb.com/title/tt3681356/" },
+        { title: "Mickaël Bourse (Lead Actor) Portfolio", url: "https://mickaelbourse.wixsite.com/mickael" },
+        { title: "Margaux-Ilona Létouche (Lead Actress, Writer) Instagram", url: "https://www.instagram.com/glowwith_mi/" },
+        { title: "Margaux Avila (Supporting Actress) Fashion Business Website", url: "https://www.margauxavila.com/" }
       ],
       embed: "https://player.vimeo.com/video/667939342?h=6f59f8e4b7",
       description:
@@ -161,7 +164,7 @@ const data = {
       shortDesc: "Short Film 6\'30\"",
       role: "Cinematographer",
       links: [
-        { title: "Camille Hamadé Portfolio", url: "https://camillehamade.com/projects" }
+        { title: "Camille Hamadé (Writer / Director) Portfolio", url: "https://camillehamade.com/projects" }
       ],
       description:
         "TBR 2025. A silent color film about a man and his pizza delivery. Dir. Camille Hamadé",
@@ -175,7 +178,7 @@ const data = {
       shortDesc: "Short Film 5\'29\"",
       role: "Cinematographer",
       links: [
-        { title: "Camille Hamadé Portfolio", url: "https://camillehamade.com/projects" }
+        { title: "Camille Hamadé (Writer / Director) Portfolio", url: "https://camillehamade.com/projects" }
       ],
       embed: "https://player.vimeo.com/video/386108542",
       description:

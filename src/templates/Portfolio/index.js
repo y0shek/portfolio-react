@@ -95,7 +95,12 @@ const data = {
       role: "Director, Writer, Editor",
       embed: "https://player.vimeo.com/video/513660162",
       links: [
-        { title: "IMDB page", url: "https://www.imdb.com/title/tt11646262/" }
+        { title: "IMDB page", url: "https://www.imdb.com/title/tt11646262/" },
+        { title: "Nicholas Nyhof (Producer) Portfolio", url: "https://www.nicholasnyhof.com/" },
+        { title: "Erin Ramirez (DP) Portfolio", url: "https://www.erinnlramirez.com/" },
+        { title: "Ken King (Lead Actor) IMDB", url: "https://www.imdb.com/name/nm3902766/" },
+        { title: "Annelise Cepero (Supporting Actress) IMDB", url: "https://www.imdb.com/name/nm7408602/" },
+        { title: "Galen Molk (Lead Actor) IMDB", url: "https://www.imdb.com/name/nm6936970/" }
       ],
       description:
         "A story about implicit bias, a young couple, and a finance bro. Filmed in the financial district in NYC in December 2019. Super 180s was my first semester capstone directing assignment at Columbia University School of the Arts Film MFA. I wrote it with the guidance of writing professor Jamal Joseph and directed it with the guidance of directing professor Ian Olds. DP Erin Ramirez. 5 Official Selections. 1 Semi-Finalist. 1 Award Winner."

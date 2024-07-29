@@ -37,7 +37,12 @@ const data = {
       shortDesc: "Short Film (EN) (Super 16mm) 16\'49\"",
       role: "Director, Writer, Editor",
       links: [
-        { title: "IMDB page", url: "https://www.imdb.com/title/tt27614153/" }
+        { title: "IMDB page", url: "https://www.imdb.com/title/tt27614153/" },
+        { title: "Ivan Rome (Producer) Portfolio", url: "https://www.ivanrome.com/" },
+        { title: "Daniel J. Cho (DP) Portfolio", url: "https://www.danieljcho.com/" },
+        { title: "Gabriel Rysdahl (Lead Actor) Portfolio", url: "https://gabrielrysdahl.com/" },
+        { title: "Sara Koviak (Lead Actress) Portfolio", url: "https://www.sarakoviak.com/" },
+        { title: "Izabel Mar (Lead Actress) Portfolio", url: "https://www.izabelmar.com/" }
       ],
       embed: "https://player.vimeo.com/video/854042803?h=91fb895bc6",
       description:
@@ -55,7 +60,9 @@ const data = {
       links: [
         { title: "IMDB page", url: "https://www.imdb.com/title/tt19813834/" },
         { title: "Stream Now on WeShort", url: "https://weshort.com/?idc=6224" },
-        { title: "Distributed Worldwide by Gonella Productions, France", url: "https://gonella-productions.com/begaytomorrow" }
+        { title: "Distributed Worldwide by Gonella Productions, France", url: "https://gonella-productions.com/begaytomorrow" },
+        { title: "Samantha Lori Glass (Co-Producer) IMDB", url: "https://www.imdb.com/name/nm12483228/" },
+        { title: "Hangcheng Xu (DP) Portfolio", url: "https://www.hangchengxu.com/" }
       ],
       embed: "https://player.vimeo.com/video/808790247",
       description:

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-HOST=y0shek@www.joshuamk.com
+HOST=y0shek@joshuamk.com
 
 while true; do
     read -p "run npm run build? " yn

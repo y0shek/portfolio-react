@@ -26,7 +26,7 @@ const data = {
         { title: "Elizabeth Winterbourne (Lead Actress) Portfolio", url: "https://elizabethwinterbournemusic.com/home" }
       ],
       description:
-        "TBR 2025. A Short Sci-Fi film about the apocalypse and robotic birds. Starring Laisa Garcia, Lilli Stein, and Elizabeth Winterbourne. Produced by Abrar Abdulaziz, DP Praveen Elankumaran, Prod. Design Mona Mekkawi. #birdsarentreal",
+        "TBR 2025. A Short Sci-Fi film about the apocalypse and robotic birds. Co-written by Rosette Jin (Columbia MFA Film Producing, 2025.) Starring Laisa Garcia, Lilli Stein, and Elizabeth Winterbourne. Produced by Abrar Abdulaziz, DP Praveen Elankumaran, Prod. Design Mona Mekkawi. #birdsarentreal",
       tbr: true
     },
     {

@@ -13,7 +13,7 @@ export default class MyPic extends React.Component {
           </div>
           <div className='header__title'>
             <h2 style={{ margin: 0, color: '#333' }}>Joshua M</h2>
-            <h4 className={this.props.atTop ? 'special_text' : 'special_text small_text'} style={{ marginTop: '5px', color: '#333' }}>Filmmaker</h4>
+            <h4 className={this.props.atTop ? 'special_text' : 'special_text small_text'} style={{ marginTop: '5px', color: '#333' }}>Writer-Director</h4>
           </div>
         </div>
       </a>

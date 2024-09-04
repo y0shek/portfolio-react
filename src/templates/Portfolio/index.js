@@ -143,12 +143,12 @@ const data = {
         "Released in 2018, a drama about two best friends and a young man who creates a divide between them. French-language film shot on location in Aix-en-Provence. Three festival wins and six more official selections. Distributed by Shami Media Group."
     },
     {
-      title: "X",
+      title: "IX",
       img: "sara-x.jpg",
       year: "2025",
       type: "personal",
       shortDesc: "Short Film 9\'10\"",
-      role: "Post-Production Super / Color / CGI FX",
+      role: "Post-Production / Color / CGI FX",
       links: [
         { title: "Sara Koviak Portfolio", url: "https://www.sarakoviak.com/" },
         { title: "Wikipedia of José Rivera", url: "https://en.wikipedia.org/wiki/Jos%C3%A9_Rivera_(playwright)" }
@@ -1095,14 +1095,14 @@ export default class Portfolio extends React.Component {
               </h4>
               <h4 style={{ textAlign: "center", marginTop: "10px", marginBottom: 0 }}>
                 <span className="special_text">
-                  Director - Writer - Engineer - Artist - <strong>Storyteller</strong> </span>
+                  Filmmaker - Writer - Engineer - Artist - <strong>Storyteller</strong> </span>
               </h4>
               <h4 style={{ textAlign: "center", marginTop: "10px" }}>
                 <span className="special_text">
                   Columbia University Film MFA</span>
                 <br />
                 <span className="special_text">
-                  Ex Senior Software Engineer at Twitter</span>
+                  Ex-Senior SWE at Twitter</span>
               </h4>
             </blockquote>
             <h4 style={{ textAlign: "center" }}>
@@ -1150,7 +1150,7 @@ export default class Portfolio extends React.Component {
         </Section>
         <Section theName="UX and Software Engineering">
           <h2 id="eng" ref="eng">
-            Software Engineering / User Experience
+            Software Engineering / Fullstack / UX
           </h2>{" "}
           <hr />
           <ProjectList id="eng" projects={data.engProjects} />

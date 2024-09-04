@@ -122,6 +122,42 @@ const data = {
         "Official Selection at Carmarthen Bay Film Festival 2020. Emily asks Adrien to accompany her for an upcoming recital. She's got a bigger ask that he doesn't know about. This is the third short exercise I completed for the Columbia Film MFA. Filmed in November 2019 and re-finished post in August 2020. 1 Official Selection at the Carmarthen Bay Film Festival."
     },
     {
+      title: "Glass",
+      img: "glass.jpg",
+      wins: 1,
+      year: "2020",
+      type: "personal",
+      shortDesc: "Short Film 2\'36\"",
+      role: "Director, Writer, Editor, DP",
+      embed: "https://player.vimeo.com/video/438760465",
+      description:
+        "A whimsical short exercise. A photographer follows a homeless man with a secret. This is the second short exercise I completed for the Columbia Film MFA. Filmed in October 2019 and re-finished post in July 2020. Selected as a OneDumbVideo daily winner 2020."
+    },
+    {
+      title: "Compartmentalize",
+      img: "compartmentalize.jpg",
+      wins: 1,
+      year: "2020",
+      type: "personal",
+      shortDesc: "Short Film 3\'31\"",
+      role: "Director, Writer, Editor, DP",
+      embed: "https://player.vimeo.com/video/435194741",
+      description:
+        "A psychological horror short exercise. This is the first short exercise I completed for the Columbia Film MFA. Filmed in October 2019 and re-finished post in July 2020. Selected as a OneDumbVideo daily winner 2020."
+    },
+    {
+      title: "Talk",
+      img: "talk.jpg",
+      bigImg: "talk_big.jpg",
+      year: "2019",
+      type: "personal",
+      shortDesc: "Short Film (EN) 4\'43\"",
+      role: "Producer, Director, Writer, Editor, DP",
+      embed: "https://player.vimeo.com/video/435206895",
+      description:
+        "Talk was a submission which eventually led to my acceptance to AFI conservatory in Los Angeles and Columbia University SOA in New York City. I challenged myself by limiting the cast to one person and the camera frame to one single angle. Joe is played by Tony Gapastione. 1 Official Selection."
+    },
+    {
       title: "En Rose",
       img: "enrose.jpg",
       laurels: 5,
@@ -184,42 +220,6 @@ const data = {
       embed: "https://player.vimeo.com/video/386108542",
       description:
         "John becomes obsessed with all the sounds around him and as his behavior worsens, so does his personal life. Dir. Camille Hamadé"
-    },
-    {
-      title: "Glass",
-      img: "glass.jpg",
-      wins: 1,
-      year: "2020",
-      type: "personal",
-      shortDesc: "Short Film 2\'36\"",
-      role: "Director, Writer, Editor, DP",
-      embed: "https://player.vimeo.com/video/438760465",
-      description:
-        "A whimsical short exercise. A photographer follows a homeless man with a secret. This is the second short exercise I completed for the Columbia Film MFA. Filmed in October 2019 and re-finished post in July 2020. Selected as a OneDumbVideo daily winner 2020."
-    },
-    {
-      title: "Compartmentalize",
-      img: "compartmentalize.jpg",
-      wins: 1,
-      year: "2020",
-      type: "personal",
-      shortDesc: "Short Film 3\'31\"",
-      role: "Director, Writer, Editor, DP",
-      embed: "https://player.vimeo.com/video/435194741",
-      description:
-        "A psychological horror short exercise. This is the first short exercise I completed for the Columbia Film MFA. Filmed in October 2019 and re-finished post in July 2020. Selected as a OneDumbVideo daily winner 2020."
-    },
-    {
-      title: "Talk",
-      img: "talk.jpg",
-      bigImg: "talk_big.jpg",
-      year: "2019",
-      type: "personal",
-      shortDesc: "Short Film (EN) 4\'43\"",
-      role: "Producer, Director, Writer, Editor, DP",
-      embed: "https://player.vimeo.com/video/435206895",
-      description:
-        "Talk was a submission which eventually led to my acceptance to AFI conservatory in Los Angeles and Columbia University SOA in New York City. I challenged myself by limiting the cast to one person and the camera frame to one single angle. Joe is played by Tony Gapastione. 1 Official Selection."
     },
     {
       title: "Don't Fall in, Love",

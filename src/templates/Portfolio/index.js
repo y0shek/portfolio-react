@@ -19,11 +19,12 @@ const data = {
       links: [
         { title: "Abrar Abdulaziz (Producer) Portfolio", url: "https://portfolio.onportrait.com/portfolio/AbrarAbdulaziz/about" },
         { title: "Grace Ward (Assistant Director) Portfolio", url: "https://graceward.myportfolio.com/home" },
+        { title: "Paula Bourgie (Editor) Portfolio", url: "https://paulabourgie.com/" },
         { title: "Praveen Elankumaran (DP) Portfolio", url: "https://www.praveenelan.com/" },
         { title: "Mona Mekkawi (Prod. Design) Portfolio", url: "https://www.monamekkawi.com/" },
         { title: "Laisa Garcia (Lead Actress) Backstage Portfolio", url: "https://www.backstage.com/u/laisa-garcia/" },
         { title: "Lilli Stein (Lead Actress) Portfolio", url: "https://www.lillistein.com/" },
-        { title: "Elizabeth Winterbourne (Lead Actress) Portfolio", url: "https://elizabethwinterbournemusic.com/home" }
+        { title: "Elizabeth Winterbourne (Supporting Actress) Portfolio", url: "https://elizabethwinterbournemusic.com/home" }
       ],
       description:
         "TBR Spring 2025. A Short Sci-Fi film about the apocalypse and robotic birds. Co-written by Rosette Jin (Columbia MFA Film Producing, 2025.) Starring Laisa Garcia, Lilli Stein, and Elizabeth Winterbourne. Produced by Abrar Abdulaziz, DP Praveen Elankumaran, Prod. Design Mona Mekkawi. #birdsarentreal",

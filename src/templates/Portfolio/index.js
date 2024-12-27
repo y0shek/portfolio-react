@@ -17,10 +17,10 @@ const data = {
       shortDesc: "Short Film (EN) 17\'30\"",
       role: "Director, Writer",
       links: [
-        { title: "Abrar Abdulaziz (Producer) Portfolio", url: "https://portfolio.onportrait.com/portfolio/AbrarAbdulaziz/about" },
+        { title: "Abrar Qari (Producer) Portfolio", url: "https://www.abrarqari.art/" },
         { title: "Grace Ward (Assistant Director) Portfolio", url: "https://graceward.myportfolio.com/home" },
         { title: "Paula Bourgie (Editor) Portfolio", url: "https://paulabourgie.com/" },
-        { title: "Praveen Elankumaran (DP) Portfolio", url: "https://www.praveenelan.com/" },
+        { title: "Praveen Elankumaran (Cinematography) Portfolio", url: "https://www.praveenelan.com/" },
         { title: "Mona Mekkawi (Prod. Design) Portfolio", url: "https://www.monamekkawi.com/" },
         { title: "Laisa Garcia (Lead Actress) Backstage Portfolio", url: "https://www.backstage.com/u/laisa-garcia/" },
         { title: "Lilli Stein (Lead Actress) Portfolio", url: "https://www.lillistein.com/" },
@@ -1114,7 +1114,7 @@ export default class Portfolio extends React.Component {
                   Columbia University Film MFA</span>
                 <br />
                 <span className="special_text">
-                  Ex-Senior SWE at Twitter</span>
+                  Senior SWE at Credit Karma</span>
               </h4>
             </blockquote>
             <h4 style={{ textAlign: "center" }}>

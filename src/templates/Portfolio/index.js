@@ -9,12 +9,12 @@ import skipping from "../../images/skipping.jpg";
 const data = {
   videoProjects: [
     {
-      title: "The Lottery",
+      title: "Lottery",
       img: "the-lottery.jpg",
       bigImg: "the-lottery_big_2.jpg",
       year: "2025",
       type: "personal",
-      shortDesc: "Short Film (EN) 15\'30\"",
+      shortDesc: "Short Film (EN) 17\'30\"",
       role: "Director, Writer",
       links: [
         { title: "Abrar Abdulaziz (Producer) Portfolio", url: "https://portfolio.onportrait.com/portfolio/AbrarAbdulaziz/about" },
@@ -26,7 +26,7 @@ const data = {
         { title: "Elizabeth Winterbourne (Lead Actress) Portfolio", url: "https://elizabethwinterbournemusic.com/home" }
       ],
       description:
-        "TBR 2025. A Short Sci-Fi film about the apocalypse and robotic birds. Co-written by Rosette Jin (Columbia MFA Film Producing, 2025.) Starring Laisa Garcia, Lilli Stein, and Elizabeth Winterbourne. Produced by Abrar Abdulaziz, DP Praveen Elankumaran, Prod. Design Mona Mekkawi. #birdsarentreal",
+        "TBR Spring 2025. A Short Sci-Fi film about the apocalypse and robotic birds. Co-written by Rosette Jin (Columbia MFA Film Producing, 2025.) Starring Laisa Garcia, Lilli Stein, and Elizabeth Winterbourne. Produced by Abrar Abdulaziz, DP Praveen Elankumaran, Prod. Design Mona Mekkawi. #birdsarentreal",
       tbr: true
     },
     {
@@ -45,7 +45,7 @@ const data = {
         { title: "Sara Koviak (Lead Actress) Portfolio", url: "https://www.sarakoviak.com/" },
         { title: "Izabel Mar (Lead Actress) Portfolio", url: "https://www.izabelmar.com/" }
       ],
-      embed: "https://player.vimeo.com/video/854042803?h=91fb895bc6",
+      embed: "https://player.vimeo.com/video/1020811571",
       description:
         "AKA \"Narcissus\": A mystical horror based off of Nathaniel Hawthorne's Young Goodman Brown. Mysterious forces threaten to tear apart a young couple's hiking honeymoon. Released at NY Shorts International Film Festival in late Oct. 2023, Prod. Ivan Rome, DP Daniel Cho. Music by Nathaniel Lutes."
     },
@@ -839,6 +839,17 @@ const data = {
   ],
   engProjects: [
     {
+      title: "Credit Karma: Credit Ecosystem Product Team",
+      img: "creditkarma.jpg",
+      year: "2024-present",
+      type: "promo",
+      shortDesc: "Back-end Engineer managing projects",
+      role: "Sr. Scala Engineer",
+      links: [{ title: "Visit creditkarma.com", url: "https://www.creditkarma.com/" }],
+      description:
+        "I joined the Credit Karma team as a Sr. Engineer in late 2024. I feel that Credit Karma is a place where I can stay for many years and grow! Thanks for the opportunity CK!"
+    },
+    {
       title: "Echo360: Capture Team",
       img: "echo360.jpg",
       year: "2022-2023",
@@ -861,7 +872,7 @@ const data = {
         "I joined the Health and User Experience team at Twitter to help out during the U.S. presidential transition in 2021. Since joining, I have worked on various projects in the Health org, including the reporting flow, safety mode, safety ML, and SRE. A great place to work!"
     },
     {
-      title: "Mosaix.ai",
+      title: "Mosaix.ai: API and ML Teams",
       img: "mosaix.jpg",
       year: "2019",
       type: "promo",

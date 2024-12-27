@@ -39,7 +39,15 @@ export default class Portfolio extends React.Component {
         </Section>
         <Section theName="eng__projects">
           <h3><strong>Major Projects</strong></h3>
-          <h4 style={{ "margin-bottom": 0 }}>Echo360 Capture Team - 2023</h4>
+          <h4 style={{ "margin-bottom": 0 }}>Credit Karma Credit Ecosystem Team - 2024-Present</h4>
+          <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>Role: Senior Back-End Engineer</h5>
+          <ul>
+            <li>Working on Major API Microservices Consolidation</li>
+            <ul>
+              <li>Covering codebases and libraries in Scala, working with messaging queues, encrypting large streams of data.</li>
+            </ul>
+          </ul>
+          <h4 style={{ "margin-bottom": 0 }}>Echo360 Capture Team - 2022-2023</h4>
           <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>Role: Principal Full-Stack Engineer / EM</h5>
           <ul>
             <li>Upgraded Echo360 Capture Infrastructure to Support 4-channel video capture and playback</li>

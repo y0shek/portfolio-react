@@ -840,11 +840,11 @@ const data = {
   ],
   engProjects: [
     {
-      title: "Credit Karma: Credit Ecosystem Product Team",
+      title: "Credit Karma: Product Engineering",
       img: "creditkarma.jpg",
       year: "2024-present",
       type: "promo",
-      shortDesc: "Back-end Engineer managing projects",
+      shortDesc: "Back-end Engineer",
       role: "Sr. Scala Engineer",
       links: [{ title: "Visit creditkarma.com", url: "https://www.creditkarma.com/" }],
       description:

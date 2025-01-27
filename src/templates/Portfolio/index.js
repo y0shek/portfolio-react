@@ -46,9 +46,9 @@ const data = {
         { title: "Sara Koviak (Lead Actress) Portfolio", url: "https://www.sarakoviak.com/" },
         { title: "Izabel Mar (Lead Actress) Portfolio", url: "https://www.izabelmar.com/" }
       ],
-      embed: "https://player.vimeo.com/video/1020811571",
+      embed: "https://www.youtube.com/embed/eu0DMjk9xQA?si=zxIlZ29BjoBk11lo",
       description:
-        "AKA \"Narcissus\": A mystical horror based off of Nathaniel Hawthorne's Young Goodman Brown. Mysterious forces threaten to tear apart a young couple's hiking honeymoon. Released at NY Shorts International Film Festival in late Oct. 2023, Prod. Ivan Rome, DP Daniel Cho. Music by Nathaniel Lutes."
+        "TBR Soon by WeShort! AKA \"Narcissus\": A mystical horror based off of Nathaniel Hawthorne's Young Goodman Brown. Mysterious forces threaten to tear apart a young couple's hiking honeymoon. Released at NY Shorts International Film Festival in late Oct. 2023, Prod. Ivan Rome, DP Daniel Cho. Music by Nathaniel Lutes."
     },
     {
       title: "Be Gay Tomorrow",

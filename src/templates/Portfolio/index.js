@@ -14,9 +14,10 @@ const data = {
       bigImg: "the-lottery_big_2.jpg",
       year: "2025",
       type: "personal",
-      shortDesc: "Short Film (EN) 17\'30\"",
+      shortDesc: "Short Film (EN) 17\'42\"",
       role: "Director, Writer",
       links: [
+        { title: "IMDB page", url: "https://www.imdb.com/title/tt33050060/" },
         { title: "Abrar Qari (Producer) Portfolio", url: "https://www.abrarqari.art/" },
         { title: "Grace Ward (Assistant Director) Portfolio", url: "https://graceward.myportfolio.com/home" },
         { title: "Paula Bourgie (Editor) Portfolio", url: "https://paulabourgie.com/" },
@@ -27,19 +28,21 @@ const data = {
         { title: "Elizabeth Winterbourne (Supporting Actress) Portfolio", url: "https://elizabethwinterbournemusic.com/home" }
       ],
       description:
-        "TBR Spring 2025. A Short Sci-Fi film about the apocalypse and robotic birds. Co-written by Rosette Jin (Columbia MFA Film Producing, 2025.) Starring Laisa Garcia, Lilli Stein, and Elizabeth Winterbourne. Produced by Abrar Abdulaziz, DP Praveen Elankumaran, Prod. Design Mona Mekkawi. #birdsarentreal",
+        "TBR Spring 2025. A Short Sci-Fi film about the apocalypse and robotic birds. Co-written by Rosette Jin (Columbia MFA Film Producing, 2025.) Starring Laisa Garcia, Lilli Stein, and Elizabeth Winterbourne. Produced by Abrar Abdulaziz, DP Praveen Elankumaran, Prod. Design Mona Mekkawi.",
       tbr: true
     },
     {
       title: "A Possession",
       img: "possessed-2.jpg",
       laurels: 6,
+      distributed: true,
       year: "2023",
       type: "personal",
       shortDesc: "Short Film (EN) (Super 16mm) 16\'49\"",
       role: "Director, Writer, Editor",
       links: [
         { title: "IMDB page", url: "https://www.imdb.com/title/tt27614153/" },
+        { title: "Stream Soon on WeShort", url: "https://weshort.com/" },
         { title: "Ivan Rome (Producer) Portfolio", url: "https://www.ivanrome.com/" },
         { title: "Daniel J. Cho (DP) Portfolio", url: "https://www.danieljcho.com/" },
         { title: "Gabriel Rysdahl (Lead Actor) Portfolio", url: "https://gabrielrysdahl.com/" },
@@ -48,7 +51,7 @@ const data = {
       ],
       embed: "https://www.youtube.com/embed/eu0DMjk9xQA?si=zxIlZ29BjoBk11lo",
       description:
-        "TBR Soon by WeShort! AKA \"Narcissus\": A mystical horror based off of Nathaniel Hawthorne's Young Goodman Brown. Mysterious forces threaten to tear apart a young couple's hiking honeymoon. Released at NY Shorts International Film Festival in late Oct. 2023, Prod. Ivan Rome, DP Daniel Cho. Music by Nathaniel Lutes."
+        "AKA \"Narcissus\": A mystical horror based off of Nathaniel Hawthorne's Young Goodman Brown. Mysterious forces threaten to tear apart a young couple's hiking honeymoon. Released at NY Shorts International Film Festival in late Oct. 2023, Prod. Ivan Rome, DP Daniel Cho. Music by Nathaniel Lutes. Distributed by WeShort. 9 Official Selections including Screamfest LA."
     },
     {
       title: "Be Gay Tomorrow",
@@ -68,7 +71,7 @@ const data = {
       ],
       embed: "https://player.vimeo.com/video/808790247",
       description:
-        "Dedicated to Daniel Beltis, RIP. Be Gay Tomorrow is an ensemble piece about a single-mother family putting on Thanksgiving. Hannah (Allie McCulloch), wants to host her parents for Thanksgiving, but her kids seem to keep getting in the way, especially her oldest son, Allen, (Josh Rosenzweig) who wants to come out to his grandparents. Produced by Daniel Beltis and Samantha Lori Glass. DP Hangcheng Xu. Music by Nathaniel Lutes. We made a new webseries pilot cut in early 2023. 9 Official Selections."
+        "Dedicated to Daniel Beltis, RIP. Be Gay Tomorrow is an ensemble piece about a single-mother family putting on Thanksgiving. Hannah (Allie McCulloch), wants to host her parents for Thanksgiving, but her kids seem to keep getting in the way, especially her oldest son, Allen, (Josh Rosenzweig) who wants to come out to his grandparents. Produced by Daniel Beltis and Samantha Lori Glass. DP Hangcheng Xu. Music by Nathaniel Lutes. Distributed by WeShort. 9 Official Selections."
     },
     {
       title: "Missing",
@@ -191,7 +194,22 @@ const data = {
         { title: "Wikipedia of José Rivera", url: "https://en.wikipedia.org/wiki/Jos%C3%A9_Rivera_(playwright)" }
       ],
       description:
-        "TBR 2025. A phantasmagoric dance and poetry film about decay and hope. Directed and starring Sara Koviak, written by playwright José Rivera",
+        "TBR 2025. A phantasmagoric dance and poetry film about decay and hope. Directed by and starring Sara Koviak, written by playwright José Rivera.",
+      tbr: true
+    },
+    {
+      title: "Why?",
+      img: "gregory-why.jpg",
+      year: "2025",
+      type: "personal",
+      shortDesc: "Short Film 9\'43\"",
+      role: "Cinematographer / AD",
+      links: [
+        { title: "Gregory Paul Brown Backstage", url: "https://www.backstage.com/u/gregorypaulbrown/" },
+        { title: "Sara Koviak Portfolio", url: "https://www.sarakoviak.com/" }
+      ],
+      description:
+        "TBR 2025-2026. A magical-realism take on the process of grief. Directed by, written by, and starring Gregory Paul Brown. Also starring Sara Koviak.",
       tbr: true
     },
     {
@@ -205,7 +223,7 @@ const data = {
         { title: "Camille Hamadé (Writer / Director) Portfolio", url: "https://camillehamade.com/projects" }
       ],
       description:
-        "TBR 2025. A silent color film about a man and his pizza delivery. Dir. Camille Hamadé",
+        "TBR 2025. A silent color film about a man and his pizza delivery. Dir. Camille Hamadé.",
       tbr: true
     },
     {
@@ -220,7 +238,7 @@ const data = {
       ],
       embed: "https://player.vimeo.com/video/386108542",
       description:
-        "John becomes obsessed with all the sounds around him and as his behavior worsens, so does his personal life. Dir. Camille Hamadé"
+        "John becomes obsessed with all the sounds around him and as his behavior worsens, so does his personal life. Dir. Camille Hamadé."
     },
     {
       title: "Don't Fall in, Love",

@@ -64,7 +64,7 @@ const data = {
       role: "Director, Writer, Editor",
       links: [
         { title: "IMDB page", url: "https://www.imdb.com/title/tt19813834/" },
-        { title: "Stream Now on WeShort", url: "https://weshort.com/?idc=6224" },
+        { title: "Stream Now on WeShort", url: "https://weshort.com/collection?s=6224" },
         { title: "Distributed Worldwide by Gonella Productions, France", url: "https://gonella-productions.com/begaytomorrow" },
         { title: "Samantha Lori Glass (Co-Producer) IMDB", url: "https://www.imdb.com/name/nm12483228/" },
         { title: "Hangcheng Xu (DP) Portfolio", url: "https://www.hangchengxu.com/" }

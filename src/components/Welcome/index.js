@@ -43,7 +43,7 @@ export default class Welcome extends React.Component {
         autoplay: 1,
         loop: 1,
         mute: 1,
-        playlist: "O5EcPaXcZSU",
+        playlist: "pyNZOa6GJLQ",
         controls: 0
       }
     }
@@ -58,7 +58,7 @@ export default class Welcome extends React.Component {
             <div>
               <div className="welcome__videoCover" />
               <div id="vid" className="welcome__videoScreen">
-                <YouTube videoId="O5EcPaXcZSU" className="welcome__video" opts={opts} ></YouTube>
+                <YouTube videoId="pyNZOa6GJLQ" className="welcome__video" opts={opts} ></YouTube>
               </div>
             </div>
           )

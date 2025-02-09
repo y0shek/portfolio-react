@@ -611,6 +611,57 @@ const data = {
         "Integrated 3D graphics and effects have been a staple of my video storytelling. I have animated and integrated trains, romantic night skies with twinkling stars, logos, and I have even created and animated video game characters for a friend's project."
     }
   ],
+  musicProjects: [
+    {
+      title: "Homebrew Music: The Midling Songs",
+      img: "homebrew-midling.jpg",
+      year: "2010-present",
+      type: "personal",
+      shortDesc: "Personal Music",
+      role: "Music Composer and Producer",
+      links: [{ title: "Visit my Soundcloud", url: "https://soundcloud.com/joshua-kellerman-433913625" }],
+      embed: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1966649464&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
+      description:
+        "A selection of songs I wrote in College."
+    },
+    {
+      title: "Homebrew Music: Oldies",
+      img: "homebrew-oldies.jpg",
+      year: "2004-2008",
+      type: "personal",
+      shortDesc: "Personal Music",
+      role: "Music Composer and Producer",
+      links: [{ title: "Visit my Soundcloud", url: "https://soundcloud.com/joshua-kellerman-433913625" }],
+      embed: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1966646144&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
+      description:
+        "A selection of songs I wrote in High School."
+    },
+    {
+      title: "Homebrew Music: The Shropera (A.I.)",
+      img: "homebrew-shropera.jpg",
+      year: "2024",
+      type: "personal",
+      shortDesc: "PoC by Joshua Kellerman, Nathaniel Lutes, and Udio V2",
+      role: "Co-Writer",
+      links: [{ title: "Visit my Soundcloud", url: "https://soundcloud.com/joshua-kellerman-433913625" }, { title: "Film IMDB", url: "https://www.imdb.com/title/tt27614153/" }],
+      embed: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1966650608&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
+      description:
+        "Set in the Universe of Bozzlebee, written by Joshua M Kellerman and Nathaniel Lutes. Composed and performed by Udio V2."
+    },
+    {
+      title: "A Possession: OST",
+      img: "possessed-2.jpg",
+      year: "2023",
+      type: "personal",
+      shortDesc: "OST by Nathaniel Lutes for my short film A Possesion",
+      role: "Music Advisor, Partial Composer",
+      links: [{ title: "Visit my Soundcloud", url: "https://soundcloud.com/joshua-kellerman-433913625" }, { title: "A Possession - IMDB", url: "https://www.imdb.com/title/tt27614153/" }],
+      embed: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1966652348&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
+      description:
+        "Composed by Nathaniel Lutes for the 2023 short film A Possession. I added additional compositions and instruments."
+    }
+  ],
+
   graphicProjects: [
     {
       title: "Drawings, Paintings, and Art",
@@ -1184,6 +1235,13 @@ export default class Portfolio extends React.Component {
           </h2>{" "}
           <hr />
           <ProjectList id="eng" projects={data.engProjects} />
+        </Section>
+        <Section theName="Music Projects">
+          <h2 id="music" ref="music">
+            Music
+          </h2>{" "}
+          <hr />
+          <ProjectList id="music" projects={data.musicProjects} />
         </Section>
         <Section theName="Leadership and Personal Growth">
           <h2 id="leadership" ref="leadership">

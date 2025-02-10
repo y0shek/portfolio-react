@@ -643,7 +643,7 @@ const data = {
       type: "personal",
       shortDesc: "PoC by Joshua Kellerman, Nathaniel Lutes, and Udio V2",
       role: "Co-Writer",
-      links: [{ title: "Visit my Soundcloud", url: "https://soundcloud.com/joshua-kellerman-433913625" }, { title: "Film IMDB", url: "https://www.imdb.com/title/tt27614153/" }],
+      links: [{ title: "Visit my Soundcloud", url: "https://soundcloud.com/joshua-kellerman-433913625" }],
       embed: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1966650608&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
       description:
         "Set in the Universe of Bozzlebee, written by Joshua M Kellerman and Nathaniel Lutes. Composed and performed by Udio V2."

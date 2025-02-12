@@ -11,7 +11,6 @@ const data = {
     {
       title: "Lottery",
       img: "the-lottery.jpg",
-      bigImg: "the-lottery_big_2.jpg",
       year: "2025",
       type: "personal",
       shortDesc: "Short Film (EN) 17\'42\"",
@@ -27,8 +26,9 @@ const data = {
         { title: "Lilli Stein (Lead Actress) Portfolio", url: "https://www.lillistein.com/" },
         { title: "Elizabeth Winterbourne (Supporting Actress) Portfolio", url: "https://elizabethwinterbournemusic.com/home" }
       ],
+      embed: "https://www.youtube.com/embed/dTk0IpL5t_A",
       description:
-        "TBR Spring 2025. A Short Sci-Fi film about the apocalypse and robotic birds. Co-written by Rosette Jin (Columbia MFA Film Producing, 2025.) Starring Laisa Garcia, Lilli Stein, and Elizabeth Winterbourne. Produced by Abrar Abdulaziz, DP Praveen Elankumaran, Prod. Design Mona Mekkawi.",
+        "TBR 2025. A short Sci-Fi film about the apocalypse and robotic birds. Co-written by Rosette Jin. Starring Laisa Garcia and Lilli Stein, with Elizabeth Winterbourne. Produced by Abrar Abdulaziz, DP Praveen Elankumaran, Prod. Design Mona Mekkawi.",
       tbr: true
     },
     {

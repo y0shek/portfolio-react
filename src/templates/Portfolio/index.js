@@ -69,7 +69,7 @@ const data = {
         { title: "Samantha Lori Glass (Co-Producer) IMDB", url: "https://www.imdb.com/name/nm12483228/" },
         { title: "Hangcheng Xu (DP) Portfolio", url: "https://www.hangchengxu.com/" }
       ],
-      embed: "https://player.vimeo.com/video/808790247",
+      embed: "https://www.youtube.com/embed/UvBpqxHyVAo",
       description:
         "Dedicated to Daniel Beltis, RIP. Be Gay Tomorrow is an ensemble piece about a single-mother family putting on Thanksgiving. Hannah (Allie McCulloch), wants to host her parents for Thanksgiving, but her kids seem to keep getting in the way, especially her oldest son, Allen, (Josh Rosenzweig) who wants to come out to his grandparents. Produced by Daniel Beltis and Samantha Lori Glass. DP Hangcheng Xu. Music by Nathaniel Lutes. Distributed by WeShort. 9 Official Selections."
     },
@@ -82,7 +82,7 @@ const data = {
       type: "personal",
       shortDesc: "Short Film (EN) 4\'51\"",
       role: "Director, Writer, Editor, DP",
-      embed: "https://player.vimeo.com/video/501150588",
+      embed: "https://www.youtube.com/embed/EsiUl07D-xM",
       links: [
         { title: "IMDB page", url: "https://www.imdb.com/title/tt13876104/" }
       ],
@@ -98,7 +98,7 @@ const data = {
       type: "personal",
       shortDesc: "Short Film (EN) 5\'05\"",
       role: "Director, Writer, Editor",
-      embed: "https://player.vimeo.com/video/513660162",
+      embed: "https://www.youtube.com/embed/fYJsgMzrFbM",
       links: [
         { title: "IMDB page", url: "https://www.imdb.com/title/tt11646262/" },
         { title: "Nicholas Nyhof (Producer) Portfolio", url: "https://www.nicholasnyhof.com/" },
@@ -118,7 +118,7 @@ const data = {
       type: "personal",
       shortDesc: "Short Film (EN) 4\'40\"",
       role: "Director, Writer, Editor",
-      embed: "https://player.vimeo.com/video/449512564",
+      embed: "https://www.youtube.com/embed/KjHlMY_9jWk",
       links: [
         { title: "IMDB page", url: "https://www.imdb.com/title/tt14426652/" }
       ],
@@ -133,7 +133,7 @@ const data = {
       type: "personal",
       shortDesc: "Short Film 2\'36\"",
       role: "Director, Writer, Editor, DP",
-      embed: "https://player.vimeo.com/video/438760465",
+      embed: "https://www.youtube.com/embed/A1foNAsfUq4",
       description:
         "A whimsical short exercise. A photographer follows a homeless man with a secret. This is the second short exercise I completed for the Columbia Film MFA. Filmed in October 2019 and re-finished post in July 2020. Selected as a OneDumbVideo daily winner 2020."
     },
@@ -145,7 +145,7 @@ const data = {
       type: "personal",
       shortDesc: "Short Film 3\'31\"",
       role: "Director, Writer, Editor, DP",
-      embed: "https://player.vimeo.com/video/435194741",
+      embed: "https://www.youtube.com/embed/sIMoChjbAcY",
       description:
         "A psychological horror short exercise. This is the first short exercise I completed for the Columbia Film MFA. Filmed in October 2019 and re-finished post in July 2020. Selected as a OneDumbVideo daily winner 2020."
     },
@@ -157,7 +157,7 @@ const data = {
       type: "personal",
       shortDesc: "Short Film (EN) 4\'43\"",
       role: "Producer, Director, Writer, Editor, DP",
-      embed: "https://player.vimeo.com/video/435206895",
+      embed: "https://www.youtube.com/embed/eHo7BEsSlNQ",
       description:
         "Talk was a submission which eventually led to my acceptance to AFI conservatory in Los Angeles and Columbia University SOA in New York City. I challenged myself by limiting the cast to one person and the camera frame to one single angle. Joe is played by Tony Gapastione. 1 Official Selection."
     },
@@ -178,7 +178,7 @@ const data = {
         { title: "Margaux-Ilona Létouche (Lead Actress, Writer) Instagram", url: "https://www.instagram.com/glowwith_mi/" },
         { title: "Margaux Avila (Supporting Actress) Fashion Business Website", url: "https://www.margauxavila.com/" }
       ],
-      embed: "https://player.vimeo.com/video/667939342?h=6f59f8e4b7",
+      embed: "https://www.youtube.com/embed/i5G7tFIZN88",
       description:
         "Released in 2018, a drama about two best friends and a young man who creates a divide between them. French-language film shot on location in Aix-en-Provence. Three festival wins and six more official selections. Distributed by Shami Media Group."
     },

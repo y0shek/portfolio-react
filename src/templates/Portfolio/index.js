@@ -28,7 +28,7 @@ const data = {
       ],
       embed: "https://www.youtube.com/embed/dTk0IpL5t_A",
       description:
-        "TBR 2025. A short Sci-Fi film about the apocalypse and robotic birds. Co-written by Rosette Jin. Starring Laisa Garcia and Lilli Stein, with Elizabeth Winterbourne. Produced by Abrar Abdulaziz, DP Praveen Elankumaran, Prod. Design Mona Mekkawi.",
+        "TBR 2025. A short Sci-Fi film about the apocalypse and robotic birds. Co-written by Rosette Jin. Starring Laisa Garcia and Lilli Stein, with Elizabeth Winterbourne.",
       tbr: true
     },
     {
@@ -637,18 +637,6 @@ const data = {
         "A selection of songs I wrote in High School."
     },
     {
-      title: "Homebrew Music: The Shropera (A.I.)",
-      img: "homebrew-shropera.jpg",
-      year: "2024",
-      type: "personal",
-      shortDesc: "PoC by Joshua Kellerman, Nathaniel Lutes, and Udio V2",
-      role: "Co-Writer",
-      links: [{ title: "Visit my Soundcloud", url: "https://soundcloud.com/joshua-kellerman-433913625" }],
-      embed: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1966650608&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
-      description:
-        "Set in the Universe of Bozzlebee, written by Joshua M Kellerman and Nathaniel Lutes. Composed and performed by Udio V2."
-    },
-    {
       title: "A Possession: OST",
       img: "possessed-2.jpg",
       year: "2023",
@@ -659,6 +647,18 @@ const data = {
       embed: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1966652348&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
       description:
         "Composed by Nathaniel Lutes for the 2023 short film A Possession. I added additional compositions and instruments."
+    },
+    {
+      title: "Homebrew Music: The Shropera (A.I.)",
+      img: "homebrew-shropera.jpg",
+      year: "2024",
+      type: "personal",
+      shortDesc: "PoC by Joshua Kellerman, Nathaniel Lutes, and Udio V2",
+      role: "Co-Writer",
+      links: [{ title: "Visit my Soundcloud", url: "https://soundcloud.com/joshua-kellerman-433913625" }],
+      embed: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1966650608&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
+      description:
+        "Set in the Universe of Bozzlebee, written by Joshua M Kellerman and Nathaniel Lutes. Composed and performed by Udio V2."
     }
   ],
 
@@ -913,7 +913,7 @@ const data = {
       img: "creditkarma.jpg",
       year: "2024-present",
       type: "promo",
-      shortDesc: "Back-end Engineer",
+      shortDesc: "Back-End Engineer",
       role: "Sr. Scala Engineer",
       links: [{ title: "Visit creditkarma.com", url: "https://www.creditkarma.com/" }],
       description:
@@ -1069,8 +1069,8 @@ const data = {
       bigImg: "film_leader_big.jpg",
       year: "2009-Present",
       type: "personal",
-      shortDesc: "Led Casts and Crews up to 130 people",
-      role: "Producer, Director",
+      shortDesc: "Led Casts and Crews of up to 130 people",
+      role: "Production / Finance / Directing / Casting",
       links: [
         {
           title: "My IMDB page",
@@ -1079,6 +1079,33 @@ const data = {
       ],
       description:
         "I have been making films since I was about 10, but only seriously since about 8 years ago. I started my filmmaking journey at UW-Milwaukee in Tim Decker's classroom. I wrote, directed, and produced a feature film in 2014. I own a small indie film production company and have produced several commercials for Silicon Valley companies and non-profits."
+    },
+    {
+      title: "Engineering Hiring and Team Building",
+      img: "eng_hiring.jpg",
+      year: "2017-Present",
+      shortDesc: "Leading and Building Teams across 10+ years of industry experience",
+      role: "EM, PM, Interviewer",
+      links: [
+        {
+          title: "Echo360",
+          url: "https://www.echo360.com/"
+        },
+        {
+          title: "Twitter",
+          url: "https://www.twitter.com/"
+        },
+        {
+          title: "Yubico",
+          url: "https://www.yubico.com/"
+        },
+        {
+          title: "Mosaix.ai",
+          url: "https://www.mosaix.ai/"
+        }
+      ],
+      description:
+        "I hired for and ran the Web team at Yubico, making sure that my hiree would have at least 3 months without other team members giving him tasks, so he could be completely up to speed and in a position to not make mistakes and bring down crucial business infrastructure. I also hired for the Mosaix.ai backend engineering team and contributed to senior culture."
     },
     {
       title: "Student Mentorship",
@@ -1100,33 +1127,6 @@ const data = {
       ],
       description:
         "While in France, I mentored a film student who would P.A. and D.A. in a short film I produced and directed. She would go on to start film school at the École de Cinéma in Paris. I continued mentorship at the Wisconsin Center for Academically Talented Youth, where I taught filmmaking and graphic design in a summer camp setting. When I moved to California, I worked briefly for Oxford tutoring, a government contractor tutoring disadvantaged youth."
-    },
-    {
-      title: "Engineering Hiring and Team Building",
-      img: "eng_hiring.jpg",
-      year: "2017-2023",
-      shortDesc: "Hired the Web team for Yubico. Hired for Infrastructure team for Mosaix.ai",
-      role: "Teamleader, Hiring Manager",
-      links: [
-        {
-          title: "Echo360",
-          url: "https://www.echo360.com/"
-        },
-        {
-          title: "Twitter",
-          url: "https://www.twitter.com/"
-        },
-        {
-          title: "Yubico",
-          url: "https://www.yubico.com/"
-        },
-        {
-          title: "Mosaix.ai",
-          url: "https://www.mosaix.ai/"
-        }
-      ],
-      description:
-        "I hired for and ran the Web team at Yubico, making sure that my hiree would have at least 3 months without other team members giving him tasks, so he could be completely up to speed and in a position to not make mistakes and bring down crucial business infrastructure. I also hired for the Mosaix.ai backend engineering team and contributed to senior culture."
     },
     {
       title: "Camino of Santiago",
@@ -1167,23 +1167,23 @@ export default class Portfolio extends React.Component {
         <Section theName="Overview" style={{ padding: "20px 0 0 0" }}>
           <div style={{ padding: "0 40px" }}>
             <h2 id="portfolio" style={{ textAlign: "center" }}>
-              <span className="special_text">Thanks for visiting my</span>{" "}
-              <strong>Portfolio</strong>!
+              <span>Portfolio</span>
             </h2>
             <blockquote className="portfolio__overview__blockquote">
               <h4 style={{ textAlign: "center", marginBottom: 0 }}>
-                <span className="special_text">Joshua M Kellerman</span>
+                <span className="special_text"><strong>Joshua M Kellerman</strong></span>
               </h4>
               <h4 style={{ textAlign: "center", marginTop: "10px", marginBottom: 0 }}>
-                <span className="special_text">
-                  Filmmaker - Writer - Engineer - Artist - <strong>Storyteller</strong> </span>
+                <span>Filmmaker - Screenwriter - Engineer - Artist</span>
+                <br />
+                <span >Storyteller</span>
               </h4>
               <h4 style={{ textAlign: "center", marginTop: "10px" }}>
-                <span className="special_text">
-                  Columbia University Film MFA</span>
+                <span className="special_text_small">Columbia University Film MFA</span>
                 <br />
-                <span className="special_text">
-                  Senior SWE at Credit Karma</span>
+                <span className="special_text_small">Senior SWE at Credit Karma</span>
+                <br />
+                <span className="special_text_small">Charlotte, NC | NYC Metro Area | LA Metro Area | SF Bay Area</span>
               </h4>
             </blockquote>
             <h4 style={{ textAlign: "center" }}>
@@ -1191,8 +1191,8 @@ export default class Portfolio extends React.Component {
             </h4>
             <div className="portfolio__subnav" ref="subnav">
               <a onClick={() => this.handleScrollTo("film")}>Film</a>
-              <a onClick={() => this.handleScrollTo("art")}>2D Art</a>
-              <a onClick={() => this.handleScrollTo("eng")}>Engineering</a>
+              <a onClick={() => this.handleScrollTo("art")}>Graphic Art</a>
+              <a onClick={() => this.handleScrollTo("eng")}>Web Engineering</a>
               <a onClick={() => this.handleScrollTo("leadership")}>
                 Leadership
               </a>
@@ -1207,14 +1207,14 @@ export default class Portfolio extends React.Component {
             Film, Animation, and Video
           </h2>{" "}
           <hr />
-          <h3 className="special_text">Narrative</h3>
+          <h3>Narrative</h3>
           <ProjectList
             id="personal"
             projects={data.videoProjects.filter(project => {
               return project.type === "personal";
             })}
           />
-          <h3 className="special_text">Commercial</h3>
+          <h3>Commercial</h3>
           <ProjectList
             id="promos"
             projects={data.videoProjects.filter(project => {

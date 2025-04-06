@@ -28,7 +28,7 @@ export default class Portfolio extends React.Component {
           </div>
         </Section>
         <Section theName="eng__experience">
-          <h3>NYC Metro Area, SF Bay Area, LA Area</h3>
+          <h3>Charlotte, NC | NYC Metro Area | SF Bay Area | LA Metro Area</h3>
           <p><a href="/contact">✉️ Contact Me - Form</a></p>
           <h3><strong>Experience</strong></h3>
           <div className="eng__socialIcons">

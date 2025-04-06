@@ -11,6 +11,7 @@ body {
   h5 {
     color: $purple;
   }
+
   p,
   li,
   em,
@@ -18,55 +19,77 @@ body {
   b {
     color: $pText;
   }
-  .special_text {
+
+  .special_text strong {
+    font-weight: 600;
+  }
+
+
+  .special_text_small {
+    font-size-adjust: .35;
     font-weight: 200;
   }
+
   h1 {
     font-size: 42px;
     font-weight: 300;
+
     @media only screen and (max-width: $bp-mobileSmall) {
       font-size: 30px;
     }
   }
+
   h2 {
     font-size: 30px;
     font-weight: 300;
+
     @media only screen and (max-width: $bp-mobileSmall) {
       font-size: 24px;
     }
   }
+
   h3 {
     font-size: 26px;
     font-weight: 300;
+
     @media only screen and (max-width: $bp-mobileSmall) {
       font-size: 20px;
     }
   }
+
   h4 {
     font-size: 22px;
     font-weight: 300;
+
     @media only screen and (max-width: $bp-mobileSmall) {
       font-size: 18px;
     }
   }
+
   h5 {
     font-size: 18px;
     font-weight: 300;
+
     @media only screen and (max-width: $bp-mobileSmall) {
       font-size: 16px;
     }
   }
+
   p {
     font-size: 17px;
+
     @media only screen and (max-width: $bp-mobileSmall) {
       font-size: 14px;
     }
   }
+
   a {
     color: $purple;
+
     &:visited {
       color: $purple;
     }
+
     &:active {
       color: $purple;
     }
@@ -83,6 +106,7 @@ body {
   @media only screen and (max-width: $bp_mobile) {
     padding: 0 $indent-mobile;
   }
+
   @media only screen and (max-width: $bp_medium) {
     padding: 0 $indent-medium;
   }

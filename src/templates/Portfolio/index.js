@@ -28,7 +28,7 @@ const data = {
       ],
       embed: "https://www.youtube.com/embed/dTk0IpL5t_A",
       description:
-        "TBR 2025. A short Sci-Fi film about the apocalypse and robotic birds. A vignette introducing the world of my TV show concept, \"ARC.\" Co- written by Rosette Jin. Starring Laisa Garcia and Lilli Stein, with Elizabeth Winterbourne.",
+        "TBR 2025. A short Sci-Fi film about the apocalypse and robotic birds. A vignette introducing the world of my TV show concept, \"ARC.\" Co-written by Rosette Jin. Starring Laisa Garcia and Lilli Stein, with Elizabeth Winterbourne.",
       tbr: true
     },
     {

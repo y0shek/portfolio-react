@@ -28,7 +28,7 @@ const data = {
       ],
       embed: "https://www.youtube.com/embed/dTk0IpL5t_A",
       description:
-        "TBR 2025. A short Sci-Fi film about the apocalypse and robotic birds. Co-written by Rosette Jin. Starring Laisa Garcia and Lilli Stein, with Elizabeth Winterbourne.",
+        "TBR 2025. A short Sci-Fi film about the apocalypse and robotic birds. A vignette introducing the world of my TV show concept, \"ARC.\" Co- written by Rosette Jin. Starring Laisa Garcia and Lilli Stein, with Elizabeth Winterbourne.",
       tbr: true
     },
     {
@@ -609,6 +609,88 @@ const data = {
       embed: "https://www.youtube.com/embed/9wv-IJ664yg",
       description:
         "Integrated 3D graphics and effects have been a staple of my video storytelling. I have animated and integrated trains, romantic night skies with twinkling stars, logos, and I have even created and animated video game characters for a friend's project."
+    }
+  ],
+  writingProjects: [
+    {
+      title: "ARC: Pilot",
+      img: "arc-teleplay.jpg",
+      year: "2025",
+      type: "personal",
+      shortDesc: "Teleplay - Drama / Sci-Fi (EN) - 63 pgs",
+      role: "Screenwriter",
+      bigImg: "arc-teleplay-big.jpg",
+      description: 'In a post-WW3 future, where a global scientific lottery determines who may reproduce, a brilliant young scientist discovers unsettling patterns in the supposedly unbiased system—forcing her to choose between loyalty to the institution she helped build and the future of her own family. Mentors: Matthew Fennel (Billions), Andy Bienen (Boys Don\'t Cry), David Klass (Kiss the Girls, Law and Order.)',
+      links: [
+        {
+          title: "Password Protected Samples Directory",
+          url: "/writing_samples"
+        }
+      ],
+    },
+    {
+      title: "Men of Their Time",
+      img: "men-of-their-time-screenplay.jpg",
+      year: "2024",
+      type: "personal",
+      shortDesc: "Screenplay - Drama (EN) - 87 pgs",
+      role: "Screenwriter",
+      bigImg: "men-of-their-time-screenplay-big.jpg",
+      description: 'A well-meaning Canadian psychologist moves his grieving teenage son to a rough American high school, where his attempts to implement progressive reforms clash with the school\'s harsh reality, culminating in a tragedy that shatters both his professional ideals and his relationship with his son. Mentor: Andy Bienen (Boys Don\'t Cry.)',
+      links: [
+        {
+          title: "Password Protected Samples Directory",
+          url: "/writing_samples"
+        }
+      ],
+    },
+    {
+      title: "Counterfeit",
+      img: "counterfeit-screenplay.jpg",
+      year: "2022",
+      type: "personal",
+      shortDesc: "Screenplay - Adventure (EN) - 126 pgs",
+      role: "Screenwriter",
+      bigImg: "counterfeit-screenplay-big.jpg",
+      description: 'Based on a true story: passed over for promotion and craving a better life, a young, blue-collar Californian father with a spending problem partners with his reckless friend and co-pilot to smuggle guns and counterfeit millions in Mexican pesos. Mentor: Katherine Dieckmann (Strange Weather.)',
+      links: [
+        {
+          title: "Password Protected Samples Directory",
+          url: "/writing_samples"
+        }
+      ],
+    },
+    {
+      title: "Smart Car",
+      img: "smart-car-screenplay.jpg",
+      year: "2021",
+      type: "personal",
+      shortDesc: "Screenplay - Thriller (EN) - 101 pgs",
+      role: "Screenwriter",
+      bigImg: "smart-car-screenplay-big.jpg",
+      description: 'When a privileged teen takes her cutting-edge AI smart car - a gift from her engineer father - on a forbidden joyride, a system glitch turns the car from protector to predator, trapping her inside as it embarks on a deadly rampage through a blizzard.',
+      links: [
+        {
+          title: "Password Protected Samples Directory",
+          url: "/writing_samples"
+        }
+      ],
+    },
+    {
+      title: "The Fandom Murders",
+      img: "fandom-murders-screenplay.jpg",
+      year: "2020",
+      type: "personal",
+      shortDesc: "Screenplay - Thriller (EN) - 125 pgs",
+      role: "Screenwriter",
+      bigImg: "fandom-murders-screenplay-big.jpg",
+      description: 'When copycat murders inspired by his violent TV show begin to occur, a disillusioned actor must confront the dark side of fame and fandom to stop a deranged fan obsessed with his character.',
+      links: [
+        {
+          title: "Password Protected Samples",
+          url: "/writing_samples"
+        }
+      ],
     }
   ],
   musicProjects: [
@@ -1200,11 +1282,11 @@ export default class Portfolio extends React.Component {
           </div>
         </Section >
         <Section
-          theName="Film, Animation, and Video"
+          theName="Films and Video"
           style={{ padding: "10px 0 20px 0" }}
         >
           <h2 id="film" ref="film">
-            Film, Animation, and Video
+            Films and Video
           </h2>{" "}
           <hr />
           <h3>Narrative</h3>
@@ -1221,6 +1303,14 @@ export default class Portfolio extends React.Component {
               return project.type === "promo";
             })}
           />
+        </Section>
+        <Section theName="Screenwriting Samples">
+          <h2 id="writing" ref="writing">
+            Screenwriting Samples
+          </h2> {" "}
+          <hr />
+          <p className="writing_pass">For the <strong>username / password</strong> to access my writing samples below, <a href="/contact">contact me</a>. </p>
+          <ProjectList id="writing" projects={data.writingProjects} />
         </Section>
         <Section theName="2D Art and Design">
           <h2 id="art" ref="art">

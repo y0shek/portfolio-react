@@ -1,43 +1,57 @@
 @import '../../variables.scss';
 
-.portfolio{
-  .portfolio__bannerImg{
-    text-align:center;
-    img{
+.portfolio {
+  .portfolio__bannerImg {
+    text-align: center;
+
+    img {
       width: 70%;
-      @media only screen and (max-width:$bp_mobile){
+
+      @media only screen and (max-width:$bp_mobile) {
         width: 100%;
       }
     }
   }
+
   hr {
     color: #ccc;
   }
-  .portfolio__overview__blockquote{
+
+  .portfolio__overview__blockquote {
     border: 2px dashed $purple;
     border-radius: 20px;
     max-width: 600px;
-    margin:0 auto;
-    padding:0 20px;
+    margin: 0 auto;
+    padding: 0 20px;
   }
 
-  .portfolio__subnav{
+  .portfolio__subnav {
     text-align: center;
-    :first-child{
+
+    :first-child {
       margin-left: 0;
     }
   }
-  a{
-    @media only screen and (max-width: $bp-mobileSmall){
+
+  a {
+    @media only screen and (max-width: $bp-mobileSmall) {
       display: block;
       margin: 0;
     }
+
     font-size: 20px;
     cursor: pointer;
     margin-left: 20px;
     text-decoration: underline;
-    &:hover{
+
+    &:hover {
       color: $accentRed;
+    }
+  }
+
+  .writing_pass {
+    a {
+      margin-left: 0
     }
   }
 }

@@ -1309,7 +1309,7 @@ export default class Portfolio extends React.Component {
             Screenwriting Samples
           </h2> {" "}
           <hr />
-          <p className="writing_pass">For the <strong>username / password</strong> to access my <a href="/writing_samples">writing samples</a>, <a href="/contact">contact me</a>. </p>
+          <p className="writing_pass">For the <strong>username / password</strong> to access my <a href="/writing_samples">private writing samples directory</a>, please <a href="/contact">contact me</a>.</p>
           <ProjectList id="writing" projects={data.writingProjects} />
         </Section>
         <Section theName="2D Art and Design">

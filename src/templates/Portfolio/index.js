@@ -1273,6 +1273,7 @@ export default class Portfolio extends React.Component {
             </h4>
             <div className="portfolio__subnav" ref="subnav">
               <a onClick={() => this.handleScrollTo("film")}>Film</a>
+              <a onClick={() => this.handleScrollTo("writing")}>Writing</a>
               <a onClick={() => this.handleScrollTo("art")}>Graphic Art</a>
               <a onClick={() => this.handleScrollTo("eng")}>Web Engineering</a>
               <a onClick={() => this.handleScrollTo("leadership")}>

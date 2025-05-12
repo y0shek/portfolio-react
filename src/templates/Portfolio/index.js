@@ -13,8 +13,8 @@ const data = {
       img: "the-lottery.jpg",
       year: "2025",
       type: "personal",
-      shortDesc: "Short Film (EN) 17\'42\"",
-      role: "Director, Writer",
+      shortDesc: "Short Film (EN) 17\'46\"",
+      role: "Director, Writer, 3D Animator",
       links: [
         { title: "IMDB page", url: "https://www.imdb.com/title/tt33050060/" },
         { title: "Abrar Qari (Producer) Portfolio", url: "https://www.abrarqari.art/" },
@@ -920,6 +920,22 @@ const data = {
       description:
         "2D Animated characters and products.",
       gallery: [
+        {
+          original: "https://i.postimg.cc/J0ZBvjMy/robo-parakeet-02.gif",
+          thumbnail: "https://i.postimg.cc/rRymt0dc/robo-parakeet-02.gif"
+        },
+        {
+          original: "https://i.postimg.cc/1tLqvvhh/robo-parakeet-01-01.gif",
+          thumbnail: "https://i.postimg.cc/VrWv6BkD/robo-parakeet-01-01.gif"
+        },
+        {
+          original: "https://i.postimg.cc/021SmX07/robo-parakeet-01-02.gif",
+          thumbnail: "https://i.postimg.cc/gr4rbD50/robo-parakeet-01-02.gif"
+        },
+        {
+          original: "https://i.postimg.cc/BZKDjfHq/robo-parakeet-01-03.gif",
+          thumbnail: "https://i.postimg.cc/23C3tJ0J/robo-parakeet-01-03.gif"
+        },
         {
           original: "https://i.postimg.cc/zBbtZ2Db/IMG-2492.gif",
           thumbnail: "https://i.postimg.cc/k6CFWcbq/IMG-2492.gif"

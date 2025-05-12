@@ -1337,19 +1337,19 @@ export default class Portfolio extends React.Component {
           <hr />
           <ProjectList id="art" projects={data.graphicProjects} />
         </Section>
-        <Section theName="UX and Software Engineering">
-          <h2 id="eng" ref="eng">
-            Software Engineering / Fullstack / UX
-          </h2>{" "}
-          <hr />
-          <ProjectList id="eng" projects={data.engProjects} />
-        </Section>
         <Section theName="Music Projects">
           <h2 id="music" ref="music">
             Music
           </h2>{" "}
           <hr />
           <ProjectList id="music" projects={data.musicProjects} />
+        </Section>
+        <Section theName="UX and Software Engineering">
+          <h2 id="eng" ref="eng">
+            Software Engineering / Fullstack / UX
+          </h2>{" "}
+          <hr />
+          <ProjectList id="eng" projects={data.engProjects} />
         </Section>
         <Section theName="Leadership and Personal Growth">
           <h2 id="leadership" ref="leadership">

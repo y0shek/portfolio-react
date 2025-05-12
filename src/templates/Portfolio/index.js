@@ -1291,6 +1291,7 @@ export default class Portfolio extends React.Component {
               <a onClick={() => this.handleScrollTo("film")}>Film</a>
               <a onClick={() => this.handleScrollTo("writing")}>Writing</a>
               <a onClick={() => this.handleScrollTo("art")}>Graphic Art</a>
+              <a onClick={() => this.handleScrollTo("music")}>Music</a>
               <a onClick={() => this.handleScrollTo("eng")}>Software</a>
               <a onClick={() => this.handleScrollTo("leadership")}>
                 Leadership

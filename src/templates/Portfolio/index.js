@@ -13,7 +13,7 @@ const data = {
       img: "the-lottery.jpg",
       year: "2025",
       type: "personal",
-      shortDesc: "Short Film (EN) 17\'46\"",
+      shortDesc: "Short Science-Fiction Film (EN) 17\'47\"",
       role: "Director, Writer, 3D Animator",
       links: [
         { title: "IMDB page", url: "https://www.imdb.com/title/tt33050060/" },
@@ -38,18 +38,17 @@ const data = {
       distributed: true,
       year: "2023",
       type: "personal",
-      shortDesc: "Short Film (EN) (Super 16mm) 16\'49\"",
+      shortDesc: "Short Horror Film (EN) (Super 16mm) 16\'53\"",
       role: "Director, Writer, Editor",
       links: [
         { title: "IMDB page", url: "https://www.imdb.com/title/tt27614153/" },
-        { title: "Stream Soon on WeShort", url: "https://weshort.com/" },
         { title: "Ivan Rome (Producer) Portfolio", url: "https://www.ivanrome.com/" },
         { title: "Daniel J. Cho (DP) Portfolio", url: "https://www.danieljcho.com/" },
         { title: "Gabriel Rysdahl (Lead Actor) Portfolio", url: "https://gabrielrysdahl.com/" },
         { title: "Sara Koviak (Lead Actress) Portfolio", url: "https://www.sarakoviak.com/" },
         { title: "Izabel Mar (Lead Actress) Portfolio", url: "https://www.izabelmar.com/" }
       ],
-      embed: "https://www.youtube.com/embed/eu0DMjk9xQA?si=zxIlZ29BjoBk11lo",
+      embed: "https://www.youtube.com/embed/Efpx9HROCj8",
       description:
         "AKA \"Narcissus\": A mystical horror based off of Nathaniel Hawthorne's Young Goodman Brown. Mysterious forces threaten to tear apart a young couple's hiking honeymoon. Released at NY Shorts International Film Festival in late Oct. 2023, Prod. Ivan Rome, DP Daniel Cho. Music by Nathaniel Lutes. Distributed by WeShort. 9 Official Selections including Screamfest LA."
     },
@@ -60,7 +59,7 @@ const data = {
       distributed: true,
       year: "2022",
       type: "personal",
-      shortDesc: "Short Film (EN) 13\'01\"",
+      shortDesc: "Short Comedy Film (EN) 13\'01\"",
       role: "Director, Writer, Editor",
       links: [
         { title: "IMDB page", url: "https://www.imdb.com/title/tt19813834/" },

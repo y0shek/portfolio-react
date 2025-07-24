@@ -9,6 +9,22 @@ import skipping from "../../images/skipping.jpg";
 const data = {
   videoProjects: [
     {
+      title: "The Church's Daughter",
+      img: "churchs-daughter.jpg",
+      year: "2026",
+      type: "personal",
+      shortDesc: "Short Drama Film (EN) 12\'45\"",
+      role: "Director, Script Doctor",
+      links: [
+        { title: "Alvaro Secchi (Co-Director) Portfolio", url: "https://www.alvaronunezsecchi.com/" },
+        { title: "Rosette Jin (Producer, Writer) Instagram", url: "https://www.instagram.com/rosette_jinn/?hl=en" },
+      ],
+      embed: "https://player.vimeo.com/video/1096154893?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+      description:
+        "TBR 2026. A short drama film about a religious girl, her priest father, and a blasphemous play.",
+      tbr: true
+    },
+    {
       title: "Lottery",
       img: "the-lottery.jpg",
       year: "2025",

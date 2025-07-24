@@ -18,6 +18,7 @@ const data = {
       links: [
         { title: "Alvaro Secchi (Co-Director) Portfolio", url: "https://www.alvaronunezsecchi.com/" },
         { title: "Rosette Jin (Producer, Writer) Instagram", url: "https://www.instagram.com/rosette_jinn/?hl=en" },
+        { title: "Daniel J Cho (DoP) Portfolio", url: "https://www.danieljcho.com/" },
       ],
       embed: "https://player.vimeo.com/video/1096154893?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
       description:
@@ -59,7 +60,7 @@ const data = {
       links: [
         { title: "IMDB page", url: "https://www.imdb.com/title/tt27614153/" },
         { title: "Ivan Rome (Producer) Portfolio", url: "https://www.ivanrome.com/" },
-        { title: "Daniel J. Cho (DP) Portfolio", url: "https://www.danieljcho.com/" },
+        { title: "Daniel J Cho (DoP) Portfolio", url: "https://www.danieljcho.com/" },
         { title: "Gabriel Rysdahl (Lead Actor) Portfolio", url: "https://gabrielrysdahl.com/" },
         { title: "Sara Koviak (Lead Actress) Portfolio", url: "https://www.sarakoviak.com/" },
         { title: "Izabel Mar (Lead Actress) Portfolio", url: "https://www.izabelmar.com/" }

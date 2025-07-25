@@ -90,6 +90,27 @@ const data = {
         "Dedicated to our beloved Producer, Daniel Beltis, RIP. Be Gay Tomorrow is an ensemble piece about a single-mother family putting on Thanksgiving. Hannah (Allie McCulloch), wants to host her parents for Thanksgiving, but her kids seem to keep getting in the way, especially her oldest son, Allen, (Josh Rosenzweig) who wants to come out to his grandparents. \"I love Be Gay Tomorrow. [The] film has a vibrant realism in the John Cassavetes vein... I really admire [the] storytelling skills. At first, I had nothing but antipathy toward Hannah, but by the end I was completely on her side.\" - Ken Kwapis, Showrunner of the American Office. Produced by Daniel Beltis and Samantha Lori Glass. DP Hangcheng Xu. Music by Nathaniel Lutes. Distributed by WeShort. 9 Official Selections."
     },
     {
+      title: "En Rose",
+      img: "enrose.jpg",
+      laurels: 5,
+      wins: 4,
+      distributed: true,
+      year: "2018",
+      type: "personal",
+      shortDesc: "Short Film (FR) 12\'04\"",
+      role: "Director, Editor, Producer, DP",
+      links: [
+        { title: "Previously on Amazon Prime Video", url: "https://www.amazon.com/En-Rose-Margaux-Ilona-L%C3%A9touche/dp/B07NBWTQD4" },
+        { title: "IMDB page", url: "https://www.imdb.com/title/tt3681356/" },
+        { title: "Mickaël Bourse (Lead Actor) Portfolio", url: "https://mickaelbourse.wixsite.com/mickael" },
+        { title: "Margaux-Ilona Létouche (Lead Actress, Writer) Instagram", url: "https://www.instagram.com/glowwith_mi/" },
+        { title: "Margaux Avila (Supporting Actress) Fashion Business Website", url: "https://www.margauxavila.com/" }
+      ],
+      embed: "https://www.youtube.com/embed/i5G7tFIZN88",
+      description:
+        "Released in 2018, a drama about two best friends and a young man who creates a divide between them. French-language film shot on location in Aix-en-Provence. Three festival wins and six more official selections. Distributed by Shami Media Group."
+    },
+    {
       title: "Missing",
       img: "missing.jpg",
       laurels: 1,
@@ -176,27 +197,6 @@ const data = {
       embed: "https://www.youtube.com/embed/eHo7BEsSlNQ",
       description:
         "Talk was a submission which eventually led to my acceptance to AFI conservatory in Los Angeles and Columbia University SOA in New York City. I challenged myself by limiting the cast to one person and the camera frame to one single angle. Joe is played by Tony Gapastione. 1 Official Selection."
-    },
-    {
-      title: "En Rose",
-      img: "enrose.jpg",
-      laurels: 5,
-      wins: 4,
-      distributed: true,
-      year: "2018",
-      type: "personal",
-      shortDesc: "Short Film (FR) 12\'04\"",
-      role: "Director, Editor, Producer, DP",
-      links: [
-        { title: "Previously on Amazon Prime Video", url: "https://www.amazon.com/En-Rose-Margaux-Ilona-L%C3%A9touche/dp/B07NBWTQD4" },
-        { title: "IMDB page", url: "https://www.imdb.com/title/tt3681356/" },
-        { title: "Mickaël Bourse (Lead Actor) Portfolio", url: "https://mickaelbourse.wixsite.com/mickael" },
-        { title: "Margaux-Ilona Létouche (Lead Actress, Writer) Instagram", url: "https://www.instagram.com/glowwith_mi/" },
-        { title: "Margaux Avila (Supporting Actress) Fashion Business Website", url: "https://www.margauxavila.com/" }
-      ],
-      embed: "https://www.youtube.com/embed/i5G7tFIZN88",
-      description:
-        "Released in 2018, a drama about two best friends and a young man who creates a divide between them. French-language film shot on location in Aix-en-Provence. Three festival wins and six more official selections. Distributed by Shami Media Group."
     },
     {
       title: "IX",

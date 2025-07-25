@@ -22,7 +22,7 @@ const data = {
       ],
       embed: "https://player.vimeo.com/video/1096154893?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
       description:
-        "TBR 2026. A short drama film about a religious girl, her priest father, and a blasphemous play.",
+        "TBR 2026. When she gets the chance to play the lead in a blasphemous community-theatre play, a religious Catholic girl begins to have dreams of stardom against the wishes of her priest father.",
       tbr: true
     },
     {
@@ -633,10 +633,12 @@ const data = {
       img: "arc-teleplay.jpg",
       year: "2025",
       type: "personal",
+      laurels: 4,
+      wins: 1,
       shortDesc: "Teleplay - Drama / Sci-Fi (EN) - 63 pgs",
       role: "Screenwriter",
       bigImg: "arc-teleplay-big.jpg",
-      description: 'In a post-WW3 future, where a global scientific lottery determines who may reproduce, a brilliant young scientist discovers unsettling patterns in the supposedly unbiased system—forcing her to choose between loyalty to the institution she helped build and the future of her own family. Mentors: Matthew Fennel (Billions), Andy Bienen (Boys Don\'t Cry), David Klass (Kiss the Girls, Law and Order.)',
+      description: 'In a post-WW3 future, where a global scientific atomic lottery determines who may reproduce, a brilliant young scientist discovers unsettling patterns in the supposedly unbiased system — forcing her to choose between loyalty to the institution she helped build and the future of her own family. Mentors: Matthew Fennel (Billions), Andy Bienen (Boys Don\'t Cry), David Klass (Kiss the Girls, Law and Order.)',
       links: [
         {
           title: "Password Protected Writing Samples Directory",

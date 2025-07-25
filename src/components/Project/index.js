@@ -54,7 +54,7 @@ export default class Project extends React.Component {
           <p className='project__shortDesc'>{this.props.data.shortDesc}</p>
           <p className='project__role'>{this.props.data.role}</p>
           {
-            this.props.type == "personal" && <div>
+            ["personal", "writing"].includes(this.props.type) && <div>
               {this.laurels()}
               {this.wins()}
               {this.distribution()}

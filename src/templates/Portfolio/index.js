@@ -338,20 +338,6 @@ const data = {
       description: "A product launch video"
     },
     {
-      title: 'Say Hello to Secure Login on iOS with the YubiKey 5Ci',
-      img: "5ci.jpg",
-      year: "2019",
-      type: "promo",
-      shortDesc: "© 2019 Yubico Inc - Director's Cut",
-      role: "Director, Writer, DP, Editing, Effects, Color, Sound",
-      links: [
-        { title: "Visit yubico.com", url: "https://www.yubico.com/" },
-        { title: "See the final cut by Yubico on Youtube", url: "https://www.youtube.com/watch?v=GL97M-h77a0" }
-      ],
-      embed: "https://www.youtube.com/embed/ckrt6QuWZOA",
-      description: "3-week turnaround for the biggest product launch in the history of the company. Prepped for about 5 days. Shot in one day. Effects and editing over 2 weeks."
-    },
-    {
       title: 'Dolphin Adventure Pilot Episode',
       img: "edge.jpg",
       year: "2020",
@@ -368,6 +354,20 @@ const data = {
       ],
       bigImg: "edge-big.jpg",
       description: "Live television - An underwater dolphin adventure for ages 4-9 streamed out on Zoom. Gathered and licensed media and B-Roll and sound effects, set up Zoom Cast infrastructure, and ran the show going out to the world - over 500 classrooms and students attended."
+    },
+    {
+      title: 'Say Hello to Secure Login on iOS with the YubiKey 5Ci',
+      img: "5ci.jpg",
+      year: "2019",
+      type: "promo",
+      shortDesc: "© 2019 Yubico Inc - Director's Cut",
+      role: "Director, Writer, DP, Editing, Effects, Color, Sound",
+      links: [
+        { title: "Visit yubico.com", url: "https://www.yubico.com/" },
+        { title: "See the final cut by Yubico on Youtube", url: "https://www.youtube.com/watch?v=GL97M-h77a0" }
+      ],
+      embed: "https://www.youtube.com/embed/ckrt6QuWZOA",
+      description: "3-week turnaround for the biggest product launch in the history of the company. Prepped for about 5 days. Shot in one day. Effects and editing over 2 weeks."
     },
     {
       title: 'Shorelines',

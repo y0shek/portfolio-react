@@ -342,18 +342,19 @@ const data = {
       img: "edge.jpg",
       year: "2020",
       type: "promo",
-      shortDesc: "© 2020 Edge Innovations",
+      shortDesc: "© 2020 Edge Innovations and PETA",
       role: "Media Producer and Zoom Director",
       links: [
         {
-          title: "Visit edgefx.com", url: "https://www.edgefx.com/"
+          title: "Watch the episode on Youtube", url: "https://www.youtube.com/watch?v=vcVRY5q_QmQ"
         },
         {
-          title: "Watch the episode on Youtube", url: "https://www.youtube.com/watch?v=vcVRY5q_QmQ"
-        }
+          title: "Visit edgefx.com", url: "https://www.edgefx.com/"
+        },
+        { title: "Visit peta.org", url: "https://www.peta.org/" }
       ],
       bigImg: "edge-big.jpg",
-      description: "Live television - An underwater dolphin adventure for ages 4-9 streamed out on Zoom. Gathered and licensed media and B-Roll and sound effects, set up Zoom Cast infrastructure, and ran the show going out to the world - over 500 classrooms and students attended."
+      description: "Live television - An underwater dolphin adventure for ages 4-9 streamed out on Zoom. Gathered and licensed media and B-Roll and sound effects, set up Zoom Cast infrastructure, Designed OBS Scenes and Layout, and directed / produced the show going out to the world - over 500 classrooms and students attended."
     },
     {
       title: 'Say Hello to Secure Login on iOS with the YubiKey 5Ci',

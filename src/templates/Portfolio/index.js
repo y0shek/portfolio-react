@@ -13,7 +13,7 @@ const data = {
       img: "churchs-daughter.jpg",
       year: "2026",
       type: "personal",
-      shortDesc: "Short Drama Film (EN) 12\'45\"",
+      shortDesc: "Short Film (EN) 12\'45\"",
       role: "Director, Script Doctor",
       links: [
         { title: "Alvaro Secchi (Co-Director) Portfolio", url: "https://www.alvaronunezsecchi.com/" },
@@ -30,7 +30,7 @@ const data = {
       img: "the-lottery.jpg",
       year: "2025",
       type: "personal",
-      shortDesc: "Short Science-Fiction Film (EN) 17\'47\"",
+      shortDesc: "Short Film (EN) 17\'12\"",
       role: "Director, Writer, 3D Animator",
       links: [
         { title: "IMDB page", url: "https://www.imdb.com/title/tt33050060/" },
@@ -55,7 +55,7 @@ const data = {
       distributed: true,
       year: "2023",
       type: "personal",
-      shortDesc: "Short Horror Film (EN) (Super 16mm) 16\'53\"",
+      shortDesc: "Short Film (EN) (Super 16mm) 16\'53\"",
       role: "Director, Writer, Editor",
       links: [
         { title: "IMDB page", url: "https://www.imdb.com/title/tt27614153/" },
@@ -76,7 +76,7 @@ const data = {
       distributed: true,
       year: "2022",
       type: "personal",
-      shortDesc: "Short Comedy Film (EN) 13\'01\"",
+      shortDesc: "Short Film (EN) 13\'01\"",
       role: "Director, Writer, Editor",
       links: [
         { title: "IMDB page", url: "https://www.imdb.com/title/tt19813834/" },

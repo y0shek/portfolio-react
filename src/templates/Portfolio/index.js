@@ -13,7 +13,7 @@ const data = {
       img: "churchs-daughter.jpg",
       year: "2026",
       type: "personal",
-      shortDesc: "Short Film (EN) 12\'45\"",
+      shortDesc: "Short Film (EN) 16\'52\"",
       role: "Director, Script Doctor",
       links: [
         { title: "Alvaro Secchi (Co-Director) Portfolio", url: "https://www.alvaronunezsecchi.com/" },
@@ -28,7 +28,7 @@ const data = {
     {
       title: "Lottery",
       img: "the-lottery.jpg",
-      year: "2025",
+      year: "2026",
       type: "personal",
       shortDesc: "Short Film (EN) 17\'12\"",
       role: "Director, Writer, 3D Animator",

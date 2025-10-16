@@ -45,7 +45,7 @@ const data = {
       ],
       embed: "https://www.youtube.com/embed/dTk0IpL5t_A",
       description:
-        "TBR 2025. A short Sci-Fi film about the apocalypse and robotic birds. A vignette introducing the world of my TV show concept, \"ARC.\" Co-written by Rosette Jin. Starring Laisa Garcia and Lilli Stein, with Elizabeth Winterbourne.",
+        "TBR 2026. A short Sci-Fi film about the apocalypse and robotic birds. A vignette introducing the world of my TV show concept, \"ARC.\" Co-written by Rosette Jin. Starring Laisa Garcia and Lilli Stein, with Elizabeth Winterbourne.",
       tbr: true
     },
     {
@@ -201,7 +201,7 @@ const data = {
     {
       title: "IX",
       img: "sara-x.jpg",
-      year: "2025",
+      year: "2026",
       type: "personal",
       shortDesc: "Short Film 9\'10\"",
       role: "Post-Production / Color / CGI FX",
@@ -210,7 +210,7 @@ const data = {
         { title: "Wikipedia of José Rivera", url: "https://en.wikipedia.org/wiki/Jos%C3%A9_Rivera_(playwright)" }
       ],
       description:
-        "TBR 2025. A phantasmagoric dance and poetry film about decay and hope. Directed by and starring Sara Koviak, written by playwright José Rivera.",
+        "TBR 2026. A phantasmagoric dance and poetry film about decay and hope. Directed by and starring Sara Koviak, written by playwright José Rivera.",
       tbr: true
     },
     {
@@ -231,7 +231,7 @@ const data = {
     {
       title: "Meet Outside",
       img: "meet-outside.jpg",
-      year: "2025",
+      year: "2026",
       type: "personal",
       shortDesc: "Short Film 6\'30\"",
       role: "Cinematographer",
@@ -239,7 +239,7 @@ const data = {
         { title: "Camille Hamadé (Writer / Director) Portfolio", url: "https://camillehamade.com/projects" }
       ],
       description:
-        "TBR 2025. A silent color film about a man and his pizza delivery. Dir. Camille Hamadé.",
+        "TBR 2026. A silent color film about a man and his pizza delivery. Dir. Camille Hamadé.",
       tbr: true
     },
     {

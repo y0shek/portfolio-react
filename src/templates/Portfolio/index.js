@@ -26,7 +26,7 @@ const data = {
       tbr: true
     },
     {
-      title: "Lottery",
+      title: "The Lottery",
       img: "the-lottery.jpg",
       year: "2026",
       type: "personal",
@@ -43,7 +43,7 @@ const data = {
         { title: "Lilli Stein (Lead Actress) Portfolio", url: "https://www.lillistein.com/" },
         { title: "Elizabeth Winterbourne (Supporting Actress) Portfolio", url: "https://elizabethwinterbournemusic.com/home" }
       ],
-      embed: "https://www.youtube.com/embed/dTk0IpL5t_A",
+      embed: "https://www.youtube.com/embed/xg3tcKgUMzA",
       description:
         "TBR 2026. A short Sci-Fi film about the apocalypse and robotic birds. A vignette introducing the world of my TV show concept, \"ARC.\" Co-written by Rosette Jin. Starring Laisa Garcia and Lilli Stein, with Elizabeth Winterbourne.",
       tbr: true
@@ -216,7 +216,7 @@ const data = {
     {
       title: "Why?",
       img: "gregory-why.jpg",
-      year: "2025",
+      year: "2026",
       type: "personal",
       shortDesc: "Short Film 9\'43\"",
       role: "Cinematographer / AD",
@@ -225,7 +225,7 @@ const data = {
         { title: "Sara Koviak Portfolio", url: "https://www.sarakoviak.com/" }
       ],
       description:
-        "TBR 2025-2026. A magical-realism take on the process of grief. Directed by, written by, and starring Gregory Paul Brown. Also starring Sara Koviak.",
+        "TBR 2026. A magical-realism take on the process of grief. Directed by, written by, and starring Gregory Paul Brown. Also starring Sara Koviak.",
       tbr: true
     },
     {

@@ -1,7 +1,7 @@
 import React from "react";
 import Section from "../../components/Section";
 import myPic from '../../images/profile-eng.jpg';
-import myResume from "../../pdfs/Kellerman_Resume_2025_Tech_Web_2.pdf";
+import myResume from "../../pdfs/Kellerman_Resume_2025_Tech_Web_3.pdf";
 import { SocialIcon } from "react-social-icons";
 import "./style.css";
 
@@ -55,8 +55,8 @@ export default class Portfolio extends React.Component {
             <ul><li>Upleveled several Junior engineers to mid-level Scala performing engineers.</li></ul>
             <li>Project lead partnering with major Credit Bureaus to solve state drift issues and improve data quality.</li>
             <ul><li>Process improvement led to increased revenue of roughly $2M a year for CK due to resolved data inconsistencies.</li></ul>
-            <li>Worked with VPs of Data to clarify and solve major data inconsistancy issue in our data lake.</li>
-            <ul><li>This was concerning certain lines of credit with certain members. Discovery contributed directly to contributing to enhanced strategy for Intuit.</li></ul>
+            <li>Identified and solved major inconsistency in our data lake for VPs of Data.</li>
+            <ul><li>Contributed directly to enhanced roadmap strategy for Intuit.</li></ul>
           </ul>
           <h4 style={{ "margin-bottom": 0 }}>Echo360 Capture Team - 2022-2023</h4>
           <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>Role: Principal Full-Stack Engineer / EM</h5>

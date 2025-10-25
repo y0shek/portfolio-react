@@ -1,6 +1,6 @@
 import React from "react";
 import Section from "../../components/Section";
-import myPic from '../../images/me_prof.jpg';
+import myPic from '../../images/profile-eng.jpg';
 import myResume from "../../pdfs/Kellerman_Resume_2025_Tech_Web.pdf";
 import { SocialIcon } from "react-social-icons";
 import "./style.css";

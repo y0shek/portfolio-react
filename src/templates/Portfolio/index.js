@@ -13,7 +13,7 @@ const data = {
       img: "churchs-daughter.jpg",
       year: "2026",
       type: "personal",
-      shortDesc: "Short Film (EN) 16\'52\"",
+      shortDesc: "Short Film (EN) 17\'04\"",
       role: "Director, Script Doctor",
       links: [
         { title: "Alvaro Secchi (Co-Director) Portfolio", url: "https://www.alvaronunezsecchi.com/" },
@@ -22,7 +22,7 @@ const data = {
       ],
       embed: "https://player.vimeo.com/video/1096154893?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
       description:
-        "TBR 2026. When she gets the chance to play the lead in a blasphemous community-theatre play, a religious Catholic girl begins to have dreams of stardom against the wishes of her priest father.",
+        "TBR 2026 or 2027. When she gets the chance to play the lead in a blasphemous community-theatre play, a religious Catholic girl begins to have dreams of stardom against the wishes of her priest father.",
       tbr: true
     },
     {

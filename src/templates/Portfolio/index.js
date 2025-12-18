@@ -30,7 +30,7 @@ const data = {
       img: "the-lottery.jpg",
       year: "2026",
       type: "personal",
-      shortDesc: "Short Film (EN) 17\'51\"",
+      shortDesc: "Short Film (EN) 15\'34\"",
       role: "Director, Writer, 3D Animator",
       links: [
         { title: "IMDB page", url: "https://www.imdb.com/title/tt33050060/" },

@@ -80,12 +80,11 @@ const data = {
       role: "Director, Writer, Editor",
       links: [
         { title: "IMDB page", url: "https://www.imdb.com/title/tt19813834/" },
-        { title: "Stream Now on WeShort", url: "https://weshort.com/collection?s=6224" },
-        { title: "Distributed Worldwide by Gonella Productions, France", url: "https://gonella-productions.com/begaytomorrow" },
+        { title: "Streaming on WeShort", url: "https://weshort.com/collection?s=6224" },
         { title: "Samantha Lori Glass (Co-Producer) IMDB", url: "https://www.imdb.com/name/nm12483228/" },
         { title: "Hangcheng Xu (DP) Portfolio", url: "https://www.hangchengxu.com/" }
       ],
-      embed: "https://www.youtube.com/embed/UvBpqxHyVAo",
+      embed: "https://www.youtube.com/embed/hRhgmB6PpD8",
       description:
         "Dedicated to our beloved Producer, Daniel Beltis, RIP. Be Gay Tomorrow is an ensemble piece about a single-mother family putting on Thanksgiving. Hannah (Allie McCulloch), wants to host her parents for Thanksgiving, but her kids seem to keep getting in the way, especially her oldest son, Allen, (Josh Rosenzweig) who wants to come out to his grandparents. \"I love Be Gay Tomorrow. [The] film has a vibrant realism in the John Cassavetes vein... I really admire [the] storytelling skills. At first, I had nothing but antipathy toward Hannah, but by the end I was completely on her side.\" - Ken Kwapis, Showrunner of the American Office. Produced by Daniel Beltis and Samantha Lori Glass. DP Hangcheng Xu. Music by Nathaniel Lutes. Distributed by WeShort. 9 Official Selections."
     },

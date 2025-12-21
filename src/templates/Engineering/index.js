@@ -40,7 +40,7 @@ export default class Portfolio extends React.Component {
         <Section theName="eng__projects">
           <h3><strong>Major Projects</strong></h3>
           <h4 style={{ "margin-bottom": 0 }}>Credit Karma Credit Ecosystem Team - 2024-Present</h4>
-          <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>Role: Senior Back-End Engineer</h5>
+          <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>Role: Tech Lead</h5>
           <ul>
             <li>Major Data Microservices Consolidation</li>
             <ul>

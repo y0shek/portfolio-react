@@ -39,13 +39,13 @@ const data = {
         { title: "Paula Bourgie (Editor) Portfolio", url: "https://paulabourgie.com/" },
         { title: "Praveen Elankumaran (Cinematography) Portfolio", url: "https://www.praveenelan.com/" },
         { title: "Mona Mekkawi (Prod. Design) Portfolio", url: "https://www.monamekkawi.com/" },
-        { title: "Laisa Garcia (Lead Actress) Backstage Portfolio", url: "https://www.backstage.com/u/laisa-garcia/" },
+        { title: "Laisa Garcia (Lead Actress) Portfolio", url: "https://www.farrinfilm.com/laisa-garcia/" },
         { title: "Lilli Stein (Lead Actress) Portfolio", url: "https://www.lillistein.com/" },
         { title: "Elizabeth Winterbourne (Supporting Actress) Portfolio", url: "https://elizabethwinterbournemusic.com/home" }
       ],
       embed: "https://www.youtube.com/embed/xg3tcKgUMzA",
       description:
-        "TBR 2026. A short Sci-Fi film about the apocalypse and robotic birds. A vignette introducing the world of my TV show concept, \"ARC.\" Co-written by Rosette Jin. Starring Laisa Garcia and Lilli Stein, with Elizabeth Winterbourne.",
+        "TBR 2026. A short Sci-Fi film about the apocalypse and robotic birds. A vignette introducing the world of my TV show concept, \"ARC.\" Starring Laisa Garcia and Lilli Stein, with Elizabeth Winterbourne.",
       tbr: true
     },
     {

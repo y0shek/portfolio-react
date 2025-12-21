@@ -20,7 +20,7 @@ export default class Portfolio extends React.Component {
           <div className="eng__namecard">
             <div className="eng__namecard__text">
               <h1>Joshua M Kellerman</h1>
-              <h3>Principal Software Engineer</h3>
+              <h3>Software Engineering Leadership</h3>
             </div>
             <div className='eng__namecard__image'>
               <img src={myPic} alt='Joshua M Kellerman headshot' />
@@ -77,7 +77,7 @@ export default class Portfolio extends React.Component {
             </ul>
           </ul>
           <h4 style={{ "margin-bottom": 0 }}>Twitter Health Org SRE Team - 2022</h4>
-          <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>Role: Sr. Full-Stack Engineer</h5>
+          <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>Role: Sr. Full-Stack Engineer / Interim EM</h5>
           <ul>
             <li>Twitter Health Org DORA Four Keys Dashboard</li>
             <ul>

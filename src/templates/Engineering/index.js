@@ -195,7 +195,7 @@ export default class Portfolio extends React.Component {
           <h5>Product Management</h5>
           <ul>
             <li>Strong history of product development, product management, and shipping products under deadline and under cost.</li>
-            <li>Directed seven short films and one feature film with an accumulated production time of six months, managing an average of 40 artists per film set and making split decisions every minute of every 140-hour day, always turning out an award-winning product.</li>
+            <li><a href="/" target="_blank">Directed seven short films and one feature film</a> with an accumulated production time of six months, managing an average of 40 artists per film set and making split decisions every minute of every 140-hour day, always turning out an award-winning product.</li>
             <li>Market Research.</li>
             <li>Incorporating AI and new technologies.</li>
             <li>Product Roadmaps.</li>

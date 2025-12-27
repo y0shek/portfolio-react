@@ -20,6 +20,7 @@ export default class Portfolio extends React.Component {
           <div className="eng__namecard">
             <div className="eng__namecard__text">
               <h1>Joshua M Kellerman</h1>
+              <h5>Ex-Twitter | Ex-Yubico</h5>
               <h3>Product & Software Engineering</h3>
             </div>
             <div className='eng__namecard__image'>

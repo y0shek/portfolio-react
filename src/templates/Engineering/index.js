@@ -20,8 +20,8 @@ export default class Portfolio extends React.Component {
           <div className="eng__namecard">
             <div className="eng__namecard__text">
               <h1>Joshua M Kellerman</h1>
-              <h5>Ex-Twitter | Ex-Yubico</h5>
               <h3>Product & Software Engineering</h3>
+              <h4>Ex-Twitter | Ex-Yubico</h4>
             </div>
             <div className='eng__namecard__image'>
               <img src={myPic} alt='Joshua M Kellerman headshot' />
@@ -201,7 +201,7 @@ export default class Portfolio extends React.Component {
             <li>Incorporating AI and new technologies.</li>
             <li>Product Roadmaps.</li>
             <li>A/B Testing.</li>
-            <li>Designing products with scale as core principle.</li>
+            <li>Designing products with scale as core principle. Shipped Safety Mode at Twitter in 2021, with 34 million MAU. Safety Mode defunct after Elon Musk takeover to X.com, 2022.</li>
             <li>User experience is paramount - Designed, owned, oversaw, and shipped "YubiKey for Windows Hello" in 2017, which became the standard UX experience in FIDO alliance for registering and using all Security Keys.</li>
           </ul>
           <h5>Engineering and Project Management</h5>

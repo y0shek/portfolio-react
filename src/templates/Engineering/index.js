@@ -20,7 +20,7 @@ export default class Portfolio extends React.Component {
           <div className="eng__namecard">
             <div className="eng__namecard__text">
               <h1>Joshua M Kellerman</h1>
-              <h3>Product & Software Engineering</h3>
+              <h3>Product & Engineering - Software</h3>
               <h5>Ex-Twitter | Ex-Yubico</h5>
             </div>
             <div className='eng__namecard__image'>
@@ -40,34 +40,44 @@ export default class Portfolio extends React.Component {
         </Section>
         <Section theName="eng__projects">
           <h3><strong>Major Projects</strong></h3>
-          <h4 style={{ "margin-bottom": 0 }}>Credit Karma Credit Ecosystem Team - 2024-Present</h4>
-          <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>Role: Tech Lead / Senior Engineer</h5>
+          <h4 style={{ "margin-bottom": 0 }}>Credit Karma Microservice Consolidation - 2024-2025</h4>
+          <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>Role: Owner / Tech Lead / Senior Engineer</h5>
           <ul>
             <li>Major Data Microservices Consolidation</li>
             <ul>
               <li>Project and Technical lead on Credit Ecosystem core backend team, offline data.</li>
               <li>Spearheaded simplifying infrastructure from three services to one.</li>
-              <ul><li>Code and process improvement led to processing roughly 50% data volume due to enhanced data cleanliness with a 75% increase in data quality.</li></ul>
+              <ul><li>Code and process improvement led to <strong>processing roughly 50% data volume</strong> due to enhanced data cleanliness with a major increase in data quality.</li></ul>
               <li>Technology: Cloud services, GCP, Messaging Queues, RPC, Scala, Twitter Finagle framework. Also, RDBs, BigQuery, Python, Scala, Kafka, Pubsub, Memcached</li>
             </ul>
+          </ul>
+          <h4 style={{ "margin-bottom": 0 }}>Credit Karma Finagle Microservice Architecture Standardization - 2024-2025</h4>
+          <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>Role: Owner / Tech Lead / Senior Engineer</h5>
+          <ul>
             <li>Envisioned and standardized Twitter Finagle microservice architecture across Credit Ecosystem services.</li>
             <ul><li>Roadmap and execution, starting with consolidated service.</li></ul>
             <li>Ran weekly university-course style Scala sessions weekly to uplevel and mentor Junior engineers.</li>
             <ul><li>Upleveled several Junior engineers to mid-level Scala performing engineers.</li></ul>
+          </ul>
+          <h4 style={{ "margin-bottom": 0 }}>Credit Karma User State Drift Investigations and Solutions - 2024-2025</h4>
+          <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>Role: Owner / Tech Lead / Senior Engineer</h5>
+          <ul>
             <li>Project lead partnering with major Credit Bureaus to solve state drift issues and improve data quality.</li>
-            <ul><li>Process improvement led to increased revenue of roughly $2M a year for CK due to resolved data inconsistencies.</li></ul>
+            <ul><li>Process improvement led to increased revenue of roughly <strong>$2M a year</strong> for CK due to resolved data inconsistencies.</li></ul>
             <li>Identified and solved major inconsistency in our data lake for VPs of Data.</li>
             <ul><li>Contributed directly to enhanced roadmap strategy for Intuit.</li></ul>
           </ul>
-          <h4 style={{ "margin-bottom": 0 }}>Echo360 Capture Team - 2022-2023</h4>
-          <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>Role: Principal Full-Stack Engineer / EM</h5>
+          <h4 style={{ "margin-bottom": 0 }}>Echo360 Capture Team Infrastructure 4-Channel Support</h4>
+          <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>Role: PM / EM / Principal Engineer</h5>
           <ul>
-            <li>Upgraded Echo360 Capture Infrastructure to Support 4-channel video capture and playback</li>
+            <li>Upgraded Echo360 Capture Infrastructure to Support 4-channel video capture and playback - 2023</li>
             <ul>
               <li>Team lead to update systems, including media processing pipeline, microservices, and Advanced Learning Platform monolith.</li>
               <li>Covered codebases and libraries in Scala, CPP, Java, and GoLang</li>
             </ul>
           </ul>
+          <h4 style={{ "margin-bottom": 0 }}>Echo360 AI Chaptering Microservice Integration - 2022</h4>
+          <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>Role: PM / EM / Principal Engineer</h5>
           <ul>
             <li>Created Chaptering Microservice</li>
             <ul>
@@ -92,7 +102,7 @@ export default class Portfolio extends React.Component {
             </ul>
           </ul>
           <h4 style={{ "margin-bottom": 0 }}>Twitter Safety Mode - 2021</h4>
-          <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>Role: Sr. Scala Engineer</h5>
+          <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>Role: PM / Architect / Technical Lead</h5>
           <ul>
             <li>Twitter Safety Mode Lead Backend Engineer</li>
             <ul>
@@ -110,7 +120,7 @@ export default class Portfolio extends React.Component {
             </ul>
           </ul>
           <h4 style={{ "margin-bottom": 0 }}>Mosaix.ai NLU Engine - 2019</h4>
-          <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>Role: Senior A.I. Engineer (NLP - Transformers)</h5>
+          <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>Role: PM / Senior A.I. Engineer (NLP - Transformers)</h5>
           <ul>
             <li>Redesigned NLU Engine and microservices in Scala, Python, Docker, Redis, AWS, GCP</li>
             <li>Substantial gain in quality of service:</li>
@@ -134,14 +144,14 @@ export default class Portfolio extends React.Component {
             </ul>
           </ul>
           <h4 style={{ "margin-bottom": 0 }}>Mosaix.ai Recommendations Engine - 2019</h4>
-          <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>Role: Architect / Engineer</h5>
+          <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>Role: PM / Architect / Sr. Engineer</h5>
           <ul>
             <li>Rebuilt the cache / Recommendations engine for a tight deadline in Redis, MySQL, and Typescript</li>
             <li>Fluidly served hundreds of thousands of Arabic and Hindi end-users daily</li>
             <li>Designed blacklist for accepting ban requests of content that customers deemed obscene, keyed by locality and language</li>
           </ul>
           <h4 style={{ "margin-bottom": 0 }}>Mosaix.ai API - 2018-2019</h4>
-          <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>Role: Engineer</h5>
+          <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>Role: Sr. Engineer</h5>
           <ul>
             <li>Built API business components in NodeJs, Typescript, Javascript, Redis, MongoDB, Bash</li>
             <ul>
@@ -170,7 +180,7 @@ export default class Portfolio extends React.Component {
             </ul>
           </ul>
           <h4 style={{ "margin-bottom": 0 }}>Yubico Website and eCommerce - 2016-2018</h4>
-          <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>Role: Lead Web Engineer</h5>
+          <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>Role: PM Yubico Website</h5>
           <ul>
             <li>Project owner for Web Team</li>
             <ul>

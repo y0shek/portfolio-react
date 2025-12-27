@@ -17,7 +17,7 @@ const data = {
       role: "Director, Script Doctor",
       links: [
         { title: "Alvaro Secchi (Co-Director) Portfolio", url: "https://www.alvaronunezsecchi.com/" },
-        { title: "Rosette Jin (Producer, Writer) Instagram", url: "https://www.instagram.com/rosette_jinn/?hl=en" },
+        { title: "Rosette Jin (Producer, Writer) LinkedIn", url: "https://www.linkedin.com/in/rosette-jin-3aab94251/" },
         { title: "Daniel J Cho (DoP) Portfolio", url: "https://www.danieljcho.com/" },
       ],
       embed: "https://player.vimeo.com/video/1096154893?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",

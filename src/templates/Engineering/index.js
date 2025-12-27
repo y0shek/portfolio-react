@@ -195,53 +195,53 @@ export default class Portfolio extends React.Component {
           <h5>Product Management</h5>
           <ul>
             <li>Strong history of product development, product management, and shipping products under deadline and under cost.</li>
-            <li>Market Research</li>
-            <li>Incorporating AI and new technologies</li>
-            <li>Product Roadmaps</li>
-            <li>A/B Testing</li>
+            <li>Directed seven short films and one feature film with an accumulated production time of six months, managing an average of 40 artists per film set and making split decisions every minute of every 140-hour day, always turning out an award-winning product.</li>
+            <li>Market Research.</li>
+            <li>Incorporating AI and new technologies.</li>
+            <li>Product Roadmaps.</li>
+            <li>A/B Testing.</li>
             <li>Desigining products with scale as core principle.</li>
             <li>User experience is paramount - Designed, owned, oversaw, and shipped "YubiKey for Windows Hello" in 2017, which became the standard UX experience in FIDO alliance for registering and using all Security Keys.</li>
           </ul>
           <h5>Engineering and Project Management</h5>
           <ul>
-            <li>Engineering Management and Project Management</li>
-            <li>Stakeholder Meetings, Timeframe Estimation, Sprint Planning, Engineer Support</li>
-            <li>AGILE, SCRUM, Kanban: Scoping, Organization, Task Delegation, and Story Points</li>
-            <li>Technical and Cultural Hiring</li>
-            <li>Development, Code Reviews, and Post-Mortems</li>
+            <li>Engineering Management and Project Management.</li>
+            <li>Stakeholder Meetings, Timeframe Estimation, Sprint Planning, Engineer Support.</li>
+            <li>AGILE, SCRUM, Kanban: Scoping, Organization, Task Delegation, and Story Points.</li>
+            <li>Technical and Cultural Hiring.</li>
+            <li>Development, Code Reviews, and Post-Mortems.</li>
             <li>Production level Cloud Service Design in AWS and Google Cloud - Docker, K8s, SQS, API Gateway, etc.</li>
             <li>CI/CD Pipeline Setup - Git, Stage/Test/Production, Workflows, Chef, Ansible, etc.</li>
           </ul>
           <h5>Artificial Intelligence / Machine Learning</h5>
           <ul>
-            <li>Python: PyTorch, Pandas</li>
-            <li>BERT & Transformers with Stanford NLTK (2019)</li>
-            <li>Knowledge Graph Entity and Edge Design, Reverse Lookup</li>
-            <li>Experience with CNNs (machine vision), RNNs, Decision Trees, Deep Neural Networks</li>
-            <li>Very keen interest in Graph Neural Networks</li>
+            <li>Python: PyTorch, Pandas.</li>
+            <li>BERT & Transformers with Stanford NLTK (2019).</li>
+            <li>Knowledge Graph Entity and Edge Design, Reverse Lookup.</li>
+            <li>Experience with CNNs (machine vision), RNNs, Decision Trees, Deep Neural Networks.</li>
+            <li>Very keen interest in Graph Neural Networks.</li>
           </ul>
           <h5>Application Engineering / Cloud</h5>
           <ul>
-            <li><strong>Object Oriented, Functional, and Imperative Programming:</strong> Scala, Python, Java, Javascript / Typescript, PHP 5/7, CPP, C#, C, GoLang</li>
-            <li><strong>Data, Streaming and Messaging Pipelines:</strong> Spark, Hadoop, Kafka, SQS, Cassandra</li>
-            <li><strong>Cloud:</strong> Docker, Kubernetes, AWS, DynamoDB, GCP, API Gateway, Elasticsearch</li>
-            <li><strong>Databases:</strong> Postgres, SQL, Mongo / NoSQL, Redis</li>
-            <li><strong>Scala:</strong> Play, Cats, Finatra / Finagle</li>
-            <li><strong>Typescript / Javascript:</strong> NodeJs, npm, React.js, Redux, ExpressJS</li>
-            <li><strong>Web Security:</strong> OAuth 2.0 Token-based authentication with U2F, FIDO2, SSO</li>
-            <li><strong>PHP-based eCommerce:</strong> WooCommerce, Magento, Wordpress</li>
-            <li><strong>Testing Coverage:</strong> Unit and Functional</li>
-            <li>API Design and implementation on multiple frameworks, including middlewares</li>
+            <li><strong>Object Oriented, Functional, and Imperative Programming:</strong> Scala, Python, Java, Javascript / Typescript, PHP 5/7, CPP, C#, C, GoLang.</li>
+            <li><strong>Data, Streaming and Messaging Pipelines:</strong> Spark, Hadoop, Kafka, SQS, Cassandra.</li>
+            <li><strong>Cloud:</strong> Docker, Kubernetes, AWS, DynamoDB, GCP, API Gateway, Elasticsearch.</li>
+            <li><strong>Databases:</strong> Postgres, SQL, Mongo / NoSQL, Redis.</li>
+            <li><strong>Scala:</strong> Play, Cats, Finatra / Finagle.</li>
+            <li><strong>Typescript / Javascript:</strong> NodeJs, npm, React.js, Redux, ExpressJS.</li>
+            <li><strong>Web Security:</strong> OAuth 2.0 Token-based authentication with U2F, FIDO2, SSO.</li>
+            <li><strong>PHP-based eCommerce:</strong> WooCommerce, Magento, Wordpress.</li>
+            <li><strong>Testing Coverage:</strong> Unit and Integration.</li>
+            <li>API Design and implementation on multiple frameworks, including middlewares.</li>
           </ul>
           <h5>User Experience / Design</h5>
           <ul>
-            <li>UX Testing</li>
-            <li>Wireframing and Storyboarding</li>
-            <li>Front-end web development</li>
-            <li>Video Production and Screenplay Writing</li>
-            <li>Adobe Creative Suite</li>
-            <li>Logo Design, UI Design, 2D and 3D Art</li>
-            <li>DaVinci Resolve Pro, Blender 3D</li>
+            <li>Wireframing and Storyboarding.</li>
+            <li>Front-end web development.</li>
+            <li>Video Production and Screenplay Writing.</li>
+            <li>Adobe Creative Suite.</li>
+            <li>Logo Design, UI Design, 2D and 3D Art.</li>
+            <li>DaVinci Resolve Pro, Blender 3D.</li>
           </ul>
         </Section>
       </div>

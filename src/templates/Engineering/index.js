@@ -200,7 +200,7 @@ export default class Portfolio extends React.Component {
             <li>Incorporating AI and new technologies.</li>
             <li>Product Roadmaps.</li>
             <li>A/B Testing.</li>
-            <li>Desigining products with scale as core principle.</li>
+            <li>Designing products with scale as core principle.</li>
             <li>User experience is paramount - Designed, owned, oversaw, and shipped "YubiKey for Windows Hello" in 2017, which became the standard UX experience in FIDO alliance for registering and using all Security Keys.</li>
           </ul>
           <h5>Engineering and Project Management</h5>

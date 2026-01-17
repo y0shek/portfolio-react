@@ -32,6 +32,7 @@ export default class Portfolio extends React.Component {
           <h3>Charlotte, NC | NYC Metro Area | SF Bay Area | LA Metro Area</h3>
           <p><a href="/contact">✉️ Contact Me - Form</a></p>
           <h3><strong>Experience</strong></h3>
+          <hr />
           <div className="eng__socialIcons">
             <SocialIcon url="https://www.linkedin.com/in/joshua-m-kellerman-718a1b31/" />
           </div>
@@ -40,11 +41,13 @@ export default class Portfolio extends React.Component {
         </Section>
         <Section theName="eng__publications" style={{ "padding": "0" }}>
           <h3><strong>Recent Blog Publications</strong></h3>
+          <hr />
           <a href="https://joshua-kellerman.medium.com/the-illusion-of-agentic-life-a-lesson-from-disney-animation-that-will-contribute-to-more-07e1992d3d50" target="_blank"><h4 style={{ "margin-bottom": 0 }}>The Illusion of Agentic Life (Medium.com)</h4></a>
           <h5 style={{ "margin-top": "10px", "margin-bottom": "0" }}>A Lesson from Disney Animation for More Human-Like AI Agents</h5>
         </Section>
         <Section theName="eng__projects">
           <h3><strong>Major Projects</strong></h3>
+          <hr />
           <h4 style={{ "margin-bottom": 0 }}>Credit Karma Microservice Consolidation - 2024-2025</h4>
           <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>Role: Owner / Tech Lead / Senior Engineer</h5>
           <ul>
@@ -208,6 +211,7 @@ export default class Portfolio extends React.Component {
         </Section>
         <Section theName="eng__skills">
           <h3><strong>Skillset</strong></h3>
+          <hr />
           <h5>Product Management</h5>
           <ul>
             <li>Strong history of product development, product management, and shipping products under deadline and under cost.</li>

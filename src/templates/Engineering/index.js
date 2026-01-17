@@ -38,10 +38,10 @@ export default class Portfolio extends React.Component {
           <span><a href="https://www.linkedin.com/in/joshua-m-kellerman-718a1b31/">Find me on LinkedIn</a></span>
           <p><a href={myResume} target="_blank">📃 Download my Resume</a></p>
         </Section>
-        <Section theName="eng__publications">
+        <Section theName="eng__publications" style={{ "padding": "0" }}>
           <h3><strong>Recent Blog Publications</strong></h3>
           <a href="https://joshua-kellerman.medium.com/the-illusion-of-agentic-life-a-lesson-from-disney-animation-that-will-contribute-to-more-07e1992d3d50" target="_blank"><h4 style={{ "margin-bottom": 0 }}>The Illusion of Agentic Life (Medium.com)</h4></a>
-          <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>A Lesson from Disney Animation for More Human-Like AI Agents</h5>
+          <h5 style={{ "margin-top": "10px" }}>A Lesson from Disney Animation for More Human-Like AI Agents</h5>
         </Section>
         <Section theName="eng__projects">
           <h3><strong>Major Projects</strong></h3>

@@ -1185,7 +1185,7 @@ const data = {
       bigImg: "film_leader_big.jpg",
       year: "2009-Present",
       type: "personal",
-      shortDesc: "Led Casts and Crews of up to 130 people",
+      shortDesc: "Leading Casts and Crews of up to 130 people",
       role: "Production / Finance / Directing / Casting",
       links: [
         {
@@ -1222,6 +1222,20 @@ const data = {
       ],
       description:
         "I hired for and ran the Web team at Yubico, making sure that my hiree would have at least 3 months without other team members giving him tasks, so he could be completely up to speed and in a position to not make mistakes and bring down crucial business infrastructure. I also hired for the Mosaix.ai backend engineering team and contributed to senior culture."
+    },
+    {
+      title: "Certified Paramotor Pilot (USPPA)",
+      img: "paramotor.jpg",
+      year: "2025-Present",
+      type: "personal",
+      shortDesc: "Trained by Carolina PPG (NC, USA)",
+      role: "Part 104 Pilot",
+      shortDesc: "Flying through the sky with a lawnmower engine on my back",
+      links: [
+        { title: "US Powered Paraglider Association", url: "https://usppa.org/" }
+      ],
+      embed: "https://www.youtube.com/embed/4lZHaPOZCDM",
+      description: "I've always had dreams of flying, but private pilot training and owning even a small, single-engine plane is out of reach for most people, myself included. So, when I learned about PPG (powered paragliding, aka paramotoring) in 2015, I was excited to try. Unfortunately there weren't too many legal places to fly in Silicon Valley and in NYC, so I had to wait until I moved to North Carolina to get trained and certified. I own my own rig and I fly when and where I please!"
     },
     {
       title: "Student Mentorship",

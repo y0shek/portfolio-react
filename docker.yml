@@ -1,0 +1,180 @@
+services:
+  # --- Josh's Stack ---
+  agent-josh:
+    image: coollabsio/openclaw:latest
+    container_name: agent-josh
+    command: ["gateway", "run"]
+    ports:
+      - "8080:8080"
+    environment:
+      - OPENCLAW_HOME=/data
+      - OPENCLAW_STATE_DIR=/data/.openclaw
+      - OPENCLAW_CONFIG_PATH=/data/.openclaw/openclaw.json
+      - OPENCLAW_NO_RESPAWN=1
+      - NODE_COMPILE_CACHE=/data/.compile-cache
+
+      # --- Security ---
+      - OPENCLAW_GATEWAY_TOKEN=${JOSH_GATEWAY_TOKEN}
+      - OPENCLAW__gateway__mode=local
+      - OPENCLAW_GATEWAY_BIND=lan
+      - AUTH_USERNAME=josh
+      - AUTH_PASSWORD=${JOSH_PASSWORD}
+      - OPENCLAW_ALLOWED_ORIGINS=http://localhost:8080,http://192.168.50.231:8080
+
+      # --- Performance ---
+      - OPENCLAW_PRIMARY_MODEL=google/gemma-4-31b-it
+      - OPENROUTER_API_KEY=${JOSH_OPENROUTER_KEY}
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+
+      # --- Database Connection ---
+      - ARANGO_URL=http://database:8529
+      - ARANGO_USERNAME=josh_user
+      - ARANGO_PASSWORD=${JOSH_PASSWORD}
+      - ARANGO_DATABASE=josh_workspace
+
+      # --- Integration ---
+      - TELEGRAM_BOT_TOKEN=${JOSH_TELEGRAM_TOKEN}
+      - MY_TELEGRAM_ID=${JOSH_TELEGRAM_ID}
+      - ASANA_PAT=${JOSH_ASANA_PAT}
+      - BROWSER_CDP_URL=http://browser:9223
+      - BROWSER_DEFAULT_PROFILE=openclaw
+      - BROWSER_EVALUATE_ENABLED=true
+      - BRAVE_API_KEY=${JOSH_BRAVE_KEY}
+
+    volumes:
+      - /media/ARTEMIS/OPENCLAW/JOSH/DATA:/data
+      - ./routing.json:/app/config/openclaw.json:ro
+    networks:
+      - josh-net
+      - db-net
+    deploy:
+      resources:
+        limits:
+          memory: 1.5g
+    depends_on:
+      - browser-josh
+    restart: unless-stopped
+
+  browser-josh:
+    image: coollabsio/openclaw-browser:latest
+    container_name: browser-josh
+    shm_size: 1g
+    ports:
+      - "9223:9223"
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+      - CHROME_CLI=--remote-debugging-port=9222
+    volumes:
+      - /media/ARTEMIS/OPENCLAW/JOSH/BROWSER:/config
+    networks:
+      josh-net:
+        aliases:
+          - browser
+    deploy:
+      resources:
+        limits:
+          memory: 1g
+    restart: unless-stopped
+
+  # --- Siri's Stack ---
+  agent-siri:
+    image: coollabsio/openclaw:latest
+    container_name: agent-siri
+    command: ["gateway", "run"]
+    ports:
+      - "8081:8080"
+    environment:
+      - OPENCLAW_HOME=/data
+      - OPENCLAW_STATE_DIR=/data/.openclaw
+      - OPENCLAW_CONFIG_PATH=/data/.openclaw/openclaw.json
+      - OPENCLAW_NO_RESPAWN=1
+      - NODE_COMPILE_CACHE=/data/.compile-cache
+
+      # --- Security ---
+      - OPENCLAW_GATEWAY_TOKEN=${SIRI_GATEWAY_TOKEN}
+      - OPENCLAW__gateway__mode=local
+      - OPENCLAW_GATEWAY_BIND=lan
+      - AUTH_USERNAME=siri
+      - AUTH_PASSWORD=${SIRI_PASSWORD}
+      - OPENCLAW_ALLOWED_ORIGINS=http://localhost:8081,http://192.168.50.231:8081
+
+      # --- Performance ---
+      - OPENCLAW_PRIMARY_MODEL=google/gemma-4-31b-it
+      - OPENROUTER_API_KEY=${SIRI_OPENROUTER_KEY}
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+
+      # --- Database Connection ---
+      - ARANGO_URL=http://database:8529
+      - ARANGO_USERNAME=siri_user
+      - ARANGO_PASSWORD=${SIRI_PASSWORD}
+      - ARANGO_DATABASE=siri_workspace
+
+      # --- Integration ---
+      - TELEGRAM_BOT_TOKEN=${SIRI_TELEGRAM_TOKEN}
+      - MY_TELEGRAM_ID=${SIRI_TELEGRAM_ID}
+      - ASANA_PAT=${SIRI_ASANA_PAT}
+      - BROWSER_CDP_URL=http://browser:9223
+      - BROWSER_DEFAULT_PROFILE=openclaw
+      - BROWSER_EVALUATE_ENABLED=true
+      - BRAVE_API_KEY=${SIRI_BRAVE_KEY}
+    volumes:
+      - /media/ARTEMIS/OPENCLAW/SIRI/DATA:/data
+      - ./routing.json:/app/config/openclaw.json:ro
+    networks:
+      - siri-net
+      - db-net
+    deploy:
+      resources:
+        limits:
+          memory: 1.5g
+    depends_on:
+      - browser-siri
+    restart: unless-stopped
+
+  browser-siri:
+    image: coollabsio/openclaw-browser:latest
+    container_name: browser-siri
+    shm_size: 1g
+    ports:
+      - "9224:9223"
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+      - CHROME_CLI=--remote-debugging-port=9222
+    volumes:
+      - /media/ARTEMIS/OPENCLAW/SIRI/BROWSER:/config
+    networks:
+      siri-net:
+        aliases:
+          - browser
+    deploy:
+      resources:
+        limits:
+          memory: 1g
+    restart: unless-stopped
+
+  # --- Database ---
+  database:
+    image: arangodb/arangodb:latest
+    container_name: openclaw-db
+    ports:
+      - "8529:8529"
+    environment:
+      - ARANGO_ROOT_PASSWORD=${DB_ROOT_PW}
+    volumes:
+      - /media/ARTEMIS/OPENCLAW/DATABASE:/var/lib/arangodb3
+    networks:
+      - db-net
+    deploy:
+      resources:
+        limits:
+          memory: 1.5g
+    restart: unless-stopped
+
+networks:
+  josh-net:
+  siri-net:
+  db-net:

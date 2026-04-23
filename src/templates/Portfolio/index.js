@@ -1229,7 +1229,7 @@ const data = {
       year: "2025-Present",
       type: "personal",
       shortDesc: "Trained by Carolina PPG (NC, USA)",
-      role: "Part 104 Pilot",
+      role: "FAA Part 103 Pilot",
       shortDesc: "Flying through the sky with a lawnmower engine on my back",
       links: [
         { title: "US Powered Paraglider Association", url: "https://usppa.org/" }

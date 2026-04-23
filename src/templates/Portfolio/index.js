@@ -1197,12 +1197,16 @@ const data = {
         "I have been making films since I was about 10, but only seriously since about 8 years ago. I started my filmmaking journey at UW-Milwaukee in Tim Decker's classroom. I wrote, directed, and produced a feature film in 2014. I own a small indie film production company and have produced several commercials for Silicon Valley companies and non-profits."
     },
     {
-      title: "Engineering Hiring and Team Building",
+      title: "Engineering Management and Team Building",
       img: "eng_hiring.jpg",
       year: "2017-Present",
       shortDesc: "Leading and Building Teams across 10+ years of industry experience",
-      role: "EM, PM, Interviewer",
+      role: "EM, Team Lead",
       links: [
+        {
+          title: "Credit Karma",
+          url: "https://www.creditkarma.com/"
+        },
         {
           title: "Echo360",
           url: "https://www.echo360.com/"
@@ -1221,7 +1225,7 @@ const data = {
         }
       ],
       description:
-        "I hired for and ran the Web team at Yubico, making sure that my hiree would have at least 3 months without other team members giving him tasks, so he could be completely up to speed and in a position to not make mistakes and bring down crucial business infrastructure. I also hired for the Mosaix.ai backend engineering team and contributed to senior culture."
+        "I hired for and ran the Web team at Yubico, making sure that my hirees would have at least 3 months without other team members giving them tasks, so they could be completely up to speed and in a position to not make mistakes and bring down crucial business infrastructure. I also hired for the Mosaix.ai backend engineering team and contributed to senior culture. I was temporary EM at Twitter SRE Health and UX Org. I was EM and Principal Engineer at Echo360. I helped recruit for Credit Karma."
     },
     {
       title: "Certified Paramotor Pilot (USPPA)",

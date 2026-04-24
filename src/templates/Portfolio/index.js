@@ -30,8 +30,8 @@ const data = {
       img: "the-lottery.jpg",
       year: "2026",
       type: "personal",
-      shortDesc: "Short Film (EN) 15\'34\"",
-      role: "Director, Writer, 3D Animator",
+      shortDesc: "Short Film (EN) 16\'05\"",
+      role: "Director, Writer, VFX Artist",
       links: [
         { title: "IMDB page", url: "https://www.imdb.com/title/tt33050060/" },
         { title: "Abrar Qari (Producer) Portfolio", url: "https://www.abrarqari.art/" },

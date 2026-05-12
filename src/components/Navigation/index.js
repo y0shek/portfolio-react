@@ -4,9 +4,8 @@ import "./style.css";
 
 const navData = [
   { title: "Portfolio", url: "/", active: false },
-  // { title: "News", url: "/news", active: false },
-  // { title: "Blog", url: "/blog", active: false },
-  { title: "Contact", url: "/contact", active: false }
+  { title: "Contact", url: "/contact", active: false },
+  { title: "Story Tech", url: "https://www.thestorytech.com", active: false, external: true },
 ];
 
 export default class Navigation extends React.Component {
@@ -57,6 +56,13 @@ export default class Navigation extends React.Component {
         <ul>
           {this.state.data &&
             this.state.data.map((obj, i) => {
+              if (obj.external) {
+                return (
+                  <a href={obj.url} target="_blank" rel="noopener noreferrer" key={i}>
+                    <li className="navigation__navItem">{obj.title}</li>
+                  </a>
+                );
+              }
               return (
                 <Link
                   to={obj.url}

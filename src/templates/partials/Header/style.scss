@@ -84,12 +84,17 @@
 }
 
 .header__looking-for-engineering {
-  float: right;
+  position: fixed;
+  right: 100px;
   padding-right: 100px;
   padding-top: 30px;
   text-align: right;
 
-  @media only screen and (max-width: 1200px) {
+  @media only screen and (max-width: $bp-medium) {
+    right: 30px;
+  }
+
+  @media only screen and (max-width: $bp-mobile) {
     display: none;
   }
 }

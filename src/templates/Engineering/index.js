@@ -66,6 +66,17 @@ export default class Portfolio extends React.Component {
           <h5 style={{ "margin-top": "10px", "margin-bottom": "0" }}>
             A Lesson from Disney Animation for More Human-Like AI Agents
           </h5>
+          <a
+            href="https://joshua-kellerman.medium.com/what-if-your-companys-agents-are-double-agents-3e067e8dfab8?postPublishedType=repub"
+            target="_blank"
+          >
+            <h4 style={{ "margin-bottom": 0 }}>
+              Are Your AI Agents Double-Agents? (Medium.com)
+            </h4>
+          </a>
+          <h5 style={{ "margin-top": "10px", "margin-bottom": "0" }}>
+            Why training your own LLM models from scratch is the only way to ensure your digital employees are actually yours.
+          </h5>
         </Section>
         <Section theName="eng__projects">
           <h3>

@@ -92,10 +92,10 @@ export default class Portfolio extends React.Component {
             <li>LLM Context Management Experiment - Creative Writing</li>
             <ul>
               <li>
-                Created site to show off that LLM size can be traded off by chaining prompts. Results from a 31B parametermodel are competitive with Trillion + Foundation models like ChatGPT 5.5 or Claude Opus 4.7. See the results your self by trying it out.
+                Created site to show off that LLM size can be traded off by chaining prompts. Results from a 31B parametermodel are competitive with trillion+ parameter foundational models like ChatGPT 5.5 or Claude Opus 4.7.
               </li>
               <li>
-                Created a proprietary data formatting schema and decision graph for causal story understanding which LLMs can natively understand. Reduced hallucination to almost 0% with multi-shot prompting in an agentic graph-based workflow.
+                Created a proprietary data formatting schema and decision graph for causal narrative understanding for local / 10-30 billion parameter LLMs. Reduced hallucination to almost 0% with multi-shot prompting in an agentic graph-based workflow.
               </li>
               <li>
                 Running on Kubernetes with Cloudflare (load balancing, DDOS prevention), Redis (Session Ratelimiter), ReactJS, GraphQL / Apollo, ExpressJS, Gunicorn (LLM API), and Gemma 4.

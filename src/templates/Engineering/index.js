@@ -82,9 +82,29 @@ export default class Portfolio extends React.Component {
           <h3>
             <strong>Major Projects</strong>
           </h3>
+          <h4 style={{ "margin-bottom": 0 }}>
+            <a target="_blank" href="https://www.thestorytech.com">TheStoryTech.com</a> - 2026
+          </h4>
+          <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>
+            Role: Owner / Creator
+          </h5>
+          <ul>
+            <li>LLM Context Management Experiment - Creative Writing</li>
+            <ul>
+              <li>
+                Created site to show off that LLM size can be traded off by chaining prompts. Results from a 31B parametermodel are competitive with Trillion + Foundation models like ChatGPT 5.5 or Claude Opus 4.7. See the results your self by trying it out.
+              </li>
+              <li>
+                Created a proprietary data formatting schema and decision graph for causal story understanding which LLMs can natively understand. Reduced hallucination to almost 0% with multi-shot prompting in an agentic graph-based workflow.
+              </li>
+              <li>
+                Running on Kubernetes with Cloudflare (load balancing, DDOS prevention), Redis (Session Ratelimiter), ReactJS, GraphQL / Apollo, ExpressJS, Gunicorn (LLM API), and Gemma 4.
+              </li>
+            </ul>
+          </ul>
           <hr />
           <h4 style={{ "margin-bottom": 0 }}>
-            Credit Karma Microservice Consolidation - 2024-2025
+            Credit Karma Microservice Consolidation - 2025-2026
           </h4>
           <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>
             Role: Owner / Tech Lead / Senior Engineer
@@ -117,7 +137,7 @@ export default class Portfolio extends React.Component {
           </ul>
           <h4 style={{ "margin-bottom": 0 }}>
             Credit Karma Finagle Microservice Architecture Standardization -
-            2024-2025
+            2025-2026
           </h4>
           <h5 style={{ "margin-top": "10px", "margin-bottom": "10px" }}>
             Role: Owner / Tech Lead / Senior Engineer

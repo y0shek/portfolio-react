@@ -170,6 +170,14 @@
   top: -60px;
   z-index: 1;
 
+  .ytp-spinner,
+  .ytp-gradient-top,
+  .ytp-gradient-bottom,
+  .ytp-pause-overlay,
+  .ytp-bezel {
+    display: none !important;
+  }
+
   @media only screen and (max-width: 560px) {
     width: 300vw !important;
     height: 440px !important;

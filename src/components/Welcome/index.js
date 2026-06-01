@@ -24,6 +24,10 @@ export default class Welcome extends React.Component {
     window.addEventListener('scroll', this.handleScroll);
   }
 
+  onReady = (event) => {
+    event.target.playVideo();
+  }
+
   scrollDown = () => {
     if (document.getElementById("vid")) {
       const height = document.getElementById("vid").offsetHeight;
@@ -45,7 +49,9 @@ export default class Welcome extends React.Component {
         loop: 1,
         mute: 1,
         playlist: "pyNZOa6GJLQ",
-        controls: 0
+        controls: 0,
+        rel: 0,
+        playsinline: 1
       }
     }
     if (this.props.playing && mobile) this.props.toggleVideo()
@@ -59,7 +65,7 @@ export default class Welcome extends React.Component {
             <div>
               <div className="welcome__videoCover" />
               <div id="vid" className="welcome__videoScreen">
-                <YouTube videoId="pyNZOa6GJLQ" className="welcome__video" opts={opts} ></YouTube>
+                <YouTube videoId="pyNZOa6GJLQ" iframeClassName="welcome__video" opts={opts} onReady={this.onReady} />
               </div>
             </div>
           )

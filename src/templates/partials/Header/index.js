@@ -54,7 +54,7 @@ export default class Header extends React.Component {
               <a href="https://www.imdb.com/name/nm2976276/?ref_=fn_al_nm_1">
                 <img src={imdbIcon} alt="IMDB" />
               </a>
-              <SocialIcon url="https://www.linkedin.com/in/joshua-m-kellerman-718a1b31/" />
+              <SocialIcon url="https://www.linkedin.com/in/joshuakellerman/" />
               <SocialIcon url="https://www.instagram.com/joshua_kellerman/" />
             </div>
             <Navigation atTop={this.state.atTop} />

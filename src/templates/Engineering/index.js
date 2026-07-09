@@ -42,10 +42,10 @@ export default class Portfolio extends React.Component {
           </h3>
           <hr />
           <div className="eng__socialIcons">
-            <SocialIcon url="https://www.linkedin.com/in/joshua-m-kellerman-718a1b31/" />
+            <SocialIcon url="https://www.linkedin.com/in/joshuakellerman/" />
           </div>
           <span>
-            <a href="https://www.linkedin.com/in/joshua-m-kellerman-718a1b31/">
+            <a href="https://www.linkedin.com/in/joshuakellerman/">
               Find me on LinkedIn
             </a>
           </span>

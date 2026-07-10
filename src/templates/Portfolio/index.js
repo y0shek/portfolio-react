@@ -633,7 +633,7 @@ const data = {
       img: "arc-teleplay.jpg",
       year: "2025",
       type: "personal",
-      laurels: 4,
+      laurels: 6,
       wins: 1,
       shortDesc: "Teleplay - Drama / Sci-Fi (EN) - 63 pgs",
       role: "Screenwriter",
@@ -1315,7 +1315,7 @@ export default class Portfolio extends React.Component {
               <h4 style={{ textAlign: "center", marginTop: "10px" }}>
                 <span className="special_text_small">Columbia University Film MFA</span>
                 <br />
-                <span className="special_text_small">Senior SWE at Credit Karma</span>
+                <span className="special_text_small">SWE at Yubico | Twitter | Credit Karma</span>
                 <br />
                 <span className="special_text_small">Charlotte, NC | NYC Metro Area | LA Metro Area | SF Bay Area</span>
               </h4>

@@ -11,6 +11,7 @@ const data = {
     {
       title: "The Church's Daughter",
       img: "churchs-daughter.jpg",
+      bigImg: "TCD_Big.jpg",
       year: "2026",
       type: "personal",
       shortDesc: "Short Film (EN) 17\'04\"",
@@ -20,7 +21,6 @@ const data = {
         { title: "Rosette Jin (Producer, Writer) LinkedIn", url: "https://www.linkedin.com/in/rosette-jin-3aab94251/" },
         { title: "Daniel J Cho (DoP) Portfolio", url: "https://www.danieljcho.com/" },
       ],
-      embed: "https://player.vimeo.com/video/1096154893?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
       description:
         "TBR 2026 or 2027. When she gets the chance to play the lead in a blasphemous community-theatre play, a religious Catholic girl begins to have dreams of stardom against the wishes of her priest father.",
       tbr: true

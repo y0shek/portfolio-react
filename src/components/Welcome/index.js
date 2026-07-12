@@ -1,7 +1,6 @@
 import React from "react";
 import YouTube from "react-youtube";
 import throttle from 'lodash/throttle';
-import sig from '../../images/Website_Signature_Small.png';
 import "./style.css";
 
 export default class Welcome extends React.Component {
@@ -57,8 +56,8 @@ export default class Welcome extends React.Component {
     if (this.props.playing && mobile) this.props.toggleVideo()
     return (
       <div id="welcome" className="welcome">
-        <div className='welcome__signature' onClick={this.scrollDown}>
-          <img src={sig} alt='Joshua M Kellerman Signature' />
+        <div className='welcome__button' onClick={this.scrollDown}>
+          ↓
         </div>
         {
           this.props.playing && (
